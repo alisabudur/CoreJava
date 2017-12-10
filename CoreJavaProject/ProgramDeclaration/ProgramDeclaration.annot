@@ -1,0 +1,131 @@
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 79 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 96
+type(
+  cJProgram -> string
+)
+ident(
+  def toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 71 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 98 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 99
+type(
+  cJProgram
+)
+ident(
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 117 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 123 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 124
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 98 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 99
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 142 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 146
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 133 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 146
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 150 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 152
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 166 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 167
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 169 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 170
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  def y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 165 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 171
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 156 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 171
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 188
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 189 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 191
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 208
+type(
+  ClassDeclaration.cJClass -> string
+)
+ident(
+  ext_ref ClassDeclaration.toStringCJClass
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 208 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 211
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 166 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 167
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 211
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 213 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 219
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 221 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 238
+type(
+  cJProgram -> string
+)
+ident(
+  int_ref toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 79 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 96
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 248 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 251
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  int_ref y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 169 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 170
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 238 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 252
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 221 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 252
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 192 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+type(
+  string list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+call(
+  tail
+)
+type(
+  string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 117 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+type(
+  string
+)

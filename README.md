@@ -1,1 +1,1 @@
-# Formal-methods---CoreJava
+# CoreJava

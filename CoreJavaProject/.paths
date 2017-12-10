@@ -1,0 +1,10 @@
+.
+TypeDeclaration
+StmtDeclaration
+ProgramDeclaration
+MethodDeclaration
+FieldDeclaration
+ExpDeclaration
+ClassDeclaration
+FieldDeclaratios
+/usr/lib/ocaml

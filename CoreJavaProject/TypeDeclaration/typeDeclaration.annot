@@ -1,0 +1,142 @@
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 178 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 196
+type(
+  cJPrimType -> string
+)
+ident(
+  def toStringCJPrimType "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 336 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 198 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 199
+type(
+  cJPrimType
+)
+ident(
+  def t "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 11 215 216 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 332
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 11 215 222 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 11 215 223
+type(
+  cJPrimType
+)
+ident(
+  int_ref t "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 198 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 199
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 12 229 232 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 12 229 237
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 12 229 241 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 12 229 246
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 13 247 250 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 13 247 257
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 13 247 261 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 13 247 268
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 14 269 272 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 14 269 278
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 14 269 282 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 14 269 288
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 15 289 292 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 15 289 300
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 15 289 304 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 15 289 312
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 316 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 322
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 326 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 332
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 11 215 216 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 16 313 332
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 340 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 354
+type(
+  cJType -> string
+)
+ident(
+  def toStringCJType "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 446 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 356 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 357
+type(
+  cJType
+)
+ident(
+  def t "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 19 368 369 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 446
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 19 368 375 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 19 368 376
+type(
+  cJType
+)
+ident(
+  int_ref t "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 356 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 18 336 357
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 396 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 397
+ident(
+  def s "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 402 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 423
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 395 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 398
+type(
+  cJPrimType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 385 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 398
+type(
+  cJType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 402 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 420
+type(
+  cJPrimType -> string
+)
+ident(
+  int_ref toStringCJPrimType "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 178 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 10 174 196
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 420 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 423
+type(
+  cJPrimType
+)
+ident(
+  int_ref s "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 395 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 398
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 402 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 20 382 423
+call(
+  tail
+)
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 439 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 440
+ident(
+  def s "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 445 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 446
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 438 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 441
+type(
+  string
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 427 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 441
+type(
+  cJType
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 445 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 446
+type(
+  string
+)
+ident(
+  int_ref s "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 438 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 441
+)
+"CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 19 368 369 "CoreJavaProject/TypeDeclaration/typeDeclaration.ml" 21 424 446
+type(
+  string
+)
