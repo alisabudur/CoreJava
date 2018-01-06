@@ -1,0 +1,17 @@
+open ExpDeclaration;;
+
+type blkExp = IfExp of exp*blkExp
+					| IfElseExp of exp*blkExp*blkExp
+					| WhileExp of exp*blkExp
+					| CompoundExp of blkExp*blkExp
+					| AssignExp of string*exp
+					| ReturnExp of exp;;
+
+let rec toStringExp (s: BlkExp) = 
+	match s with
+	| IfExp(exp, st) -> String.concat "" ["if("; toStringExp(exp); ")\n{\n"; toStringExp(st); "\n}\n"]
+	| IfElseExp(exp, ifSt, elseSt) -> String.concat "" ["if("; toStringExp(exp); ")\n{\n"; toStringExp(ifSt); "\n}\nelse\n{\n"; toStringExp(elseSt); "\n}\n"]
+	| WhileExp(exp, st) -> String.concat "" ["while("; toStringExp(exp); ")\n{\n"; toStringExp(st); "\n}\n"]
+	| CompoundExp(st1, st2) -> String.concat "" [toStringExp(st1); "\n"; toStringExp(st2)]
+	| AssignExp(name, exp) -> String.concat "" [name; " = "; toStringExp(exp)]
+	| ReturnExp(exp) -> String.concat "" ["return "; toStringExp(exp)];;

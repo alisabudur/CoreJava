@@ -1,10 +1,10 @@
 .
 TypeDeclaration
-StmtDeclaration
 ProgramDeclaration
 MethodDeclaration
 FieldDeclaration
 ExpDeclaration
 ClassDeclaration
+StmtDeclaration
 FieldDeclaratios
 /usr/lib/ocaml

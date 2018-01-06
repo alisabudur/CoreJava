@@ -103,9 +103,6 @@ ident(
   int_ref fieldList "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 8 169 198 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 8 169 207
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 295 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 325
-call(
-  stack
-)
 type(
   string
 )
@@ -128,9 +125,6 @@ ident(
   int_ref methodList "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 8 169 209 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 8 169 219
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 336 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 368
-call(
-  stack
-)
 type(
   string
 )
@@ -143,9 +137,6 @@ type(
   string list
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 227 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 9 225 375
-call(
-  tail
-)
 type(
   string
 )

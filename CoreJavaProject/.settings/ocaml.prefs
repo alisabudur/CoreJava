@@ -1,7 +1,2 @@
-compil_mode/<project>=byte-code
-compil_mode/file.exe=byte-code
 compil_mode/main.exe=byte-code
 eclipse.preferences.version=1
-flags/<project>=-g\u00A0
-make_exe/file.ml=file.exe
-make_exe/main.ml=main.exe

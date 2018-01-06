@@ -79,9 +79,6 @@ ident(
   int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 166 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 167
 )
 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 211
-call(
-  stack
-)
 type(
   string
 )
@@ -108,9 +105,6 @@ type(
   cJProgram
 )
 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 221 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 252
-call(
-  stack
-)
 type(
   string
 )
@@ -119,9 +113,6 @@ type(
   string list
 )
 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
-call(
-  tail
-)
 type(
   string
 )

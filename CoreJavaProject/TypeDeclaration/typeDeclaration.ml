@@ -2,10 +2,13 @@ type cJPrimType = CJInt
 								| CJFloat 
 								| CJBool 
 								| CJString
-								| CJVoid;; 
+								| CJVoid;;
+ 
+type cJBottom = CJBottom of string;;
 
 type cJType = CJPrimType of cJPrimType
-						| CJClassType of string;;
+						| CJClassType of string
+						| CJBottom of cJBottom;;
 
 let toStringCJPrimType (t:cJPrimType) = 
 	match t with
@@ -18,5 +21,6 @@ let toStringCJPrimType (t:cJPrimType) =
 let toStringCJType (t:cJType) =
 	match t with
 	| CJPrimType(s) -> toStringCJPrimType(s)
-	| CJClassType(s) -> s;;
+	| CJClassType(s) -> s
+	| CJBottom(s) -> "_|_";;
 

@@ -1,5 +1,2 @@
-open ClassDeclaration;;
-
-type cJProgram = CJProgram of cJClass list;;
-
-val toStringCJProgram : cJProgram -> string;;
+type cJProgram = CJProgram of ClassDeclaration.cJClass list
+val toStringCJProgram : cJProgram -> string

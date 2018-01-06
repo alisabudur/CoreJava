@@ -2,9 +2,9 @@ val nameParameter : MethodDeclaration.cJMethodParameter
 val ageParameter : MethodDeclaration.cJMethodParameter
 val setNameParameterList : MethodDeclaration.cJMethodParameterList
 val emptyParameterList : MethodDeclaration.cJMethodParameterList
-val assignStmt : StmtDeclaration.stmt
-val ifStmt : StmtDeclaration.stmt
-val returnStmt : StmtDeclaration.stmt
+val assignStmt : ExpDeclaration.blkExp
+val ifStmt : ExpDeclaration.blkExp
+val returnStmt : ExpDeclaration.blkExp
 val setNameMethod : MethodDeclaration.cJMethod
 val getNameMethod : MethodDeclaration.cJMethod
 val methodList : MethodDeclaration.cJMethodList

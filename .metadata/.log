@@ -1,0 +1,1204 @@
+!SESSION 2018-01-02 15:30:55.855 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY ocaml 4 0 2018-01-06 15:52:37.214
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:53:07.021
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:54:46.391
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:55:06.143
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.428
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.434
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.434
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.437
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.438
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.438
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.438
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.443
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.445
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.447
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.448
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.448
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.450
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.450
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.450
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.450
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.455
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.456
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.457
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.458
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.458
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.458
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.470
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.470
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.476
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.477
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.481
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.481
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.486
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.486
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.491
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.491
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.491
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.491
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.492
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.492
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.492
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.492
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.492
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.493
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.493
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.493
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.493
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.493
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.499
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.499
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.499
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.500
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.500
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.500
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.500
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.501
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.502
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.502
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.502
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.507
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.507
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.507
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.507
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.508
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.508
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.509
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.509
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.510
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.510
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.510
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.510
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.511
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.511
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.512
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.515
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.515
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.515
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.516
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.516
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.518
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.518
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.518
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.518
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.524
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.524
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.527
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.529
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.531
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.531
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.535
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.539
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.541
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.541
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.541
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.553
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.553
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.553
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.553
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.553
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.554
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.554
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.554
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.554
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.556
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.556
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.556
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.557
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.557
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.557
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.557
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.557
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.561
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.562
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.562
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.562
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.562
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.564
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.564
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.564
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.564
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.565
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.567
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.567
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.567
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.567
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.568
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.568
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.568
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.568
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.571
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.571
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.572
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.572
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.572
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.574
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.575
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.580
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.581
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : expDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:56:00.581
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : stmtDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 15:57:16.873
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:58:09.059
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 15:58:20.036
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:01:50.463
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:01:54.183
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:02:10.588
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:03:39.498
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:03:47.520
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:03:50.715
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:04:19.775
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:04:50.406
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:06:02.755
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:06:07.065
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:06:16.872
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:06:43.917
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:06:53.278
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:09.181
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:48.766
+!MESSAGE error in deleting markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/main.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:846)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:333)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:48.833
+!MESSAGE Resource '/CoreJavaProject/main.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:48.942
+!MESSAGE error in Misc:setFileProperty :
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/main.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1858)
+	at ocaml.util.Misc.setFileProperty(Misc.java:394)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:418)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:48.942
+!MESSAGE Resource '/CoreJavaProject/main.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:48.942
+!MESSAGE error in Misc:setFileProperty :
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/main.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1858)
+	at ocaml.util.Misc.setFileProperty(Misc.java:394)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:422)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:48.943
+!MESSAGE Resource '/CoreJavaProject/main.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:48.952
+!MESSAGE error in deleting markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:846)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:333)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:48.952
+!MESSAGE Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:49.010
+!MESSAGE error in Misc:setFileProperty :
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1858)
+	at ocaml.util.Misc.setFileProperty(Misc.java:394)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:418)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:49.010
+!MESSAGE Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:07:49.010
+!MESSAGE error in Misc:setFileProperty :
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setPersistentProperty(Resource.java:1858)
+	at ocaml.util.Misc.setFileProperty(Misc.java:394)
+	at ocaml.build.graph.CompilerVisitor.runBuildingCommand(CompilerVisitor.java:422)
+	at ocaml.build.graph.CompilerVisitor.visit(CompilerVisitor.java:262)
+	at ocaml.build.graph.LayersGraph.accept(LayersGraph.java:460)
+	at ocaml.build.OcamlBuilder.incrementalBuild(OcamlBuilder.java:321)
+	at ocaml.build.OcamlBuilder.build(OcamlBuilder.java:231)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-01-06 16:07:49.010
+!MESSAGE Resource '/CoreJavaProject/MethodDeclaration/methodDeclaration.mli' does not exist.
+
+!ENTRY ocaml 4 0 2018-01-06 16:08:44.795
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:08:44.800
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:08:54.233
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:09:04.754
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:10:08.586
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:10:08.587
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.441
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.442
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.454
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.454
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.455
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.459
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.459
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:11:41.459
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:16:47.616
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:16:47.672
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : classDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:16:47.673
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : methodDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:16:47.677
+!MESSAGE error in LinkerVisitor.FilesFinder : matchingMl not found for file : classDeclaration.mli 
+[ocaml.build.graph.LinkerVisitor$1#visit : 72]
+
+!ENTRY ocaml 4 0 2018-01-06 16:18:34.904
+!MESSAGE error in LinkerVisitor:visit: no object file to link 
+[ocaml.build.graph.LinkerVisitor#visit : 169]
+
+!ENTRY ocaml 4 0 2018-01-06 16:41:56.793
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:41:56.793
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:43:41.473
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:43:41.473
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:43:54.876
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:43:54.876
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:44:13.724
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:44:13.724
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:44:32.913
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:44:32.913
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:46:15.077
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:46:15.077
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:46:19.148
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:46:19.149
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:27.799
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:27.799
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:31.222
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:31.223
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:40.437
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:49:40.437
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:55:37.393
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:55:37.394
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:59:12.179
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:59:12.179
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:59:21.720
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 16:59:21.720
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:00:36.648
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:00:36.649
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:01:35.420
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:01:35.422
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:01:48.759
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:01:48.759
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:03:51.738
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:03:51.740
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:04:42.865
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:04:42.866
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:04:53.626
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:04:53.626
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:06:47.460
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:06:47.463
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:08:29.732
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:08:29.733
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:12:24.787
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:12:24.789
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:12:56.111
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:12:56.111
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:13:27.827
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:13:27.828
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:04.671
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:04.671
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:08.672
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:08.672
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:25.366
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:16:25.366
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:17:02.979
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-06 17:17:02.979
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]

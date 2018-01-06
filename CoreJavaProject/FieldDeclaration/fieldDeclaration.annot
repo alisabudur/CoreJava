@@ -67,9 +67,6 @@ ident(
   int_ref typ "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 180 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 183
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 212 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 231
-call(
-  stack
-)
 type(
   string
 )
@@ -89,9 +86,6 @@ type(
   string list
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 194 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 9 168 243
-call(
-  tail
-)
 type(
   string
 )
@@ -173,9 +167,6 @@ ident(
   int_ref x "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 356 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 357
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 381 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 399
-call(
-  stack
-)
 type(
   string
 )
@@ -188,9 +179,6 @@ type(
   string list
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 363 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 14 340 408
-call(
-  tail
-)
 type(
   string
 )
@@ -242,9 +230,6 @@ ident(
   int_ref x "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 424 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 425
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 451 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 469
-call(
-  stack
-)
 type(
   string
 )
@@ -271,9 +256,6 @@ type(
   cJFieldList
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 477 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 512
-call(
-  stack
-)
 type(
   string
 )
@@ -282,9 +264,6 @@ type(
   string list
 )
 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 433 "CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" 15 409 513
-call(
-  tail
-)
 type(
   string
 )

@@ -1,6 +1,4 @@
-open FieldDeclaration;;
-open MethodDeclaration;;
-
-type cJClass = CJClass of string*string*cJFieldList*cJMethodList;;
-
-val toStringCJClass : cJClass -> string;;
+type cJClass =
+    CJClass of string * string * FieldDeclaration.cJFieldList *
+      MethodDeclaration.cJMethodList
+val toStringCJClass : cJClass -> string
