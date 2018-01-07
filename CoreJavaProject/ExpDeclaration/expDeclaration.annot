@@ -1,1919 +1,2139 @@
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-type(
-  boolExp -> string
-)
-ident(
-  def toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 989 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1014 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1015
-type(
-  boolExp
-)
-ident(
-  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 46 1029 1030 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 46 1029 1036 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 46 1029 1037
-type(
-  boolExp
-)
-ident(
-  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1014 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1015
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1053 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1054
-ident(
-  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1059 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1096
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1055
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1046 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1055
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1059 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1072
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1073 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1075
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1077 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1092
-type(
-  boolExp -> string
-)
-ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1092 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1095
-type(
-  boolExp
-)
-ident(
-  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1055
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1077 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1095
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1076 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1096
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1059 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 47 1043 1096
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1111 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1117
-type(
-  int
-)
-ident(
-  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1130 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1200
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1119 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1125
-type(
-  int
-)
-ident(
-  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1130 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1200
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1100 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1126
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1130 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1143
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1146
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1148 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1161
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1161 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1169
-type(
-  int
-)
-ident(
-  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1111 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1117
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1148 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1169
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1171 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1176
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1178 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1191
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1191 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1199
-type(
-  int
-)
-ident(
-  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1119 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1125
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1178 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1199
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1147 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1200
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1130 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 48 1097 1200
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1212 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1218
-type(
-  int
-)
-ident(
-  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1231 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1301
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1220 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1226
-type(
-  int
-)
-ident(
-  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1231 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1301
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1204 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1227
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1231 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1244
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1245 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1247
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1249 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1262
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1262 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1270
-type(
-  int
-)
-ident(
-  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1212 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1218
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1249 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1270
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1272 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1277
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1279 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1292
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1292 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1300
-type(
-  int
-)
-ident(
-  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1220 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1226
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1279 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1300
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1248 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1301
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1231 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 49 1201 1301
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1314 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1320
-type(
-  int
-)
-ident(
-  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1333 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1404
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1322 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1328
-type(
-  int
-)
-ident(
-  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1333 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1404
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1305 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1329
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1333 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1346
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1347 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1349
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1351 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1364
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1364 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1372
-type(
-  int
-)
-ident(
-  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1314 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1320
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1351 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1372
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1374 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1380
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1382 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1395
-type(
-  int -> string
-)
-ident(
-  ext_ref Pervasives.string_of_int
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1395 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1403
-type(
-  int
-)
-ident(
-  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1322 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1328
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1382 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1403
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1350 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1404
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1333 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 50 1302 1404
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1421
-type(
-  boolExp
-)
-ident(
-  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1434 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1509
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1423 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1429
-type(
-  boolExp
-)
-ident(
-  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1434 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1509
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1408 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1430
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1434 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1447
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1448 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1450
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1452 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1467
-type(
-  boolExp -> string
-)
-ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1467 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1475
-type(
-  boolExp
-)
-ident(
-  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1421
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1452 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1475
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1477 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1483
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1485 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1500
-type(
-  boolExp -> string
-)
-ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1508
-type(
-  boolExp
-)
-ident(
-  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1423 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1429
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1485 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1508
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1451 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1509
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1434 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 51 1405 1509
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1519 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1525
-type(
-  boolExp
-)
-ident(
-  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1538 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1527 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1533
-type(
-  boolExp
-)
-ident(
-  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1538 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1513 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1534
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1538 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1551
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1552 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1554
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1556 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1571
-type(
-  boolExp -> string
-)
-ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1571 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1579
-type(
-  boolExp
-)
-ident(
-  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1519 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1525
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1556 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1579
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1581 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1587
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1589 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1604
-type(
-  boolExp -> string
-)
-ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1604 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1612
-type(
-  boolExp
-)
-ident(
-  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1527 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1533
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1589 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1612
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1555 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1538 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 46 1029 1030 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 52 1510 1613
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1621 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1637
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1955 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1971
 type(
   constExp -> string
 )
 ident(
-  def toStringConstExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1902 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringConstExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2236 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1639 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1640
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1973 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1974
 type(
   constExp
 )
 ident(
-  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 55 1655 1656 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1898
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 1989 1990 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2232
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 55 1655 1662 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 55 1655 1663
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 1989 1996 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 1989 1997
 type(
   constExp
 )
 ident(
-  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1639 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1640
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1973 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1974
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1681 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1682
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2015 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2016
 ident(
-  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1687 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1722
+  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2021 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2056
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1680 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1683
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2014 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2017
 type(
   int
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1672 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1683
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2006 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2017
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1687 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1700
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2021 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2034
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1701 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1703
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2035 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2037
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1705 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1718
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2039 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2052
 type(
   int -> string
 )
 ident(
   ext_ref Pervasives.string_of_int
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1718 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1721
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2055
 type(
   int
 )
 ident(
-  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1680 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1683
+  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2014 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2017
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1705 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1721
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2039 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2055
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1704 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1722
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2038 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2056
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1687 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 56 1669 1722
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2021 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 69 2003 2056
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1737 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1738
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2071 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2072
 ident(
-  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1743 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1780
+  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2077 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2114
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1736 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1739
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2070 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2073
 type(
   float
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1726 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1739
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2060 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2073
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1743 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1756
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2077 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2090
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1757 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1759
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2091 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2093
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1761 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1776
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2095 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2110
 type(
   float -> string
 )
 ident(
   ext_ref Pervasives.string_of_float
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1776 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1779
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2110 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2113
 type(
   float
 )
 ident(
-  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1736 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1739
+  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2070 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2073
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1761 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1779
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2095 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2113
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1760 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1780
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2094 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2114
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1743 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 57 1723 1780
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2077 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2057 2114
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1795
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2128 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2129
 ident(
-  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1800 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1836
+  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2134 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2170
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1793 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1796
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2127 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2130
 type(
   bool
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1784 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1796
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2118 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2130
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1800 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1813
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2134 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2147
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1814 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1816
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2148 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2150
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1818 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1832
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2152 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2166
 type(
   bool -> string
 )
 ident(
   ext_ref Pervasives.string_of_bool
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1832 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1835
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2166 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2169
 type(
   bool
 )
 ident(
-  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1793 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1796
+  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2127 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2130
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1818 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1835
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2152 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2169
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1817 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1836
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2151 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2170
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1800 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 58 1781 1836
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2134 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2115 2170
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1852 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1853
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2186 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2187
 ident(
-  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1859
+  def p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2192 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2193
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1851 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1854
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2185 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2188
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1840 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1854
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2174 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2188
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1859
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2192 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2193
 type(
   string
 )
 ident(
-  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1851 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 59 1837 1854
+  int_ref p "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2185 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2171 2188
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 60 1860 1863 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 60 1860 1872
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2194 2197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2194 2206
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 60 1860 1876 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 60 1860 1880
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2194 2210 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2194 2214
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1884 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1888
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2218 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2222
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1892 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1898
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2226 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2232
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 55 1655 1656 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 61 1881 1898
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 1989 1990 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2215 2232
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1906 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1924
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2240 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2258
 type(
   operatorInt -> string
 )
 ident(
-  def toStringOpeatorInt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2038 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringOpeatorInt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2372 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1926 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1927
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2260 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2261
 type(
   operatorInt
 )
 ident(
-  def o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 64 1945 1946 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2034
+  def o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2279 2280 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2368
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 64 1945 1952 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 64 1945 1953
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2279 2286 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2279 2287
 type(
   operatorInt
 )
 ident(
-  int_ref o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1926 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1927
+  int_ref o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2260 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2261
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 65 1959 1962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 65 1959 1968
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2293 2296 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2293 2302
 type(
   operatorInt
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 65 1959 1972 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 65 1959 1977
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2293 2306 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2293 2311
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 66 1978 1981 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 66 1978 1987
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2312 2315 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2312 2321
 type(
   operatorInt
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 66 1978 1991 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 66 1978 1996
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2312 2325 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2312 2330
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1997 2000 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1997 2006
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2331 2334 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2331 2340
 type(
   operatorInt
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1997 2010 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1997 2015
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2331 2344 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2331 2349
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2019 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2025
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2359
 type(
   operatorInt
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2029 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2034
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2363 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2368
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 64 1945 1946 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 68 2016 2034
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2279 2280 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2350 2368
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2042 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2062
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2376 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2396
 type(
   operatorFloat -> string
 )
 ident(
-  def toStringOpeatorFloat "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2190 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringOpeatorFloat "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2064 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2065
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2399
 type(
   operatorFloat
 )
 ident(
-  def o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2085 2086 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2186
+  def o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2419 2420 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2520
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2085 2092 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2085 2093
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2419 2426 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2419 2427
 type(
   operatorFloat
 )
 ident(
-  int_ref o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2064 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2065
+  int_ref o "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2399
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2099 2102 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2099 2110
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 85 2433 2436 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 85 2433 2444
 type(
   operatorFloat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2099 2114 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 72 2099 2120
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 85 2433 2448 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 85 2433 2454
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2121 2124 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2121 2132
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2455 2458 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2455 2466
 type(
   operatorFloat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2121 2136 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 73 2121 2142
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2455 2470 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2455 2476
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2143 2146 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2143 2154
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2477 2480 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2477 2488
 type(
   operatorFloat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2143 2158 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 74 2143 2164
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2477 2492 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2477 2498
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2168 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2176
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2502 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2510
 type(
   operatorFloat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2180 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2186
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2514 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2520
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 71 2085 2086 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 75 2165 2186
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2419 2420 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2499 2520
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 type(
   exp -> string
 )
 ident(
-  def toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2190 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2211 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2212
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2545 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2546
 type(
   exp
 )
 ident(
-  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2223 2224 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2750
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 91 2557 2558 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2223 2230 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2223 2231
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 91 2557 2564 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 91 2557 2565
 type(
   exp
 )
 ident(
-  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2211 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2212
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2545 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2546
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2252 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2260
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2586 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2594
 type(
   operatorInt
 )
 ident(
-  def operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2372
+  def operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2611 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2706
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2262 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2266
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2596 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2600
 type(
   exp
 )
 ident(
-  def exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2372
+  def exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2611 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2706
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2268 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2272
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2602 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2606
 type(
   exp
 )
 ident(
-  def exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2372
+  def exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2611 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2706
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2240 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2273
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2574 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2607
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2290
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2611 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2624
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2291 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2293
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2625 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2627
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2295 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2306
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2629 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2640
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2306 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2312
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2640 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2646
 type(
   exp
 )
 ident(
-  int_ref exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2262 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2266
+  int_ref exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2596 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2600
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2295 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2312
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2629 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2646
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2314 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2317
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2648 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2651
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2319 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2337
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2653 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2671
 type(
   operatorInt -> string
 )
 ident(
-  int_ref toStringOpeatorInt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1906 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 63 1902 1924
+  int_ref toStringOpeatorInt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2240 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 76 2236 2258
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2337 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2347
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2671 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2681
 type(
   operatorInt
 )
 ident(
-  int_ref operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2252 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2260
+  int_ref operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2586 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2594
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2319 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2347
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2653 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2681
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2349 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2352
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2683 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2686
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2354 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2365
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2688 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2699
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2365 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2371
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2699 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2705
 type(
   exp
 )
 ident(
-  int_ref exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2268 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2272
+  int_ref exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2602 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2606
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2354 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2371
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2688 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2705
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2294 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2372
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2628 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2706
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 79 2237 2372
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2611 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2571 2706
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2390 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2398
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2724 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2732
 type(
   operatorFloat
 )
 ident(
-  def operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2512
+  def operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2749 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2846
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2400 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2404
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2734 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2738
 type(
   exp
 )
 ident(
-  def exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2512
+  def exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2749 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2846
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2406 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2410
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2740 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2744
 type(
   exp
 )
 ident(
-  def exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2512
+  def exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2749 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2846
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2376 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2411
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2710 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2745
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2428
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2749 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2762
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2429 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2431
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2763 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2765
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2433 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2444
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2767 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2778
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2444 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2450
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2778 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2784
 type(
   exp
 )
 ident(
-  int_ref exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2400 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2404
+  int_ref exp1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2734 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2738
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2433 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2450
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2767 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2784
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2452 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2455
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2786 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2789
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2457 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2477
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2791 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2811
 type(
   operatorFloat -> string
 )
 ident(
-  int_ref toStringOpeatorFloat "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2042 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 70 2038 2062
+  int_ref toStringOpeatorFloat "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2376 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2372 2396
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2477 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2487
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2811 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2821
 type(
   operatorFloat
 )
 ident(
-  int_ref operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2390 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2398
+  int_ref operator "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2724 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2732
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2457 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2487
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2791 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2821
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2489 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2492
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2823 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2826
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2494 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2505
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2828 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2839
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2505 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2511
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2839 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2845
 type(
   exp
 )
 ident(
-  int_ref exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2406 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2410
+  int_ref exp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2740 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2744
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2494 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2511
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2828 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2845
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2432 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2512
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2766 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2846
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 80 2373 2512
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2749 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2707 2846
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2525 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2526
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2859 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2860
 ident(
-  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2531 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2550
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2865 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2884
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2527
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2861
 type(
   constExp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2516 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2527
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2850 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2861
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2531 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2547
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2865 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2881
 type(
   constExp -> string
 )
 ident(
-  int_ref toStringConstExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1621 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 54 1617 1637
+  int_ref toStringConstExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1955 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 67 1951 1971
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2547 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2550
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2881 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2884
 type(
   constExp
 )
 ident(
-  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2527
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2861
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2531 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 81 2513 2550
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2865 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 2847 2884
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2566 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2570
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2900 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2904
 ident(
-  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2575 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2598
+  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2909 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2932
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2565 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2571
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2899 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2905
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2554 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2571
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2888 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2905
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2575 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2588
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2909 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2922
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2589 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2591
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2923 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2925
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2593 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2597
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2927 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2931
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2565 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2571
+  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2899 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2905
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2592 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2598
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2926 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2932
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2575 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 82 2551 2598
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2909 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 2885 2932
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2616 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2626
-type(
-  string
-)
-ident(
-  def objectName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2642 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2683
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2628 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2637
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2950 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2960
 type(
   string
 )
 ident(
-  def fieldName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2642 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2683
+  def objectName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2976 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3017
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2602 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2638
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2971
+type(
+  string
+)
+ident(
+  def fieldName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2976 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3017
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2936 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2972
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2642 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2655
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2976 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2989
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2656 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2659
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2990 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2993
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2661 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2671
-type(
-  string
-)
-ident(
-  int_ref objectName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2616 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2626
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2673 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2682
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2995 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3005
 type(
   string
 )
 ident(
-  int_ref fieldName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2628 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2637
+  int_ref objectName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2950 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2960
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2660 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2683
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3007 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3016
+type(
+  string
+)
+ident(
+  int_ref fieldName "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2971
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2994 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3017
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2642 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 83 2599 2683
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 2976 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 2933 3017
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2695 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2702
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3028 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3029
 ident(
-  def boolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2707 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2750
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3034 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3067
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2694 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2703
-type(
-  boolExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2687 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2703
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3030
 type(
   exp
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2707 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2720
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3021 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3030
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3034 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3047
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2721 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2723
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3048 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3050
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2725 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2740
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3063
 type(
-  boolExp -> string
+  exp -> string
 )
 ident(
-  int_ref toStringBoolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 997 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 45 989 1012
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2740 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2749
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3063 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3066
 type(
-  boolExp
+  exp
 )
 ident(
-  int_ref boolExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2694 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2703
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3030
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2725 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2749
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3066
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2724 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2750
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3051 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3067
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2707 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2750
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3034 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3018 3067
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 78 2223 2224 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 84 2684 2750
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3082 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3088
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3101 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3167
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3090 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3096
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3101 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3167
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3071 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3097
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3101 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3114
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3115 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3117
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2762 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2777
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3119 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3130
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3130 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3138
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3082 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3088
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3119 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3138
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3140 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3145
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3147 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3158
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3158 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3166
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3090 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3096
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3147 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3166
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3118 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3167
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3101 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3068 3167
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3179 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3185
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3264
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3187 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3193
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3264
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3171 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3194
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3211
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3212 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3214
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3216 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3227
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3227 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3235
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3179 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3185
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3216 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3235
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3237 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3242
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3244 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3255
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3255 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3263
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3187 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3193
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3244 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3263
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3215 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3264
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3168 3264
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3283
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3296 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3363
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3285 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3291
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3296 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3363
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3268 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3292
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3296 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3309
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3310 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3312
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3314 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3325
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3325 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3333
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3283
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3314 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3333
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3335 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3341
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3343 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3354
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3354 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3362
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3285 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3291
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3343 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3362
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3313 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3363
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3296 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3265 3363
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3379 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3385
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3465
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3387 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3393
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3465
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3367 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3394
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3411
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3412 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3414
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3416 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3427
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3427 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3435
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3379 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3385
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3416 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3435
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3437 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3443
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3445 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3456
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3456 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3464
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3387 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3393
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3445 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3464
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3415 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3465
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3398 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 101 3364 3465
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3476 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3482
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3562
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3484 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3490
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3562
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3469 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3491
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3508
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3509 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3511
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3513 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3524
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3532
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3476 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3482
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3513 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3532
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3534 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3540
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3542 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3553
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3553 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3561
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3484 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3490
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3542 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3561
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3512 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3562
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 102 3466 3562
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3572 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3578
+type(
+  exp
+)
+ident(
+  def param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3591 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3580 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3586
+type(
+  exp
+)
+ident(
+  def param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3591 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3566 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3587
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3591 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3604
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3605 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3607
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3609 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3620
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3620 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3628
+type(
+  exp
+)
+ident(
+  int_ref param1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3572 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3578
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3609 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3628
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3630 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3636
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3638 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3649
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3649 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3657
+type(
+  exp
+)
+ident(
+  int_ref param2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3580 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3586
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3638 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3657
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3608 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3591 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 91 2557 2558 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 103 3563 3658
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3670 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3685
 type(
   varList -> string
 )
 ident(
-  def toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2754 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3662 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2778 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2779
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3686 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3687
 type(
   varList
 )
 ident(
-  def l "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2793 2794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+  def l "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 106 3701 3702 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2793 2800 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2793 2801
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 106 3701 3708 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 106 3701 3709
 type(
   varList
 )
 ident(
-  int_ref l "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2778 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2779
+  int_ref l "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3686 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3687
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2817 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2821
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3725 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3729
 type(
   exp list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2810 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2821
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3718 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3729
 type(
   varList
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2825 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 88 2807 2827
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3733 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 107 3715 3735
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2840 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2841
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3748 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3749
 type(
   exp
 )
 ident(
-  def x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2847 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2861
+  def x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3755 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3769
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2838 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2843
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3746 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3751
 type(
   exp list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2831 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2843
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3739 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3751
 type(
   varList
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2847 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2858
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3755 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3766
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2861
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3766 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3769
 type(
   exp
 )
 ident(
-  int_ref x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2840 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2841
+  int_ref x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3748 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3749
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2847 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 89 2828 2861
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3755 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 108 3736 3769
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2873 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2874
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3781 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3782
 type(
   exp
 )
 ident(
-  def x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2882 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+  def x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3790 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2876 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2877
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3784 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3785
 type(
   exp list
 )
 ident(
-  def y "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2882 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+  def y "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3790 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2872 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2878
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3780 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3786
 type(
   exp list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2865 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2878
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3773 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3786
 type(
   varList
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2882 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2895
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3790 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3803
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2896 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2898
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3804 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3806
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2900 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2911
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3808 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3819
 type(
   exp -> string
 )
 ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2911 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2914
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3819 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3822
 type(
   exp
 )
 ident(
-  int_ref x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2873 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2874
+  int_ref x "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3781 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3782
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2900 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2914
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3808 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3822
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2916 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2920
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3824 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3828
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2922 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2937
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3830 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3845
 type(
   varList -> string
 )
 ident(
-  int_ref toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2762 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2777
+  int_ref toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3670 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3685
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2945 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2948
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3853 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3856
 type(
   exp list
 )
 ident(
-  int_ref y "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2876 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2877
+  int_ref y "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3784 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3785
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2937 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2949
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3845 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3857
 type(
   varList
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2922 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2949
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3830 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3857
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2899 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3807 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2882 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3790 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 87 2793 2794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2862 2950
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 106 3701 3702 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 109 3770 3858
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3870 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3882
 type(
-  blkExp -> string
+  exp2 -> string
 )
 ident(
-  def toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2954 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+  def toStringExp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3862 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2978 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2979
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3884 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3885
 type(
-  blkExp
-)
-ident(
-  def s "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2992 2993 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2992 2999 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2992 3000
-type(
-  blkExp
+  exp2
 )
 ident(
-  int_ref s "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2978 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2979
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 112 3895 3896 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3015 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3018
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 112 3895 3902 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 112 3895 3903
 type(
-  exp
-)
-ident(
-  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3108
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3020 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3022
-type(
-  blkExp
+  exp2
 )
 ident(
-  def st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3108
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3884 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3885
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3009 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3023
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3040
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3041 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3043
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3045 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3050
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3063
-type(
-  exp -> string
-)
-ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3063 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3068
-type(
-  exp
-)
-ident(
-  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3015 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3018
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3052 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3068
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3070 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3078
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3080 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3094
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3094 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3098
-type(
-  blkExp
-)
-ident(
-  int_ref st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3020 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3022
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3080 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3098
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3100 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3107
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3044 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3108
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3027 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 94 3006 3108
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3122 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3125
-type(
-  exp
-)
-ident(
-  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3269
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3127 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3131
-type(
-  blkExp
-)
-ident(
-  def ifSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3269
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3133 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3139
-type(
-  blkExp
-)
-ident(
-  def elseSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3269
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3112 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3140
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3157
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3158 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3160
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3162 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3167
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3169 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3180
-type(
-  exp -> string
-)
-ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3180 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3185
-type(
-  exp
-)
-ident(
-  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3122 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3125
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3169 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3185
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3187 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3195
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3211
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3211 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3217
-type(
-  blkExp
-)
-ident(
-  int_ref ifSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3127 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3131
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3217
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3219 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3235
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3237 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3251
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3251 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3259
-type(
-  blkExp
-)
-ident(
-  int_ref elseSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3133 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3139
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3237 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3259
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3261 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3268
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3161 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3269
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3144 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 95 3109 3269
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3282 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3285
-type(
-  exp
-)
-ident(
-  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3294 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3378
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3287 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3289
-type(
-  blkExp
-)
-ident(
-  def st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3294 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3378
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3273 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3290
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3294 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3307
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3308 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3310
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3312 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3320
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3322 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3333
-type(
-  exp -> string
-)
-ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3333 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3338
-type(
-  exp
-)
-ident(
-  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3282 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3285
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3322 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3338
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3340 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3348
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3350 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3364
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3364 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3368
-type(
-  blkExp
-)
-ident(
-  int_ref st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3287 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3289
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3350 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3368
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3370 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3377
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3311 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3378
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3294 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 96 3270 3378
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3394 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3397
-type(
-  blkExp
-)
-ident(
-  def st1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3407 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3472
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3399 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3402
-type(
-  blkExp
-)
-ident(
-  def st2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3407 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3472
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3382 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3403
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3407 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3420
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3421 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3423
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3425 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3439
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3439 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3444
-type(
-  blkExp
-)
-ident(
-  int_ref st1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3394 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3397
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3425 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3444
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3446 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3450
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3452 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3466
-type(
-  blkExp -> string
-)
-ident(
-  int_ref toStringBlkExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2962 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 92 2954 2976
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3466 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3471
-type(
-  blkExp
-)
-ident(
-  int_ref st2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3399 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3402
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3452 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3471
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3424 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3472
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3407 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 97 3379 3472
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3486 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3490
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3919 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3923
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3548
+  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3937 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4004
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3492 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3495
-type(
-  exp
-)
-ident(
-  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3548
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3476 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3496
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3513
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3514 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3516
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3518 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3522
-type(
-  string
-)
-ident(
-  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3486 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3490
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3529
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3531 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3542
-type(
-  exp -> string
-)
-ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3542 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3547
-type(
-  exp
-)
-ident(
-  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3492 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3495
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3531 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3547
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3517 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3548
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 98 3473 3548
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3562 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3565
-ident(
-  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3570 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3616
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3561 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3566
-type(
-  exp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3552 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3566
-type(
-  blkExp
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3570 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3583
-type(
-  string -> string list -> string
-)
-ident(
-  ext_ref String.concat
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3584 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3586
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3588 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3597
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3599 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3610
-type(
-  exp -> string
-)
-ident(
-  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2198 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 77 2190 2209
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3610 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3615
-type(
-  exp
-)
-ident(
-  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3561 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3566
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3599 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3615
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3587 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3616
-type(
-  string list
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3570 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 99 3549 3616
-type(
-  string
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3627 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3631
-type(
-  string
-)
-ident(
-  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3645 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
-)
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3633 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3640
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3925 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3932
 type(
   varList
 )
 ident(
-  def varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3645 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
+  def varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3937 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4004
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3620 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3641
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3912 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3933
 type(
-  blkExp
+  exp2
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3645 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3658
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3937 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3950
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3659 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3661
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3951 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3953
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3663 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3669
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3955 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3961
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3671 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3675
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3963 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3967
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3627 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3631
+  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3919 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3923
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3677 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3680
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3969 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3972
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3682 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3697
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3974 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3989
 type(
   varList -> string
 )
 ident(
-  int_ref toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2762 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 86 2754 2777
+  int_ref toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3670 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3685
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3697 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3706
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3989 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3998
 type(
   varList
 )
 ident(
-  int_ref varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3633 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3640
+  int_ref varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3925 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3932
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3682 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3706
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3974 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3998
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3708 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3711
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4000 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4003
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3662 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3954 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4004
 type(
   string list
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3645 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 3937 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 113 3909 4004
 type(
   string
 )
-"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 93 2992 2993 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 100 3617 3712
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4019 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4023
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4037 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4025 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4032
+type(
+  varList
+)
+ident(
+  def varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4037 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4008 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4033
+type(
+  exp2
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4037 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4050
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4051 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4053
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4055 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4059
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4019 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4023
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4061 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4064
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4066 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4081
+type(
+  varList -> string
+)
+ident(
+  int_ref toStringVarList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3670 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 105 3662 3685
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4081 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4090
+type(
+  varList
+)
+ident(
+  int_ref varList "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4025 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4032
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4066 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4090
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4092 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4095
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4054 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4037 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 112 3895 3896 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 114 4005 4096
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+type(
+  superExp -> string
+)
+ident(
+  def toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4100 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4125 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4126
+type(
+  superExp
+)
+ident(
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 117 4141 4142 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 117 4141 4148 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 117 4141 4149
+type(
+  superExp
+)
+ident(
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4125 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4126
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4162 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4163
+ident(
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4168 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4182
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4161 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4164
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4158 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4164
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4168 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4179
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4179 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4182
+type(
+  exp
+)
+ident(
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4161 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4164
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4168 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 118 4155 4182
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4191 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4192
+ident(
+  def e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4212
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4190 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4193
+type(
+  exp2
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4186 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4193
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4209
+type(
+  exp2 -> string
+)
+ident(
+  int_ref toStringExp2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3870 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 111 3862 3882
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4209 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4212
+type(
+  exp2
+)
+ident(
+  int_ref e "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4190 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4193
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4197 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 119 4183 4212
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4222 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4225
+type(
+  exp
+)
+ident(
+  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4234 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4317
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4227 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4229
+type(
+  superExp
+)
+ident(
+  def st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4234 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4317
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4216 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4230
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4234 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4247
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4248 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4250
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4252 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4257
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4259 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4270
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4270 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4275
+type(
+  exp
+)
+ident(
+  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4222 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4225
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4259 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4275
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4277 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4285
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4287 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4303
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4303 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4307
+type(
+  superExp
+)
+ident(
+  int_ref st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4227 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4229
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4287 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4307
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4309 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4316
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4251 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4317
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4234 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 120 4213 4317
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4331 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4334
+type(
+  exp
+)
+ident(
+  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4482
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4336 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4340
+type(
+  superExp
+)
+ident(
+  def ifSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4482
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4342 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4348
+type(
+  superExp
+)
+ident(
+  def elseSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4482
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4321 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4349
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4366
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4367 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4369
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4371 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4376
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4378 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4389
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4389 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4394
+type(
+  exp
+)
+ident(
+  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4331 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4334
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4378 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4394
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4396 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4404
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4406 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4422
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4422 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4428
+type(
+  superExp
+)
+ident(
+  int_ref ifSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4336 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4340
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4406 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4428
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4430 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4446
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4448 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4464
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4464 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4472
+type(
+  superExp
+)
+ident(
+  int_ref elseSt "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4342 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4348
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4448 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4472
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4474 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4481
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4370 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4482
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4353 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 121 4318 4482
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4498
+type(
+  exp
+)
+ident(
+  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4507 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4593
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4502
+type(
+  superExp
+)
+ident(
+  def st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4507 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4593
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4486 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4503
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4507 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4520
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4521 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4523
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4525 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4533
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4535 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4546
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4546 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4551
+type(
+  exp
+)
+ident(
+  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4495 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4498
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4535 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4551
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4553 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4561
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4563 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4579
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4579 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4583
+type(
+  superExp
+)
+ident(
+  int_ref st "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4500 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4502
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4563 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4583
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4585 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4592
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4524 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4593
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4507 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 122 4483 4593
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4609 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4612
+type(
+  superExp
+)
+ident(
+  def st1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4622 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4691
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4614 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4617
+type(
+  superExp
+)
+ident(
+  def st2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4622 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4691
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4597 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4618
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4622 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4635
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4636 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4638
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4640 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4656
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4656 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4661
+type(
+  superExp
+)
+ident(
+  int_ref st1 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4609 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4612
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4640 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4661
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4663 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4667
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4669 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4685
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4685 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4690
+type(
+  superExp
+)
+ident(
+  int_ref st2 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4614 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4617
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4669 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4690
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4639 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4691
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4622 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 123 4594 4691
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4705 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4709
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4719 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4772
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4711 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4714
+type(
+  superExp
+)
+ident(
+  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4719 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4772
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4695 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4715
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4719 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4732
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4733 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4735
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4737 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4741
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4705 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4709
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4743 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4748
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4750 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4766
+type(
+  superExp -> string
+)
+ident(
+  int_ref toStringSuperExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4108 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 116 4100 4124
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4766 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4771
+type(
+  superExp
+)
+ident(
+  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4711 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4714
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4750 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4771
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4736 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4772
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4719 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 124 4692 4772
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4786 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4789
+ident(
+  def exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4840
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4785 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4790
+type(
+  exp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4776 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4790
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4807
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4808 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4810
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4812 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4821
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4823 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4834
+type(
+  exp -> string
+)
+ident(
+  int_ref toStringExp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2532 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 90 2524 2543
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4834 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4839
+type(
+  exp
+)
+ident(
+  int_ref exp "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4785 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4790
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4823 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4839
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4811 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4840
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4794 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 125 4773 4840
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4861
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def tip "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4872 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4863 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4867
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4872 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4844 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4868
+type(
+  superExp
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4872 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4885
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4886 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4889
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4891 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4905
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4905 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4910
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref tip "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4858 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4861
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4891 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4910
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4912 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4916
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4863 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4867
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4890 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
+type(
+  string list
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4872 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
+type(
+  string
+)
+"CoreJavaProject/ExpDeclaration/expDeclaration.ml" 117 4141 4142 "CoreJavaProject/ExpDeclaration/expDeclaration.ml" 126 4841 4917
 type(
   string
 )

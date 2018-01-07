@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="8" version="2.0">
 <workbenchAdvisor/>
 <window height="771" maximized="true" width="1018" x="65" y="-4">
 <fastViewData fastViewLocation="1024">
@@ -35,25 +35,30 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="ocaml.editors.mlEditor" name="expDeclaration.ml" partName="expDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/ExpDeclaration/expDeclaration.ml" title="expDeclaration.ml" tooltip="CoreJavaProject/ExpDeclaration/expDeclaration.ml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/ExpDeclaration/expDeclaration.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2753" selectionTopPixel="1037"/>
+<editor id="ocaml.editors.mlEditor" name="ProgramDeclaration.ml" partName="ProgramDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" title="ProgramDeclaration.ml" tooltip="CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="900" selectionTopPixel="83"/>
 </editor>
-<editor id="ocaml.editors.mlEditor" name="typeDeclaration.ml" partName="typeDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/TypeDeclaration/typeDeclaration.ml" title="typeDeclaration.ml" tooltip="CoreJavaProject/TypeDeclaration/typeDeclaration.ml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/TypeDeclaration/typeDeclaration.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="161" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="ocaml.editors.mlEditor" name="classDeclaration.ml" partName="classDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/ClassDeclaration/classDeclaration.ml" title="classDeclaration.ml" tooltip="CoreJavaProject/ClassDeclaration/classDeclaration.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/ClassDeclaration/classDeclaration.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="643" selectionTopPixel="0"/>
 </editor>
 <editor id="ocaml.editors.mlEditor" name="main.ml" partName="main.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/main.ml" title="main.ml" tooltip="CoreJavaProject/main.ml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/main.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="916" selectionTopPixel="2"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1368" selectionTopPixel="203"/>
+</editor>
+<editor id="ocaml.editors.mlEditor" name="fieldDeclaration.ml" partName="fieldDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" title="fieldDeclaration.ml" tooltip="CoreJavaProject/FieldDeclaration/fieldDeclaration.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/FieldDeclaration/fieldDeclaration.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="330" selectionOffset="845" selectionTopPixel="173"/>
 </editor>
 <editor id="ocaml.editors.mlEditor" name="methodDeclaration.ml" partName="methodDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/MethodDeclaration/methodDeclaration.ml" title="methodDeclaration.ml" tooltip="CoreJavaProject/MethodDeclaration/methodDeclaration.ml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/MethodDeclaration/methodDeclaration.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="759" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1744" selectionTopPixel="263"/>
 </editor>
 </editors>
 <views>
@@ -92,12 +97,15 @@
 </filters>
 <expanded>
 <element path="/CoreJavaProject"/>
+<element path="/CoreJavaProject/ClassDeclaration"/>
 <element path="/CoreJavaProject/ExpDeclaration"/>
+<element path="/CoreJavaProject/FieldDeclaration"/>
 <element path="/CoreJavaProject/MethodDeclaration"/>
-<element path="/CoreJavaProject/TypeDeclaration"/>
+<element path="/CoreJavaProject/ProgramDeclaration"/>
+<element path="/CoreJavaProject/TypeChecker"/>
 </expanded>
 <selection>
-<element path="/CoreJavaProject/MethodDeclaration/methodDeclaration.ml"/>
+<element path="/CoreJavaProject/main.exe"/>
 </selection>
 </viewState>
 </view>
@@ -106,7 +114,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="316" org.eclipse.ui.ide.resourceField="139" org.eclipse.ui.ide.severityAndDescriptionField="592"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -142,7 +150,7 @@
 </view>
 <view id="Ocaml.ocamlToplevelView" partName="OCaml Toplevel"/>
 </views>
-<perspectives activePerspective="ocaml.perspectives.OcamlPerspective">
+<perspectives activePart="ocaml.editors.mlEditor" activePerspective="ocaml.perspectives.OcamlPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -178,45 +186,32 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="ocaml.ocamlCompilerOutput"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5f574cc2" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5f574cc2" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="ocaml.ocamlCompilerOutput" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.659375" ratioLeft="422" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="ocaml.ocamlCompilerOutput" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="ocaml.ocamlCompilerOutput" label="OCaml Compiler Output"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="320" ratioRight="320" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -253,9 +248,9 @@
 <new_wizard_action id="ocaml.wizards.OcamlNewEmptyMakefileProjectWizard"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
 <new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="Ocaml.ocamlToplevelView"/>
@@ -284,9 +279,9 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.18457943" ratioLeft="237" ratioRight="1047" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67824775" ratioLeft="449" ratioRight="213" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.18613707" ratioLeft="239" ratioRight="1045" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.723565" ratioLeft="479" ratioRight="183" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="Ocaml.ocamlToplevelView" label="OCaml Toplevel"/>
 <page content="ocaml.ocamlCompilerOutput" label="OCaml Compiler Output"/>
@@ -317,159 +312,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/ExpDeclaration/expDeclaration.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/TypeDeclaration/typeDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/ClassDeclaration/classDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/main.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/FieldDeclaration/fieldDeclaration.ml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/MethodDeclaration/methodDeclaration.ml"/>
 </editors>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="597" y="0"/>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="52" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="53" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="54" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="55" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="126" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="127" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="128" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="129" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="130" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="984" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="1">
-<position info="not_deleted" x="161" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
+<item historyLabel="fieldDeclaration.ml" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
+<item historyLabel="methodDeclaration.ml" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2952" y="0"/>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="719" y="463"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1771" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2952" y="0"/>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="1148" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1620" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2788" y="0"/>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="643" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2820" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2952" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="1123" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2952" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="1123" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2861" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="1123" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2861" y="0"/>
-</item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="1123" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="0">
+<item historyLabel="fieldDeclaration.ml" index="3">
 <position info="not_deleted" x="749" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1620" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2953" y="0"/>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="1036" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1705" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2953" y="0"/>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="643" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="473" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1620" y="0"/>
 </item>
-<item historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2861" y="0"/>
+<item historyLabel="main.ml" index="1">
+<position info="not_deleted" x="1644" y="23"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="2">
-<position info="not_deleted" x="759" y="5"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1620" y="0"/>
 </item>
-<item active="true" historyLabel="expDeclaration.ml" index="0">
-<position info="not_deleted" x="2861" y="0"/>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1581" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1620" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1724" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1690" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="1036" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1582" y="38"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="1036" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="957" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="958" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="1102" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="4">
+<position info="not_deleted" x="1744" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="main.ml" index="1">
+<position info="not_deleted" x="1364" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="640" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="1039" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="640" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="975" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="1039" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="3">
+<position info="not_deleted" x="845" y="330"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="1039" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="1026" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="930" y="0"/>
+</item>
+<item historyLabel="main.ml" index="1">
+<position info="not_deleted" x="1628" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="755" y="0"/>
+</item>
+<item historyLabel="main.ml" index="1">
+<position info="not_deleted" x="1640" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="640" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="642" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="900" y="0"/>
+</item>
+<item historyLabel="main.ml" index="1">
+<position info="not_deleted" x="1368" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="2">
+<position info="not_deleted" x="900" y="0"/>
+</item>
+<item active="true" historyLabel="classDeclaration.ml" index="0">
+<position info="not_deleted" x="643" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -491,20 +488,29 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="methodDeclaration.ml" tooltip="CoreJavaProject/MethodDeclaration/methodDeclaration.ml">
 <persistable path="/CoreJavaProject/MethodDeclaration/methodDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="main.ml" tooltip="CoreJavaProject/main.ml">
-<persistable path="/CoreJavaProject/main.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="fieldDeclaration.ml" tooltip="CoreJavaProject/FieldDeclaration/fieldDeclaration.ml">
+<persistable path="/CoreJavaProject/FieldDeclaration/fieldDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="typeDeclaration.ml" tooltip="CoreJavaProject/TypeDeclaration/typeDeclaration.ml">
-<persistable path="/CoreJavaProject/TypeDeclaration/typeDeclaration.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="fieldDeclaration.mli" tooltip="CoreJavaProject/FieldDeclaration/fieldDeclaration.mli">
+<persistable path="/CoreJavaProject/FieldDeclaration/fieldDeclaration.mli"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="expDeclaration.ml" tooltip="CoreJavaProject/ExpDeclaration/expDeclaration.ml">
 <persistable path="/CoreJavaProject/ExpDeclaration/expDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="fieldDeclaration.ml" tooltip="CoreJavaProject/FieldDeclaration/fieldDeclaration.ml">
-<persistable path="/CoreJavaProject/FieldDeclaration/fieldDeclaration.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="main.ml" tooltip="CoreJavaProject/main.ml">
+<persistable path="/CoreJavaProject/main.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="classDeclaration.ml" tooltip="CoreJavaProject/ClassDeclaration/classDeclaration.ml">
+<persistable path="/CoreJavaProject/ClassDeclaration/classDeclaration.ml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="ProgramDeclaration.ml" tooltip="CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml">
 <persistable path="/CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="TypeChecker.ml" tooltip="CoreJavaProject/TypeChecker/TypeChecker.ml">
+<persistable path="/CoreJavaProject/TypeChecker/TypeChecker.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="typeDeclaration.ml" tooltip="CoreJavaProject/TypeDeclaration/typeDeclaration.ml">
+<persistable path="/CoreJavaProject/TypeDeclaration/typeDeclaration.ml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="methodDeclaration.mli" tooltip="CoreJavaProject/MethodDeclaration/methodDeclaration.mli">
 <persistable path="/CoreJavaProject/MethodDeclaration/methodDeclaration.mli"/>
@@ -514,9 +520,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="stmtDeclaration.ml" tooltip="CoreJavaProject/StmtDeclaration/stmtDeclaration.ml">
 <persistable path="/CoreJavaProject/StmtDeclaration/stmtDeclaration.ml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="classDeclaration.ml" tooltip="CoreJavaProject/ClassDeclaration/classDeclaration.ml">
-<persistable path="/CoreJavaProject/ClassDeclaration/classDeclaration.ml"/>
 </file>
 </mruList>
 </workbench>

@@ -12,4 +12,30 @@ let rec toStringCJFieldList (list: cJFieldList) =
 	match list with
 	| CJFieldList([]) -> ""
 	| CJFieldList([x]) -> String.concat "" [toStringCJField(x); "\n\n"]
-	| CJFieldList(x::y) -> String.concat "" [toStringCJField(x); "\n"; toStringCJFieldList(CJFieldList(y))]
+	| CJFieldList(x::y) -> String.concat "" [toStringCJField(x); "\n"; toStringCJFieldList(CJFieldList(y))];;
+
+(*let rec check_dup l = match l with
+    [] -> false
+    | (h::t) ->
+       let x = (List.filter (fun x -> x = h) t) in
+         if (x == []) then
+            check_dup t
+         else
+       true;;*)
+
+let rec fieldListNotDuplicated(list: cJFieldList) =
+	match list with 
+	| CJFieldList([]) -> true
+	| CJFieldList([x]) -> true
+	| CJFieldList(h::t) -> let x = (List.filter (fun x -> x = h) t) in
+         if (x == []) then
+					begin	
+							Printf.printf "%s\n" "x field empty";					
+            	fieldListNotDuplicated(CJFieldList(t));
+					end						
+         else	
+					begin	
+							Printf.printf "%s\n" "x field not empty";				
+       				false;
+					end
+						

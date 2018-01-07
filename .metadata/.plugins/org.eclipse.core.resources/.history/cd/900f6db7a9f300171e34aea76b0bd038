@@ -1,0 +1,3 @@
+let programWellTyped (p : cJProgram) = 
+	match p with 
+	| 

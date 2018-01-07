@@ -1,12 +1,5 @@
 type operatorInt = AddInt | SubInt | MulInt | DivInt
 type operatorFloat = AddFloat | SubFloat | MulFloat | DivFloat
-type boolExp =
-    NotExp of boolExp
-  | GreaterExp of int * int
-  | LessExp of int * int
-  | EqualExp of int * int
-  | AndExp of boolExp * boolExp
-  | OrExp of boolExp * boolExp
 type constExp =
     ConstInt of int
   | ConstFloat of float
@@ -20,20 +13,29 @@ type exp =
   | ConstExp of constExp
   | VariableExp of string
   | FieldValueExp of string * string
-  | BoolExp of boolExp
+  | NotExp of exp
+  | GreaterExp of exp * exp
+  | LessExp of exp * exp
+  | EqualExp of exp * exp
+  | NotEqualExp of exp * exp
+  | AndExp of exp * exp
+  | OrExp of exp * exp
 type varList = VarList of exp list
-type blkExp =
-    IfExp of exp * blkExp
-  | IfElseExp of exp * blkExp * blkExp
-  | WhileExp of exp * blkExp
-  | CompoundExp of blkExp * blkExp
-  | AssignExp of string * exp
+type exp2 = NewExp of string * varList | MethodCall of string * varList
+type superExp =
+    Exp of exp
+  | Exp2 of exp2
+  | IfExp of exp * superExp
+  | IfElseExp of exp * superExp * superExp
+  | WhileExp of exp * superExp
+  | CompoundExp of superExp * superExp
+  | AssignExp of string * superExp
   | ReturnExp of exp
-  | NewExp of string * varList
-val toStringBoolExp : boolExp -> string
+  | DeclareVarExp of TypeDeclaration.cJType * string
 val toStringConstExp : constExp -> string
 val toStringOpeatorInt : operatorInt -> string
 val toStringOpeatorFloat : operatorFloat -> string
 val toStringExp : exp -> string
 val toStringVarList : varList -> string
-val toStringBlkExp : blkExp -> string
+val toStringExp2 : exp2 -> string
+val toStringSuperExp : superExp -> string

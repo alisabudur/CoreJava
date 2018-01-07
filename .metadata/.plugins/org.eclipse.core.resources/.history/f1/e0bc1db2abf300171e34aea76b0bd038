@@ -1,0 +1,13 @@
+open ClassDeclaration;;
+
+type cJProgram = CJProgram of cJClass list;;
+
+let rec toStringCJProgram (p : cJProgram) = 
+	match p with
+	| CJProgram([]) -> ""
+	| CJProgram(x::y) -> String.concat "" [toStringCJClass(x); "\n\n"; toStringCJProgram(CJProgram(y))];;
+
+let programWellTyped (p : cJProgram) = 
+	match p with 
+	| CJProgram([]) -> false
+	| CJProgram(x::y) -> classWellTyped(x) 
