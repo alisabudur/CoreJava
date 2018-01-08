@@ -16,3 +16,10 @@ let getClassName(c: cJClass) =
 	match c with
 	| CJClass(name, _, _, _) -> name;;
 		
+let hasMainMethod(c: cJClass) =
+	match c with
+	| CJClass(_, _, _, methodList)	-> 	existMainMethod(methodList);;
+
+let getInheritancePair(c: cJClass): (string*string) = 
+	match c with 
+	| CJClass(child, parent, _, _) -> (child, parent);;

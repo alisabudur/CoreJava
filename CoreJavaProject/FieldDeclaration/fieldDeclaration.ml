@@ -23,11 +23,15 @@ let rec toStringCJFieldList (list: cJFieldList) =
          else
        true;;*)
 
+let getFieldName(c: cJField) = 
+	match c with
+	| CJField(_, name) -> name;;
+
 let rec fieldListNotDuplicated(list: cJFieldList) =
 	match list with 
 	| CJFieldList([]) -> true
 	| CJFieldList([x]) -> true
-	| CJFieldList(h::t) -> let x = (List.filter (fun x -> x = h) t) in
+	| CJFieldList(h::t) -> let x = (List.filter (fun x -> getFieldName(x) = getFieldName(h)) t) in
          if (x == []) then
 					begin	
 							Printf.printf "%s\n" "x field empty";					
@@ -37,5 +41,9 @@ let rec fieldListNotDuplicated(list: cJFieldList) =
 					begin	
 							Printf.printf "%s\n" "x field not empty";				
        				false;
-					end
+					end;;
+
+
+					
+					
 						

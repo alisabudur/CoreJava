@@ -1,350 +1,394 @@
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 79 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 96
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 75 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 87
+type(
+  cJProgram -> ClassDeclaration.cJClass list
+)
+ident(
+  def getClassList "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 145 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 88 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 89
+type(
+  cJProgram
+)
+ident(
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 106 107 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 141
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 106 113 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 106 114
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 88 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 89
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 134 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 135
+ident(
+  def l "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 140 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 141
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 133 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 136
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 124 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 136
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 140 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 141
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  int_ref l "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 133 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 136
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 106 107 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 121 141
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 153 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 170
 type(
   cJProgram -> string
 )
 ident(
-  def toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 71 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+  def toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 145 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 98 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 99
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 172 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 173
 type(
   cJProgram
 )
 ident(
-  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 117 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 190 191 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 123 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 124
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 190 197 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 190 198
 type(
   cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 98 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 99
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 172 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 173
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 142 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 146
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 216 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 220
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 133 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 146
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 207 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 220
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 150 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 7 130 152
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 224 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 204 226
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 166 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 167
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 240 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 241
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 249 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 169 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 170
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 243 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 244
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  def y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+  def y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 249 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 165 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 171
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 239 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 245
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 156 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 171
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 230 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 245
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 188
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 249 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 262
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 189 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 191
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 263 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 265
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 208
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 267 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 282
 type(
   ClassDeclaration.cJClass -> string
 )
 ident(
   ext_ref ClassDeclaration.toStringCJClass
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 208 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 211
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 282 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 285
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 166 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 167
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 240 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 241
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 211
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 267 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 285
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 213 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 219
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 287 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 293
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 221 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 238
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 295 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 312
 type(
   cJProgram -> string
 )
 ident(
-  int_ref toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 79 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 96
+  int_ref toStringCJProgram "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 153 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 9 145 170
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 248 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 251
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 322 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 325
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  int_ref y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 169 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 170
+  int_ref y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 243 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 244
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 238 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 252
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 312 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 326
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 221 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 252
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 295 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 326
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 192 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 266 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 type(
   string list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 175 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 249 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 6 116 117 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 8 153 253
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 190 191 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 227 327
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 265 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 283
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 339 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 357
 type(
   cJProgram -> bool
 )
 ident(
-  def classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 257 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+  def classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 331 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 285 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 286
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 359 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 360
 type(
   cJProgram
 )
 ident(
-  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 303 304 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 15 377 378 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 303 310 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 303 311
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 15 377 384 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 15 377 385
 type(
   cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 285 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 286
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 359 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 360
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 330 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 334
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 404 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 408
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 321 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 334
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 395 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 408
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 338 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 12 318 343
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 412 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 392 417
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 358 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 359
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 432 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 433
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 365 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 382
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 439 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 456
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 356 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 361
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 430 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 435
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 361
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 421 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 435
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 365 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 379
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 439 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 453
 type(
   ClassDeclaration.cJClass -> bool
 )
 ident(
   ext_ref ClassDeclaration.classWellTyped
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 379 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 382
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 453 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 456
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 358 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 359
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 432 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 433
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 365 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 13 344 382
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 439 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 418 456
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 396 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 397
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 471
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 405 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 479 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 399 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 400
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 473 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 474
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  def y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 405 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+  def y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 479 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 395 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 401
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 469 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 475
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 386 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 401
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 460 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 475
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 405 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 419
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 479 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 493
 type(
   ClassDeclaration.cJClass -> bool
 )
 ident(
   ext_ref ClassDeclaration.classWellTyped
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 419 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 422
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 493 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 496
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 396 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 397
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 471
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 405 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 422
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 479 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 496
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 423 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 425
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 497 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 499
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 426 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 444
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 500 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 518
 type(
   cJProgram -> bool
 )
 ident(
-  int_ref classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 265 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 283
+  int_ref classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 339 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 357
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 454 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 457
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 528 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 531
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  int_ref y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 399 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 400
+  int_ref y "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 473 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 474
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 444 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 518 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 426 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 500 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 405 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 479 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 11 303 304 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 383 458
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 15 377 378 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 457 532
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 491
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 544 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 565
 type(
   cJProgram -> bool
 )
 ident(
-  def classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 462 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+  def classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 536 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 492 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 493
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 566 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 567
 type(
   cJProgram
 )
 ident(
-  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 509 510 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 583 584 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 509 516 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 509 517
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 583 590 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 583 591
 type(
   cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 492 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 493
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 566 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 567
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 535 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 539
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 609 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 613
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 526 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 539
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 600 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 613
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 543 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 18 523 547
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 617 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 597 621
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 562 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 563
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 636 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 637
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 569 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 573
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 643 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 647
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 560 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 565
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 634 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 639
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 551 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 565
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 625 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 639
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 569 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 19 548 573
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 643 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 622 647
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 587 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 588
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 661 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 662
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 596 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+  def h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 670 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 590 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 591
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 664 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 665
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  def t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 596 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+  def t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 670 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 586 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 592
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 660 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 666
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 577 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 592
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 651 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 666
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 600 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 601
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 674 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 675
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 677 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 751 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 605 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 616
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 679 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 690
 type(
   (ClassDeclaration.cJClass -> bool) ->
   ClassDeclaration.cJClass list -> ClassDeclaration.cJClass list
@@ -352,242 +396,503 @@ type(
 ident(
   ext_ref List.filter
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 622 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 623
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 696 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 697
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 627 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 660
+  def x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 701 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 734
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 627 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 639
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 701 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 713
 type(
   ClassDeclaration.cJClass -> string
 )
 ident(
   ext_ref ClassDeclaration.getClassName
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 639 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 642
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 713 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 716
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 622 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 623
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 696 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 697
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 627 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 642
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 701 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 716
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 643 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 644
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 717 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 718
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 645 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 657
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 719 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 731
 type(
   ClassDeclaration.cJClass -> string
 )
 ident(
   ext_ref ClassDeclaration.getClassName
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 657 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 660
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 731 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 734
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 587 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 588
+  int_ref h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 661 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 662
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 645 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 660
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 719 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 734
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 627 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 660
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 701 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 734
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 617 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 661
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 691 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 735
 type(
   ClassDeclaration.cJClass -> bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 662 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 663
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 736 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 737
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  int_ref t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 590 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 591
+  int_ref t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 664 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 665
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 604 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 664
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 678 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 738
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 681 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 682
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 755 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 756
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 600 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 601
+  int_ref x "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 674 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 675
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 683 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 685
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 757 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 759
 type(
   ClassDeclaration.cJClass list -> ClassDeclaration.cJClass list -> bool
 )
 ident(
   ext_ref Pervasives.( == )
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 686 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 688
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 760 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 762
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 680 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 689
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 754 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 763
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 714 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 727
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 788 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 801
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 728 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 734
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 802 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 808
 type(
   (string -> unit, out_channel, unit) format
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 735 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 750
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 809 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 824
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 714 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 23 707 750
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 788 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 781 824
 type(
   unit
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 770 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 791
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 844 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 865
 type(
   cJProgram -> bool
 )
 ident(
-  int_ref classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 491
+  int_ref classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 544 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 565
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 801 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 804
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 875 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 878
 type(
   ClassDeclaration.cJClass list
 )
 ident(
-  int_ref t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 590 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 591
+  int_ref t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 664 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 665
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 791 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 805
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 865 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 879
 type(
   cJProgram
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 770 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 757 806
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 844 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 831 880
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 22 695 700 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 807 815
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 26 769 774 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 29 881 889
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 856 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 869
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 930 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 943
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 870 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 876
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 944 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 950
 type(
   (string -> unit, out_channel, unit) format
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 877 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 896
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 951 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 970
 type(
   string
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 856 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 28 849 896
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 930 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 923 970
 type(
   unit
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 29 902 913 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 29 902 919
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 33 976 987 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 33 976 993
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 27 837 842 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 31 911 916 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 668 677 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 25 742 751 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 574 596 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 24 648 670 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 17 509 510 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 30 920 928
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 21 583 584 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 34 994 1002
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 936 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 952
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1010 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1025
 type(
   cJProgram -> bool
 )
 ident(
-  def programWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1023 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+  def lastClassIsMain "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1101 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 953 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 954
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1026 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1027
 type(
   cJProgram
 )
 ident(
-  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 966 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1023
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1039 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1096
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 974 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 992
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1047 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1060
+type(
+  ClassDeclaration.cJClass -> bool
+)
+ident(
+  ext_ref ClassDeclaration.hasMainMethod
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1061 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1068
+type(
+  ClassDeclaration.cJClass list -> ClassDeclaration.cJClass
+)
+ident(
+  ext_ref List.hd
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1069 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1077
+type(
+  ClassDeclaration.cJClass list -> ClassDeclaration.cJClass list
+)
+ident(
+  ext_ref List.rev
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1078 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1090
+type(
+  cJProgram -> ClassDeclaration.cJClass list
+)
+ident(
+  int_ref getClassList "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 75 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 5 71 87
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1090 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1093
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1026 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1027
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1077 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1094
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1068 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1095
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1060 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1096
+type(
+  ClassDeclaration.cJClass
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1047 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1096
+type(
+  bool
+)
+type(
+  bool
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1105 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1121
 type(
   cJProgram -> bool
 )
 ident(
-  int_ref classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 265 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 10 257 283
+  def programWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1218 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 992 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 995
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1122 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1123
 type(
   cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 953 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 954
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1135 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1214
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 974 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 995
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1143 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1161
+type(
+  cJProgram -> bool
+)
+ident(
+  int_ref classListWellTyped "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 339 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 14 331 357
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1161 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1164
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1122 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1123
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1143 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1164
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 996 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 998
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1165 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1167
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 999 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1020
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1168 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1189
 type(
   cJProgram -> bool
 )
 ident(
-  int_ref classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 16 462 491
+  int_ref classListNoDuplicated "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 544 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 20 536 565
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1020 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1023
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1189 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1192
 type(
   cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 953 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 954
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1122 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1123
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 999 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1023
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1168 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1192
 type(
   bool
 )
-"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 974 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 32 932 1023
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1193 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1195
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1196 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1211
+type(
+  cJProgram -> bool
+)
+ident(
+  int_ref lastClassIsMain "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1010 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 36 1006 1025
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1211 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1214
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1122 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1123
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1196 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1214
+type(
+  bool
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1168 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1214
+type(
+  bool
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1143 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 38 1101 1214
 type(
   bool
 )
 type(
   bool
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1226 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1245
+type(
+  cJProgram -> (string * string) list
+)
+ident(
+  def getInheritancePairs "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1218 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1246 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1247
+type(
+  cJProgram
+)
+ident(
+  def p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1259 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 41 1287 1294 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 41 1287 1295
+type(
+  cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1246 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1247
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1314 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1318
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1305 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1318
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1322 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 42 1302 1324
+type(
+  (string * string) list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1338 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1339
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  def h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1341 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1342
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  def t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1337 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1343
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1328 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1343
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1365
+type(
+  ClassDeclaration.cJClass -> string * string
+)
+ident(
+  ext_ref ClassDeclaration.getInheritancePair
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1365 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1368
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  int_ref h "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1338 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1339
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1368
+type(
+  string * string
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1372 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1391
+type(
+  cJProgram -> (string * string) list
+)
+ident(
+  int_ref getInheritancePairs "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1226 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 40 1218 1245
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1401 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1404
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  int_ref t "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1341 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1342
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1391 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+type(
+  cJProgram
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1372 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+type(
+  (string * string) list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1347 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+type(
+  (string * string) list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 41 1287 1288 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 43 1325 1405
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1416 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1421
+type(
+  'a * 'b -> 'a
+)
+ident(
+  def first "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1442 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1422 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1427
+type(
+  'a
+)
+ident(
+  def child "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1434 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1439
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1429 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1430
+type(
+  'b
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1421 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1431
+type(
+  'a * 'b
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1434 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1439
+type(
+  'a
+)
+ident(
+  int_ref child "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1422 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 46 1412 1427
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1446 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1450
+type(
+  'a * 'b -> 'b
+)
+ident(
+  def last "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1470 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1451 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1452
+type(
+  'a
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1454 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1460
+type(
+  'b
+)
+ident(
+  def parent "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1464 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1470
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1450 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1461
+type(
+  'a * 'b
+)
+"CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1464 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1470
+type(
+  'b
+)
+ident(
+  int_ref parent "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1454 "CoreJavaProject/ProgramDeclaration/ProgramDeclaration.ml" 47 1442 1460
 )

@@ -1,6 +1,6 @@
-TypeChecker
 .
 TypeDeclaration
+TypeChecker
 ProgramDeclaration
 MethodDeclaration
 FieldDeclaration

@@ -8,4 +8,6 @@ val toStringCJMethodParameter : cJMethodParameter -> string
 val toStringCJMethodParameterList : cJMethodParameterList -> string
 val toStringCJMethod : cJMethod -> string
 val toStringCJMethodList : cJMethodList -> string
+val getMethodName : cJMethod -> string
 val methodListNotDuplicated : cJMethodList -> bool
+val existMainMethod : cJMethodList -> bool

@@ -29,11 +29,15 @@ let rec toStringCJMethodList (list: cJMethodList) =
 	| CJMethodList([x]) -> String.concat "" [toStringCJMethod(x); "\n\n"]
 	| CJMethodList(x::y) -> String.concat "" [toStringCJMethod(x); "\n\n"; toStringCJMethodList(CJMethodList(y))];;
 
+let getMethodName(c: cJMethod) = 
+	match c with
+	| CJMethod(_,name, _, _) -> name;;
+
 let rec methodListNotDuplicated(list: cJMethodList) =
 	match list with 
 	| CJMethodList([]) -> true
 	| CJMethodList([x]) -> true
-	| CJMethodList(h::t) -> let x = (List.filter (fun x -> x = h) t) in
+	| CJMethodList(h::t) -> let x = (List.filter (fun x -> getMethodName(x) = getMethodName(h)) t) in
          if (x == []) then
 					begin
 							Printf.printf "%s\n" "x method empty";
@@ -43,5 +47,14 @@ let rec methodListNotDuplicated(list: cJMethodList) =
 					begin	
 							Printf.printf "%s\n" "x method not empty";				
        				false;
-					end
+					end;;
+
+let rec existMainMethod(list: cJMethodList) = 
+	match list with
+	| CJMethodList([]) -> true
+	| CJMethodList([x]) -> begin Printf.printf "%s\n" "un element"; getMethodName(x) = "main"; end
+	| CJMethodList(h::t) -> begin Printf.printf "%s\n" "mai multe elemente"; getMethodName(h) = "main" || existMainMethod(CJMethodList(t)); end;;
+
+
+					
 						

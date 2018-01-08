@@ -4,3 +4,5 @@ type cJClass =
 val toStringCJClass : cJClass -> string
 val classWellTyped : cJClass -> bool
 val getClassName : cJClass -> string
+val hasMainMethod : cJClass -> bool
+val getInheritancePair : cJClass -> string * string
