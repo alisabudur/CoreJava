@@ -19,6 +19,9 @@ val ageField : FieldDeclaration.cJField
 val fieldList : FieldDeclaration.cJFieldList
 val personClass : ClassDeclaration.cJClass
 val personClass2 : ClassDeclaration.cJClass
+val personClass3 : ClassDeclaration.cJClass
 val program : ProgramDeclaration.cJProgram
 val v3 : string
 val rez : bool
+val pairs : string
+val allPairs : string

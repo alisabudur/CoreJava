@@ -31,13 +31,19 @@ let ageField = CJField(CJPrimType(CJInt), "age");;
 let fieldList = CJFieldList([nameField; ageField]);;
 
 let personClass = CJClass("Person", "Object", fieldList, methodList);;
-let personClass2 = CJClass("Person", "Object2", CJFieldList([]), methodList);;
+let personClass2 = CJClass("Person2", "Person", CJFieldList([]), methodList);;
+let personClass3 = CJClass("Person3", "Person2", CJFieldList([]), methodList);;
 
-let program = CJProgram([personClass;]);;
+let program = CJProgram([personClass2; personClass; personClass3]);;
 
 let v3 = toStringCJProgram(program);;
 
 let rez = programWellTyped(program);;
 
-Printf.printf "%s\n--------------------------\n" v3;;
-Printf.printf "%s \n" (string_of_bool(rez));;
+let pairs = toStringInheritancePairs(getInheritancePairs(program));;
+
+let allPairs = toStringInheritancePairs((getInheritanceTree (getInheritancePairs(program)) []));;
+
+(*Printf.printf "%s\n--------------------------\n" v3;;
+Printf.printf "%s \n" (string_of_bool(rez));;*)
+Printf.printf "%s \n" allPairs;;

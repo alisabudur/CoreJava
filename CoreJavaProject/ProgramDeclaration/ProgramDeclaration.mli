@@ -6,5 +6,11 @@ val classListNoDuplicated : cJProgram -> bool
 val lastClassIsMain : cJProgram -> bool
 val programWellTyped : cJProgram -> bool
 val getInheritancePairs : cJProgram -> (string * string) list
+val toStringInheritancePairs : (string * string) list -> string
 val first : 'a * 'b -> 'a
 val last : 'a * 'b -> 'b
+val searchForPairs :
+  string * string -> (string * string) list -> (string * string) list
+val append : 'a list -> 'a list -> 'a list
+val getInheritanceTree :
+  (string * string) list -> (string * string) list -> (string * string) list

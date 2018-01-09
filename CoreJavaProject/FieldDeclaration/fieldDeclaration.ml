@@ -4,6 +4,14 @@ type cJField = CJField of (cJType*string);;
 
 type cJFieldList = CJFieldList of cJField list;;
 
+let getType (f: cJField) = 
+	match f with 
+	| CJField(tip, _) -> tip;;
+
+let getName (f: cJField) =
+	match f with
+	| CJField(_, name) -> name;;
+
 let toStringCJField (f:cJField) = 
 	match f with
 	| CJField (typ, name) -> String.concat "" [toStringCJType(typ); " "; name];;
