@@ -661,7 +661,7 @@ type(
   cJMethodList
 )
 ident(
-  def list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1479 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+  def list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1479 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 )
 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1485 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1489
 type(
@@ -706,14 +706,14 @@ type(
   cJMethod
 )
 ident(
-  def h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+  def h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 )
 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1572 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1573
 type(
   cJMethod list
 )
 ident(
-  def t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+  def t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 )
 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1568 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1574
 type(
@@ -728,7 +728,7 @@ type(
   cJMethod list
 )
 ident(
-  def x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 41 1652 1661 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+  def x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 41 1652 1661 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 )
 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1587 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1598
 type(
@@ -828,306 +828,214 @@ type(
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1697 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1710
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1711 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1717
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1718 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1734
-type(
-  string
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1697 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 43 1690 1734
-type(
-  unit
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1749 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1772
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1753 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1776
 type(
   cJMethodList -> bool
 )
 ident(
   int_ref methodListNotDuplicated "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 36 1424 1432 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 36 1424 1455
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1785 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1788
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1789 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1792
 type(
   cJMethod list
 )
 ident(
   int_ref t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1572 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1573
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1772 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1789
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1776 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1740 1793
 type(
   cJMethodList
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1749 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 44 1736 1790
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 42 1679 1684 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 45 1795 1803
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 42 1679 1684 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 45 1791 1799
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 47 1825 1830 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1840 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1853
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1854 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1860
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1861 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1881
-type(
-  string
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1840 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 48 1833 1881
-type(
-  unit
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 49 1887 1898 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 49 1887 1904
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 41 1652 1661 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 47 1821 1826 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 41 1652 1661 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1479 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1913 1921
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 40 1553 1578 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
-type(
-  bool
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 37 1478 1479 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 50 1905 1913
-type(
-  bool
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1925 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1940
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1933 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1948
 type(
   cJMethodList -> bool
 )
 ident(
-  def existMainMethod "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1917 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 1 0 -1
+  def existMainMethod "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1925 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1941 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1945
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1949 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1953
 type(
   cJMethodList
 )
 ident(
-  def list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1964 1965 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2245
+  def list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1972 1973 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1964 1971 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1964 1975
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1972 1979 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1972 1983
 type(
   cJMethodList
 )
 ident(
-  int_ref list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1941 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1945
+  int_ref list "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1949 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1953
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 1996 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 2000
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 2004 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 2008
 type(
   cJMethod list
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 1984 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 2000
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 1992 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 2008
 type(
   cJMethodList
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 2004 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1981 2008
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 2012 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 54 1989 2016
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2026 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2027
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2034 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2035
 type(
   cJMethod
 )
 ident(
-  def x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2033 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2104
+  def x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2041 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2066
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2024 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2029
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2032 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2037
 type(
   cJMethod list
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2012 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2029
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2020 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2037
 type(
   cJMethodList
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2039 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2052
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2053 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2059
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2060 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2072
-type(
-  string
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2039 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2072
-type(
-  unit
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2074 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2087
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2041 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2054
 type(
   cJMethod -> string
 )
 ident(
   int_ref getMethodName "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 32 1339 1343 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 32 1339 1356
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2087 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2090
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2054 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2057
 type(
   cJMethod
 )
 ident(
-  int_ref x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2026 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2027
+  int_ref x "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2034 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2035
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2074 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2090
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2041 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2057
 type(
   string
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2091 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2092
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2058 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2059
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2093 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2099
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2060 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2066
 type(
   string
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2074 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2100
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2041 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2017 2066
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2033 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 55 2009 2104
-type(
-  bool
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2121 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2122
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2083 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2084
 type(
   cJMethod
 )
 ident(
-  def h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2130 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2245
+  def h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2124 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2125
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2086 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2087
 type(
   cJMethod list
 )
 ident(
-  def t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2130 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2245
+  def t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2120 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2126
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2082 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2088
 type(
   cJMethod list
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2108 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2126
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2070 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2088
 type(
   cJMethodList
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2136 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2149
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2150 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2156
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2157 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2177
-type(
-  string
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2136 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2177
-type(
-  unit
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2179 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2192
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2105
 type(
   cJMethod -> string
 )
 ident(
   int_ref getMethodName "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 32 1339 1343 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 32 1339 1356
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2192 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2195
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2105 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2108
 type(
   cJMethod
 )
 ident(
-  int_ref h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2121 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2122
+  int_ref h "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2083 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2084
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2179 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2195
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2108
 type(
   string
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2196 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2197
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2109 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2110
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2198 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2204
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2111 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2117
 type(
   string
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2179 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2204
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2117
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2205 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2207
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2118 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2120
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( || )
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2208 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2223
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2121 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2136
 type(
   cJMethodList -> bool
 )
 ident(
-  int_ref existMainMethod "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1925 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1917 1940
+  int_ref existMainMethod "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1933 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 52 1925 1948
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2236 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2239
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2149 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2152
 type(
   cJMethod list
 )
 ident(
-  int_ref t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2124 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2125
+  int_ref t "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2086 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2087
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2223 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2240
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2136 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 type(
   cJMethodList
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2208 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2240
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2121 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2179 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2241
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2092 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 type(
   bool
 )
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2130 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2245
-type(
-  bool
-)
-"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1964 1965 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2105 2245
+"CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 53 1972 1973 "CoreJavaProject/MethodDeclaration/methodDeclaration.ml" 56 2067 2153
 type(
   bool
 )

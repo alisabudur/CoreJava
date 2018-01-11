@@ -1,0 +1,714 @@
+"CoreJavaProject/Utils/utils.ml" 1 0 4 "CoreJavaProject/Utils/utils.ml" 1 0 10
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def append "CoreJavaProject/Utils/utils.ml" 10 205 205 "CoreJavaProject/Utils/utils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/utils.ml" 1 0 11 "CoreJavaProject/Utils/utils.ml" 1 0 13
+type(
+  'a list
+)
+ident(
+  def l1 "CoreJavaProject/Utils/utils.ml" 1 0 14 "CoreJavaProject/Utils/utils.ml" 8 184 201
+)
+"CoreJavaProject/Utils/utils.ml" 1 0 14 "CoreJavaProject/Utils/utils.ml" 1 0 16
+type(
+  'a list
+)
+ident(
+  def l2 "CoreJavaProject/Utils/utils.ml" 2 19 21 "CoreJavaProject/Utils/utils.ml" 8 184 201
+)
+"CoreJavaProject/Utils/utils.ml" 2 19 29 "CoreJavaProject/Utils/utils.ml" 2 19 33
+type(
+  'b list -> 'b list -> 'b list -> 'b list
+)
+ident(
+  def loop "CoreJavaProject/Utils/utils.ml" 2 19 21 "CoreJavaProject/Utils/utils.ml" 8 184 201
+)
+"CoreJavaProject/Utils/utils.ml" 2 19 34 "CoreJavaProject/Utils/utils.ml" 2 19 37
+type(
+  'b list
+)
+ident(
+  def acc "CoreJavaProject/Utils/utils.ml" 2 19 38 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 2 19 38 "CoreJavaProject/Utils/utils.ml" 2 19 40
+type(
+  'b list
+)
+ident(
+  def l1 "CoreJavaProject/Utils/utils.ml" 2 19 41 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 2 19 41 "CoreJavaProject/Utils/utils.ml" 2 19 43
+type(
+  'b list
+)
+ident(
+  def l2 "CoreJavaProject/Utils/utils.ml" 3 46 50 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 3 46 56 "CoreJavaProject/Utils/utils.ml" 3 46 58
+type(
+  'b list
+)
+ident(
+  int_ref l1 "CoreJavaProject/Utils/utils.ml" 2 19 38 "CoreJavaProject/Utils/utils.ml" 2 19 40
+)
+"CoreJavaProject/Utils/utils.ml" 3 46 60 "CoreJavaProject/Utils/utils.ml" 3 46 62
+type(
+  'b list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 2 19 41 "CoreJavaProject/Utils/utils.ml" 2 19 43
+)
+"CoreJavaProject/Utils/utils.ml" 3 46 56 "CoreJavaProject/Utils/utils.ml" 3 46 62
+type(
+  'b list * 'b list
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 74 "CoreJavaProject/Utils/utils.ml" 4 68 76
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 78 "CoreJavaProject/Utils/utils.ml" 4 68 80
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 74 "CoreJavaProject/Utils/utils.ml" 4 68 80
+type(
+  'b list * 'b list
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 84 "CoreJavaProject/Utils/utils.ml" 4 68 92
+type(
+  'b list -> 'b list
+)
+ident(
+  ext_ref List.rev
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 93 "CoreJavaProject/Utils/utils.ml" 4 68 96
+type(
+  'b list
+)
+ident(
+  int_ref acc "CoreJavaProject/Utils/utils.ml" 2 19 34 "CoreJavaProject/Utils/utils.ml" 2 19 37
+)
+"CoreJavaProject/Utils/utils.ml" 4 68 84 "CoreJavaProject/Utils/utils.ml" 4 68 96
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 103 "CoreJavaProject/Utils/utils.ml" 5 97 105
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 107 "CoreJavaProject/Utils/utils.ml" 5 97 108
+type(
+  'b
+)
+ident(
+  def h "CoreJavaProject/Utils/utils.ml" 5 97 117 "CoreJavaProject/Utils/utils.ml" 5 97 137
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 112 "CoreJavaProject/Utils/utils.ml" 5 97 113
+type(
+  'b list
+)
+ident(
+  def t "CoreJavaProject/Utils/utils.ml" 5 97 117 "CoreJavaProject/Utils/utils.ml" 5 97 137
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 107 "CoreJavaProject/Utils/utils.ml" 5 97 113
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 103 "CoreJavaProject/Utils/utils.ml" 5 97 113
+type(
+  'b list * 'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 117 "CoreJavaProject/Utils/utils.ml" 5 97 121
+type(
+  'b list -> 'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref loop "CoreJavaProject/Utils/utils.ml" 2 19 29 "CoreJavaProject/Utils/utils.ml" 2 19 33
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 123 "CoreJavaProject/Utils/utils.ml" 5 97 124
+type(
+  'b
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 5 97 107 "CoreJavaProject/Utils/utils.ml" 5 97 108
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 128 "CoreJavaProject/Utils/utils.ml" 5 97 131
+type(
+  'b list
+)
+ident(
+  int_ref acc "CoreJavaProject/Utils/utils.ml" 2 19 34 "CoreJavaProject/Utils/utils.ml" 2 19 37
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 122 "CoreJavaProject/Utils/utils.ml" 5 97 132
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 133 "CoreJavaProject/Utils/utils.ml" 5 97 135
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 136 "CoreJavaProject/Utils/utils.ml" 5 97 137
+type(
+  'b list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 5 97 112 "CoreJavaProject/Utils/utils.ml" 5 97 113
+)
+"CoreJavaProject/Utils/utils.ml" 5 97 117 "CoreJavaProject/Utils/utils.ml" 5 97 137
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 144 "CoreJavaProject/Utils/utils.ml" 6 138 145
+type(
+  'b
+)
+ident(
+  def h "CoreJavaProject/Utils/utils.ml" 6 138 157 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 149 "CoreJavaProject/Utils/utils.ml" 6 138 150
+type(
+  'b list
+)
+ident(
+  def t "CoreJavaProject/Utils/utils.ml" 6 138 157 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 144 "CoreJavaProject/Utils/utils.ml" 6 138 150
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 152 "CoreJavaProject/Utils/utils.ml" 6 138 153
+type(
+  'b list
+)
+ident(
+  def l "CoreJavaProject/Utils/utils.ml" 6 138 157 "CoreJavaProject/Utils/utils.ml" 6 138 176
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 144 "CoreJavaProject/Utils/utils.ml" 6 138 153
+type(
+  'b list * 'b list
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 157 "CoreJavaProject/Utils/utils.ml" 6 138 161
+type(
+  'b list -> 'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref loop "CoreJavaProject/Utils/utils.ml" 2 19 29 "CoreJavaProject/Utils/utils.ml" 2 19 33
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 163 "CoreJavaProject/Utils/utils.ml" 6 138 164
+type(
+  'b
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 6 138 144 "CoreJavaProject/Utils/utils.ml" 6 138 145
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 168 "CoreJavaProject/Utils/utils.ml" 6 138 171
+type(
+  'b list
+)
+ident(
+  int_ref acc "CoreJavaProject/Utils/utils.ml" 2 19 34 "CoreJavaProject/Utils/utils.ml" 2 19 37
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 162 "CoreJavaProject/Utils/utils.ml" 6 138 172
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 173 "CoreJavaProject/Utils/utils.ml" 6 138 174
+type(
+  'b list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 6 138 149 "CoreJavaProject/Utils/utils.ml" 6 138 150
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 175 "CoreJavaProject/Utils/utils.ml" 6 138 176
+type(
+  'b list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/utils.ml" 6 138 152 "CoreJavaProject/Utils/utils.ml" 6 138 153
+)
+"CoreJavaProject/Utils/utils.ml" 6 138 157 "CoreJavaProject/Utils/utils.ml" 6 138 176
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 3 46 50 "CoreJavaProject/Utils/utils.ml" 6 138 176
+type(
+  'b list
+)
+"CoreJavaProject/Utils/utils.ml" 8 184 188 "CoreJavaProject/Utils/utils.ml" 8 184 192
+type(
+  'a list -> 'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref loop "CoreJavaProject/Utils/utils.ml" 2 19 29 "CoreJavaProject/Utils/utils.ml" 2 19 33
+)
+"CoreJavaProject/Utils/utils.ml" 8 184 193 "CoreJavaProject/Utils/utils.ml" 8 184 195
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 8 184 196 "CoreJavaProject/Utils/utils.ml" 8 184 198
+type(
+  'a list
+)
+ident(
+  int_ref l1 "CoreJavaProject/Utils/utils.ml" 1 0 11 "CoreJavaProject/Utils/utils.ml" 1 0 13
+)
+"CoreJavaProject/Utils/utils.ml" 8 184 199 "CoreJavaProject/Utils/utils.ml" 8 184 201
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 1 0 14 "CoreJavaProject/Utils/utils.ml" 1 0 16
+)
+"CoreJavaProject/Utils/utils.ml" 8 184 188 "CoreJavaProject/Utils/utils.ml" 8 184 201
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 2 19 21 "CoreJavaProject/Utils/utils.ml" 8 184 201
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 10 205 213 "CoreJavaProject/Utils/utils.ml" 10 205 217
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  def find "CoreJavaProject/Utils/utils.ml" 10 205 205 "CoreJavaProject/Utils/utils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/utils.ml" 10 205 218 "CoreJavaProject/Utils/utils.ml" 10 205 219
+type(
+  'a
+)
+ident(
+  def e "CoreJavaProject/Utils/utils.ml" 10 205 220 "CoreJavaProject/Utils/utils.ml" 13 256 287
+)
+"CoreJavaProject/Utils/utils.ml" 10 205 220 "CoreJavaProject/Utils/utils.ml" 10 205 221
+type(
+  'a list
+)
+ident(
+  def l "CoreJavaProject/Utils/utils.ml" 11 224 225 "CoreJavaProject/Utils/utils.ml" 13 256 287
+)
+"CoreJavaProject/Utils/utils.ml" 11 224 231 "CoreJavaProject/Utils/utils.ml" 11 224 232
+type(
+  'a list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/utils.ml" 10 205 220 "CoreJavaProject/Utils/utils.ml" 10 205 221
+)
+"CoreJavaProject/Utils/utils.ml" 12 238 244 "CoreJavaProject/Utils/utils.ml" 12 238 246
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 12 238 250 "CoreJavaProject/Utils/utils.ml" 12 238 255
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 262 "CoreJavaProject/Utils/utils.ml" 13 256 263
+type(
+  'a
+)
+ident(
+  def h "CoreJavaProject/Utils/utils.ml" 13 256 270 "CoreJavaProject/Utils/utils.ml" 13 256 287
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 265 "CoreJavaProject/Utils/utils.ml" 13 256 266
+type(
+  'a list
+)
+ident(
+  def t "CoreJavaProject/Utils/utils.ml" 13 256 270 "CoreJavaProject/Utils/utils.ml" 13 256 287
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 262 "CoreJavaProject/Utils/utils.ml" 13 256 266
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 270 "CoreJavaProject/Utils/utils.ml" 13 256 271
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 13 256 262 "CoreJavaProject/Utils/utils.ml" 13 256 263
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 272 "CoreJavaProject/Utils/utils.ml" 13 256 273
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 274 "CoreJavaProject/Utils/utils.ml" 13 256 275
+type(
+  'a
+)
+ident(
+  int_ref e "CoreJavaProject/Utils/utils.ml" 10 205 218 "CoreJavaProject/Utils/utils.ml" 10 205 219
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 270 "CoreJavaProject/Utils/utils.ml" 13 256 275
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 276 "CoreJavaProject/Utils/utils.ml" 13 256 278
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 279 "CoreJavaProject/Utils/utils.ml" 13 256 283
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  int_ref find "CoreJavaProject/Utils/utils.ml" 10 205 213 "CoreJavaProject/Utils/utils.ml" 10 205 217
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 284 "CoreJavaProject/Utils/utils.ml" 13 256 285
+type(
+  'a
+)
+ident(
+  int_ref e "CoreJavaProject/Utils/utils.ml" 10 205 218 "CoreJavaProject/Utils/utils.ml" 10 205 219
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 286 "CoreJavaProject/Utils/utils.ml" 13 256 287
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 13 256 265 "CoreJavaProject/Utils/utils.ml" 13 256 266
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 279 "CoreJavaProject/Utils/utils.ml" 13 256 287
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 13 256 270 "CoreJavaProject/Utils/utils.ml" 13 256 287
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 11 224 225 "CoreJavaProject/Utils/utils.ml" 13 256 287
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 15 291 299 "CoreJavaProject/Utils/utils.ml" 15 291 304
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def union "CoreJavaProject/Utils/utils.ml" 15 291 291 "CoreJavaProject/Utils/utils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/utils.ml" 15 291 305 "CoreJavaProject/Utils/utils.ml" 15 291 307
+type(
+  'a list
+)
+ident(
+  def l1 "CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 19 389 423
+)
+"CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 15 291 310
+type(
+  'a list
+)
+ident(
+  def l2 "CoreJavaProject/Utils/utils.ml" 16 313 317 "CoreJavaProject/Utils/utils.ml" 19 389 423
+)
+"CoreJavaProject/Utils/utils.ml" 16 313 323 "CoreJavaProject/Utils/utils.ml" 16 313 325
+type(
+  'a list
+)
+ident(
+  int_ref l1 "CoreJavaProject/Utils/utils.ml" 15 291 305 "CoreJavaProject/Utils/utils.ml" 15 291 307
+)
+"CoreJavaProject/Utils/utils.ml" 17 331 337 "CoreJavaProject/Utils/utils.ml" 17 331 339
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 17 331 343 "CoreJavaProject/Utils/utils.ml" 17 331 345
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 15 291 310
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 352 "CoreJavaProject/Utils/utils.ml" 18 346 353
+type(
+  'a
+)
+ident(
+  def h "CoreJavaProject/Utils/utils.ml" 18 346 360 "CoreJavaProject/Utils/utils.ml" 19 389 423
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 355 "CoreJavaProject/Utils/utils.ml" 18 346 356
+type(
+  'a list
+)
+ident(
+  def t "CoreJavaProject/Utils/utils.ml" 18 346 360 "CoreJavaProject/Utils/utils.ml" 19 389 423
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 352 "CoreJavaProject/Utils/utils.ml" 18 346 356
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 363 "CoreJavaProject/Utils/utils.ml" 18 346 367
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  int_ref find "CoreJavaProject/Utils/utils.ml" 10 205 213 "CoreJavaProject/Utils/utils.ml" 10 205 217
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 368 "CoreJavaProject/Utils/utils.ml" 18 346 369
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 18 346 352 "CoreJavaProject/Utils/utils.ml" 18 346 353
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 370 "CoreJavaProject/Utils/utils.ml" 18 346 372
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 15 291 310
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 363 "CoreJavaProject/Utils/utils.ml" 18 346 372
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 378 "CoreJavaProject/Utils/utils.ml" 18 346 383
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref union "CoreJavaProject/Utils/utils.ml" 15 291 299 "CoreJavaProject/Utils/utils.ml" 15 291 304
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 384 "CoreJavaProject/Utils/utils.ml" 18 346 385
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 18 346 355 "CoreJavaProject/Utils/utils.ml" 18 346 356
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 386 "CoreJavaProject/Utils/utils.ml" 18 346 388
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 15 291 310
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 378 "CoreJavaProject/Utils/utils.ml" 18 346 388
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 408 "CoreJavaProject/Utils/utils.ml" 19 389 413
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref union "CoreJavaProject/Utils/utils.ml" 15 291 299 "CoreJavaProject/Utils/utils.ml" 15 291 304
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 414 "CoreJavaProject/Utils/utils.ml" 19 389 415
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 18 346 355 "CoreJavaProject/Utils/utils.ml" 18 346 356
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 417 "CoreJavaProject/Utils/utils.ml" 19 389 418
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 18 346 352 "CoreJavaProject/Utils/utils.ml" 18 346 353
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 420 "CoreJavaProject/Utils/utils.ml" 19 389 422
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 15 291 308 "CoreJavaProject/Utils/utils.ml" 15 291 310
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 416 "CoreJavaProject/Utils/utils.ml" 19 389 423
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 19 389 408 "CoreJavaProject/Utils/utils.ml" 19 389 423
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 18 346 360 "CoreJavaProject/Utils/utils.ml" 19 389 423
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 16 313 317 "CoreJavaProject/Utils/utils.ml" 19 389 423
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 21 429 437 "CoreJavaProject/Utils/utils.ml" 21 429 447
+type(
+  'a list -> 'a list -> 'a list -> (string * string) list
+)
+ident(
+  def difference "CoreJavaProject/Utils/utils.ml" 21 429 429 "CoreJavaProject/Utils/utils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/utils.ml" 21 429 448 "CoreJavaProject/Utils/utils.ml" 21 429 450
+type(
+  'a list
+)
+ident(
+  def l1 "CoreJavaProject/Utils/utils.ml" 21 429 451 "CoreJavaProject/Utils/utils.ml" 25 566 604
+)
+"CoreJavaProject/Utils/utils.ml" 21 429 451 "CoreJavaProject/Utils/utils.ml" 21 429 453
+type(
+  'a list
+)
+ident(
+  def l2 "CoreJavaProject/Utils/utils.ml" 21 429 454 "CoreJavaProject/Utils/utils.ml" 25 566 604
+)
+"CoreJavaProject/Utils/utils.ml" 21 429 454 "CoreJavaProject/Utils/utils.ml" 21 429 457
+type(
+  'a list
+)
+ident(
+  def res "CoreJavaProject/Utils/utils.ml" 21 429 458 "CoreJavaProject/Utils/utils.ml" 25 566 604
+)
+"CoreJavaProject/Utils/utils.ml" 22 484 493 "CoreJavaProject/Utils/utils.ml" 22 484 495
+type(
+  'a list
+)
+ident(
+  int_ref l1 "CoreJavaProject/Utils/utils.ml" 21 429 448 "CoreJavaProject/Utils/utils.ml" 21 429 450
+)
+"CoreJavaProject/Utils/utils.ml" 23 501 506 "CoreJavaProject/Utils/utils.ml" 23 501 508
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 23 501 512 "CoreJavaProject/Utils/utils.ml" 23 501 514
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 520 "CoreJavaProject/Utils/utils.ml" 24 515 521
+type(
+  'a
+)
+ident(
+  def h "CoreJavaProject/Utils/utils.ml" 24 515 528 "CoreJavaProject/Utils/utils.ml" 25 566 604
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 523 "CoreJavaProject/Utils/utils.ml" 24 515 524
+type(
+  'a list
+)
+ident(
+  def t "CoreJavaProject/Utils/utils.ml" 24 515 528 "CoreJavaProject/Utils/utils.ml" 25 566 604
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 520 "CoreJavaProject/Utils/utils.ml" 24 515 524
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 531 "CoreJavaProject/Utils/utils.ml" 24 515 535
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  int_ref find "CoreJavaProject/Utils/utils.ml" 10 205 213 "CoreJavaProject/Utils/utils.ml" 10 205 217
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 536 "CoreJavaProject/Utils/utils.ml" 24 515 537
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 24 515 520 "CoreJavaProject/Utils/utils.ml" 24 515 521
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 538 "CoreJavaProject/Utils/utils.ml" 24 515 540
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 21 429 451 "CoreJavaProject/Utils/utils.ml" 21 429 453
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 531 "CoreJavaProject/Utils/utils.ml" 24 515 540
+type(
+  bool
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 546 "CoreJavaProject/Utils/utils.ml" 24 515 556
+type(
+  'a list -> 'a list -> 'a list -> (string * string) list
+)
+ident(
+  int_ref difference "CoreJavaProject/Utils/utils.ml" 21 429 437 "CoreJavaProject/Utils/utils.ml" 21 429 447
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 557 "CoreJavaProject/Utils/utils.ml" 24 515 558
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 24 515 523 "CoreJavaProject/Utils/utils.ml" 24 515 524
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 559 "CoreJavaProject/Utils/utils.ml" 24 515 561
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 21 429 451 "CoreJavaProject/Utils/utils.ml" 21 429 453
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 562 "CoreJavaProject/Utils/utils.ml" 24 515 565
+type(
+  'a list
+)
+ident(
+  int_ref res "CoreJavaProject/Utils/utils.ml" 21 429 454 "CoreJavaProject/Utils/utils.ml" 21 429 457
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 546 "CoreJavaProject/Utils/utils.ml" 24 515 565
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 580 "CoreJavaProject/Utils/utils.ml" 25 566 590
+type(
+  'a list -> 'a list -> 'a list -> (string * string) list
+)
+ident(
+  int_ref difference "CoreJavaProject/Utils/utils.ml" 21 429 437 "CoreJavaProject/Utils/utils.ml" 21 429 447
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 591 "CoreJavaProject/Utils/utils.ml" 25 566 592
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/utils.ml" 24 515 523 "CoreJavaProject/Utils/utils.ml" 24 515 524
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 593 "CoreJavaProject/Utils/utils.ml" 25 566 595
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/utils.ml" 21 429 451 "CoreJavaProject/Utils/utils.ml" 21 429 453
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 597 "CoreJavaProject/Utils/utils.ml" 25 566 598
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/utils.ml" 24 515 520 "CoreJavaProject/Utils/utils.ml" 24 515 521
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 600 "CoreJavaProject/Utils/utils.ml" 25 566 603
+type(
+  'a list
+)
+ident(
+  int_ref res "CoreJavaProject/Utils/utils.ml" 21 429 454 "CoreJavaProject/Utils/utils.ml" 21 429 457
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 596 "CoreJavaProject/Utils/utils.ml" 25 566 604
+type(
+  'a list
+)
+"CoreJavaProject/Utils/utils.ml" 25 566 580 "CoreJavaProject/Utils/utils.ml" 25 566 604
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/utils.ml" 24 515 528 "CoreJavaProject/Utils/utils.ml" 25 566 604
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/utils.ml" 22 484 487 "CoreJavaProject/Utils/utils.ml" 25 566 604
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)

@@ -1,4 +1,5 @@
 open ClassDeclaration;;
+open Utils;;
 
 type cJProgram = CJProgram of cJClass list;;
 
@@ -24,12 +25,12 @@ let rec classListNoDuplicated(p: cJProgram) =
 	| CJProgram(h::t) -> let x = (List.filter (fun x -> getClassName(x) = getClassName(h)) t) in
          if (x == []) then
 					begin	
-							Printf.printf "%s\n" "x class empty";					
+							(*Printf.printf "%s\n" "x class empty";*)					
             	classListNoDuplicated(CJProgram(t));
 					end						
          else	
 					begin	
-							Printf.printf "%s\n" "x class not empty";				
+							(*Printf.printf "%s\n" "x class not empty";*)				
        				false;
 					end;;
 
@@ -48,34 +49,44 @@ let rec toStringInheritancePairs(l: (string*string) list) =
 	| h::t -> String.concat "" [toStringPair(h); toStringInheritancePairs(t)];;	
 	
 let first(child, _) = child;;
-let last(_, parent) = parent;;
+let last(_, parent) = parent;;		
 
-let searchForPairs(h: string*string) (l: (string*string) list): ((string*string) list) = 
+let searchForPairs(h: string*string) (l: (string*string) list) = 
 	let x = (List.filter (fun x -> first(x) = last(h)) l) in
 				if (x == []) then
 					begin	
-							Printf.printf "%s\n" "x empty";					
+							(*Printf.printf "%s\n" "x empty";*)		
 							[];
 					end						
          else	
 					begin	
-							Printf.printf "%s\n" "x  not empty";				
+							(*Printf.printf "%s\n" "x  not empty";*)				
        				(List.map (fun y -> (first(h), last(y))) x);
 					end;;
 
-let append l1 l2 =
-  let rec loop acc l1 l2 =
-    match l1, l2 with
-    | [], [] -> List.rev acc
-    | [], h :: t -> loop (h :: acc) [] t
-    | h :: t, l -> loop (h :: acc) t l
-    in
-    loop [] l1 l2;;
+let rec searchForAllPairs (l: (string*string) list) (copyL: (string*string) list) = 
+	match l with
+	| [] -> []
+	| [x] -> searchForPairs x copyL
+	| h::t -> append (searchForPairs h copyL) (searchForAllPairs t copyL);;
 
-let rec getInheritanceTree(l: (string*string) list) ( rez: (string*string) list) = 
- 	match l with
-	| [] -> rez 
-	| h::t -> (getInheritanceTree (append t (searchForPairs h t))  (h::rez));;
+let rec existsNewPairs l1 l2 = 
+  	match l1 with
+  	| [] -> false
+  	| h::t -> if find h l2 then existsNewPairs t l2
+  					  else true;;
+
+let rec transitiveClosure (l: (string*string) list) = 
+  	let newPairs = (searchForAllPairs l l) in
+		if (existsNewPairs newPairs l) then
+			begin
+			Printf.printf "-%s-\n" (toStringInheritancePairs newPairs);
+			transitiveClosure (union l newPairs);
+			end
+		else
+			begin
+			Printf.printf "-%s-\n" "[]";
+			l end;;				
 
 					
 					

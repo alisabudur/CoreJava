@@ -42,12 +42,12 @@ let rec fieldListNotDuplicated(list: cJFieldList) =
 	| CJFieldList(h::t) -> let x = (List.filter (fun x -> getFieldName(x) = getFieldName(h)) t) in
          if (x == []) then
 					begin	
-							Printf.printf "%s\n" "x field empty";					
+							(*Printf.printf "%s\n" "x field empty";*)				
             	fieldListNotDuplicated(CJFieldList(t));
 					end						
          else	
 					begin	
-							Printf.printf "%s\n" "x field not empty";				
+							(*Printf.printf "%s\n" "x field not empty";*)
        				false;
 					end;;
 

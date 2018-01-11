@@ -501,14 +501,14 @@ type(
   string * string -> string
 )
 ident(
-  def toStringPair "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 1 0 -1
+  def toStringPair "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 1 0 -1
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 31 975 992 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 31 975 993
 type(
   string * string
 )
 ident(
-  def c "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1013 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+  def c "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1013 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1019 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1020
 type(
@@ -522,14 +522,14 @@ type(
   string
 )
 ident(
-  def child "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+  def child "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1037 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1043
 type(
   string
 )
 ident(
-  def parent "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+  def parent "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 )
 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1029 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1044
 type(
@@ -542,37 +542,37 @@ type(
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1062 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1066
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1062 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1065
 type(
   string
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1068 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1073
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1067 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1072
 type(
   string
 )
 ident(
   int_ref child "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1030 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1035
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1075 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1081
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1074 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1080
 type(
   string
 )
 ident(
   int_ref parent "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1037 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1043
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1083 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1082 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1086
 type(
   string
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1067 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1066 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 type(
   string list
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1048 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 type(
   string
 )
-"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1013 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1088
+"CoreJavaProject/ClassDeclaration/classDeclaration.ml" 32 1012 1013 "CoreJavaProject/ClassDeclaration/classDeclaration.ml" 33 1026 1087
 type(
   string
 )

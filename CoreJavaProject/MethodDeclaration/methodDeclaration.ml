@@ -40,20 +40,20 @@ let rec methodListNotDuplicated(list: cJMethodList) =
 	| CJMethodList(h::t) -> let x = (List.filter (fun x -> getMethodName(x) = getMethodName(h)) t) in
          if (x == []) then
 					begin
-							Printf.printf "%s\n" "x method empty";
+							(*Printf.printf "%s\n" "x method empty";*)
             	methodListNotDuplicated(CJMethodList(t));
 					end						
          else	
 					begin	
-							Printf.printf "%s\n" "x method not empty";				
+							(*Printf.printf "%s\n" "x method not empty";*)				
        				false;
 					end;;
 
 let rec existMainMethod(list: cJMethodList) = 
 	match list with
 	| CJMethodList([]) -> true
-	| CJMethodList([x]) -> begin Printf.printf "%s\n" "un element"; getMethodName(x) = "main"; end
-	| CJMethodList(h::t) -> begin Printf.printf "%s\n" "mai multe elemente"; getMethodName(h) = "main" || existMainMethod(CJMethodList(t)); end;;
+	| CJMethodList([x]) -> getMethodName(x) = "main"
+	| CJMethodList(h::t) -> getMethodName(h) = "main" || existMainMethod(CJMethodList(t));;
 
 
 					

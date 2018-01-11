@@ -30,4 +30,4 @@ let getInheritancePair(c: cJClass): (string*string) =
 
 let toStringPair(c: string*string) =
 	match c with
-	| (child, parent) -> String.concat "->" [child; parent; "\n"];;
+	| (child, parent) -> String.concat " " [child; parent; "\n"];;
