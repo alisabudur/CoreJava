@@ -1,8 +1,0 @@
-type blkExp =
-    IfExp of ExpDeclaration.exp * blkExp
-  | IfElseExp of ExpDeclaration.exp * blkExp * blkExp
-  | WhileExp of ExpDeclaration.exp * blkExp
-  | CompoundExp of blkExp * blkExp
-  | AssignExp of string * ExpDeclaration.exp
-  | ReturnExp of ExpDeclaration.exp
-val toStringBlkExp : blkExp -> string

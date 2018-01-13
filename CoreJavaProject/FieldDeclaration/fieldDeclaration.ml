@@ -4,11 +4,11 @@ type cJField = CJField of (cJType*string);;
 
 type cJFieldList = CJFieldList of cJField list;;
 
-let getType (f: cJField) = 
+let getFieldType (f: cJField) = 
 	match f with 
 	| CJField(tip, _) -> tip;;
 
-let getName (f: cJField) =
+let getFieldName (f: cJField) =
 	match f with
 	| CJField(_, name) -> name;;
 
@@ -21,15 +21,6 @@ let rec toStringCJFieldList (list: cJFieldList) =
 	| CJFieldList([]) -> ""
 	| CJFieldList([x]) -> String.concat "" [toStringCJField(x); "\n\n"]
 	| CJFieldList(x::y) -> String.concat "" [toStringCJField(x); "\n"; toStringCJFieldList(CJFieldList(y))];;
-
-(*let rec check_dup l = match l with
-    [] -> false
-    | (h::t) ->
-       let x = (List.filter (fun x -> x = h) t) in
-         if (x == []) then
-            check_dup t
-         else
-       true;;*)
 
 let getFieldName(c: cJField) = 
 	match c with

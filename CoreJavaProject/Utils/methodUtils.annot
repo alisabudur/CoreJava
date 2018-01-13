@@ -1,0 +1,76 @@
+"CoreJavaProject/Utils/methodUtils.ml" 5 68 76 "CoreJavaProject/Utils/methodUtils.ml" 5 68 93
+type(
+  MethodDeclaration.cJMethod -> ProgramDeclaration.cJProgram -> string
+)
+ident(
+  def getMethodBodyType "CoreJavaProject/Utils/methodUtils.ml" 5 68 68 "CoreJavaProject/Utils/methodUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/methodUtils.ml" 5 68 95 "CoreJavaProject/Utils/methodUtils.ml" 5 68 96
+type(
+  MethodDeclaration.cJMethod
+)
+ident(
+  def m "CoreJavaProject/Utils/methodUtils.ml" 5 68 108 "CoreJavaProject/Utils/methodUtils.ml" 6 126 186
+)
+"CoreJavaProject/Utils/methodUtils.ml" 5 68 109 "CoreJavaProject/Utils/methodUtils.ml" 5 68 110
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Utils/methodUtils.ml" 6 126 127 "CoreJavaProject/Utils/methodUtils.ml" 6 126 186
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 127 "CoreJavaProject/Utils/methodUtils.ml" 6 126 144
+type(
+  ExpDeclaration.superExp ->
+  (string * string) list -> ProgramDeclaration.cJProgram -> string
+)
+ident(
+  ext_ref ExpUtils.getTypeOfSuperExp
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 146 "CoreJavaProject/Utils/methodUtils.ml" 6 126 163
+type(
+  MethodDeclaration.cJMethod -> ExpDeclaration.superExp
+)
+ident(
+  ext_ref MethodDeclaration.getMethodSuperExp
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 163 "CoreJavaProject/Utils/methodUtils.ml" 6 126 166
+type(
+  MethodDeclaration.cJMethod
+)
+ident(
+  int_ref m "CoreJavaProject/Utils/methodUtils.ml" 5 68 95 "CoreJavaProject/Utils/methodUtils.ml" 5 68 96
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 145 "CoreJavaProject/Utils/methodUtils.ml" 6 126 167
+type(
+  ExpDeclaration.superExp
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 169 "CoreJavaProject/Utils/methodUtils.ml" 6 126 180
+type(
+  MethodDeclaration.cJMethod -> (string * string) list
+)
+ident(
+  ext_ref MethodDeclaration.getMethodTE
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 180 "CoreJavaProject/Utils/methodUtils.ml" 6 126 183
+type(
+  MethodDeclaration.cJMethod
+)
+ident(
+  int_ref m "CoreJavaProject/Utils/methodUtils.ml" 5 68 95 "CoreJavaProject/Utils/methodUtils.ml" 5 68 96
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 168 "CoreJavaProject/Utils/methodUtils.ml" 6 126 184
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 185 "CoreJavaProject/Utils/methodUtils.ml" 6 126 186
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Utils/methodUtils.ml" 5 68 109 "CoreJavaProject/Utils/methodUtils.ml" 5 68 110
+)
+"CoreJavaProject/Utils/methodUtils.ml" 6 126 127 "CoreJavaProject/Utils/methodUtils.ml" 6 126 186
+type(
+  string
+)

@@ -1,0 +1,7 @@
+open MethodDeclaration;;
+open ProgramDeclaration;;
+open TypeDeclaration;;
+open ExpUtils;;
+
+let rec getMethodBodyType (m: cJMethod) (p: cJProgram) = 
+	getTypeOfSuperExp (getMethodSuperExp(m)) (getMethodTE(m)) p;;

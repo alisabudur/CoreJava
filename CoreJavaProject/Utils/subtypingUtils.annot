@@ -1,0 +1,660 @@
+"CoreJavaProject/Utils/subtypingUtils.ml" 3 18 22 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 27
+type(
+  'a * 'b -> 'a
+)
+ident(
+  def first "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 48 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 3 18 28 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 33
+type(
+  'a
+)
+ident(
+  def child "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 40 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 45
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 3 18 35 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 36
+type(
+  'b
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 3 18 27 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 37
+type(
+  'a * 'b
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 3 18 40 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 45
+type(
+  'a
+)
+ident(
+  int_ref child "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 28 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 33
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 4 48 52 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 56
+type(
+  'a * 'b -> 'b
+)
+ident(
+  def last "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 82 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 4 48 57 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 58
+type(
+  'a
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 4 48 60 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 66
+type(
+  'b
+)
+ident(
+  def parent "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 70 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 76
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 4 48 56 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 67
+type(
+  'a * 'b
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 4 48 70 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 76
+type(
+  'b
+)
+ident(
+  int_ref parent "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 60 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 66
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 6 82 86 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 100
+type(
+  string * string -> (string * string) list -> (string * string) list
+)
+ident(
+  def searchForPairs "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 458 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 6 82 101 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 102
+type(
+  string * string
+)
+ident(
+  def h "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 119 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 6 82 120 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 121
+type(
+  (string * string) list
+)
+ident(
+  def l "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 149 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 153 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 154
+type(
+  (string * string) list
+)
+ident(
+  def x "CoreJavaProject/Utils/subtypingUtils.ml" 8 206 210 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 158 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 169
+type(
+  (string * string -> bool) ->
+  (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref List.filter
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 175 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 176
+type(
+  string * string
+)
+ident(
+  def x "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 180 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 198
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 180 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 185
+type(
+  string * string -> string
+)
+ident(
+  int_ref first "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 22 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 27
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 185 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 188
+type(
+  string * string
+)
+ident(
+  int_ref x "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 175 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 176
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 180 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 188
+type(
+  string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 189 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 190
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 191 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 195
+type(
+  string * string -> string
+)
+ident(
+  int_ref last "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 52 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 56
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 195 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 198
+type(
+  string * string
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 101 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 102
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 191 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 198
+type(
+  string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 180 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 198
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 170 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 199
+type(
+  string * string -> bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 200 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 201
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 120 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 121
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 157 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 202
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 8 206 214 "CoreJavaProject/Utils/subtypingUtils.ml" 8 206 215
+type(
+  (string * string) list
+)
+ident(
+  int_ref x "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 153 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 154
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 8 206 216 "CoreJavaProject/Utils/subtypingUtils.ml" 8 206 218
+type(
+  (string * string) list -> (string * string) list -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 8 206 219 "CoreJavaProject/Utils/subtypingUtils.ml" 8 206 221
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 8 206 213 "CoreJavaProject/Utils/subtypingUtils.ml" 8 206 222
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 9 228 233 "CoreJavaProject/Utils/subtypingUtils.ml" 12 296 304
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 402 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 410
+type(
+  (string * string -> string * string) ->
+  (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref List.map
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 416 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 417
+type(
+  string * string
+)
+ident(
+  def y "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 421 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 440
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 422 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 427
+type(
+  string * string -> string
+)
+ident(
+  int_ref first "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 22 "CoreJavaProject/Utils/subtypingUtils.ml" 3 18 27
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 427 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 430
+type(
+  string * string
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 101 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 102
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 422 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 430
+type(
+  string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 432 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 436
+type(
+  string * string -> string
+)
+ident(
+  int_ref last "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 52 "CoreJavaProject/Utils/subtypingUtils.ml" 4 48 56
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 436 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 439
+type(
+  string * string
+)
+ident(
+  int_ref y "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 416 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 417
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 432 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 439
+type(
+  string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 421 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 440
+type(
+  string * string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 411 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 441
+type(
+  string * string -> string * string
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 16 390 442 "CoreJavaProject/Utils/subtypingUtils.ml" 16 390 443
+type(
+  (string * string) list
+)
+ident(
+  int_ref x "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 153 "CoreJavaProject/Utils/subtypingUtils.ml" 7 148 154
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 14 326 331 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 8 206 210 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 7 148 149 "CoreJavaProject/Utils/subtypingUtils.ml" 17 446 454
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 19 458 466 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 483
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  def searchForAllPairs "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 458 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 19 458 485 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 486
+type(
+  (string * string) list
+)
+ident(
+  def l "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 510 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 19 458 511 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 516
+type(
+  (string * string) list
+)
+ident(
+  def copyL "CoreJavaProject/Utils/subtypingUtils.ml" 20 543 544 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 20 543 550 "CoreJavaProject/Utils/subtypingUtils.ml" 20 543 551
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 485 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 486
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 21 557 560 "CoreJavaProject/Utils/subtypingUtils.ml" 21 557 562
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 21 557 566 "CoreJavaProject/Utils/subtypingUtils.ml" 21 557 568
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 573 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 574
+type(
+  string * string
+)
+ident(
+  def x "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 579 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 601
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 572 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 575
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 579 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 593
+type(
+  string * string -> (string * string) list -> (string * string) list
+)
+ident(
+  int_ref searchForPairs "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 86 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 100
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 594 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 595
+type(
+  string * string
+)
+ident(
+  int_ref x "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 573 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 574
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 596 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 601
+type(
+  (string * string) list
+)
+ident(
+  int_ref copyL "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 511 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 516
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 22 569 579 "CoreJavaProject/Utils/subtypingUtils.ml" 22 569 601
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 605 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 606
+type(
+  string * string
+)
+ident(
+  def h "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 613 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 608 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 609
+type(
+  (string * string) list
+)
+ident(
+  def t "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 613 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 605 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 609
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 613 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 618
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref ListUtils.union
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 620 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 634
+type(
+  string * string -> (string * string) list -> (string * string) list
+)
+ident(
+  int_ref searchForPairs "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 86 "CoreJavaProject/Utils/subtypingUtils.ml" 6 82 100
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 635 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 636
+type(
+  string * string
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 605 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 606
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 637 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 642
+type(
+  (string * string) list
+)
+ident(
+  int_ref copyL "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 511 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 516
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 619 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 643
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 645 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 662
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  int_ref searchForAllPairs "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 466 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 483
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 663 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 664
+type(
+  (string * string) list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 608 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 609
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 665 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 670
+type(
+  (string * string) list
+)
+ident(
+  int_ref copyL "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 511 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 516
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 644 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 23 602 613 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 20 543 544 "CoreJavaProject/Utils/subtypingUtils.ml" 23 602 671
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 25 675 683 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 697
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  def existsNewPairs "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 675 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 25 675 698 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 700
+type(
+  'a list
+)
+ident(
+  def l1 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 701 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 25 675 701 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 703
+type(
+  'a list
+)
+ident(
+  def l2 "CoreJavaProject/Utils/subtypingUtils.ml" 26 707 710 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 26 707 716 "CoreJavaProject/Utils/subtypingUtils.ml" 26 707 718
+type(
+  'a list
+)
+ident(
+  int_ref l1 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 698 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 700
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 27 724 729 "CoreJavaProject/Utils/subtypingUtils.ml" 27 724 731
+type(
+  'a list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 27 724 735 "CoreJavaProject/Utils/subtypingUtils.ml" 27 724 740
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 746 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 747
+type(
+  'a
+)
+ident(
+  def h "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 754 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 749 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 750
+type(
+  'a list
+)
+ident(
+  def t "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 754 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 746 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 750
+type(
+  'a list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 757 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 761
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref ListUtils.find
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 762 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 763
+type(
+  'a
+)
+ident(
+  int_ref h "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 746 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 747
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 764 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 766
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 701 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 703
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 757 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 766
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 772 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 786
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  int_ref existsNewPairs "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 683 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 697
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 787 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 788
+type(
+  'a list
+)
+ident(
+  int_ref t "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 749 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 750
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 789 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 791
+type(
+  'a list
+)
+ident(
+  int_ref l2 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 701 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 703
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 772 "CoreJavaProject/Utils/subtypingUtils.ml" 28 741 791
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 29 792 806 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 28 741 754 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 26 707 710 "CoreJavaProject/Utils/subtypingUtils.ml" 29 792 810
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 31 814 822 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 839
+type(
+  (string * string) list -> (string * string) list
+)
+ident(
+  def transitiveClosure "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 814 "CoreJavaProject/Utils/subtypingUtils.ml" 1 0 -1
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+type(
+  (string * string) list
+)
+ident(
+  def l "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 872 "CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1003
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 876 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 884
+type(
+  (string * string) list
+)
+ident(
+  def newPairs "CoreJavaProject/Utils/subtypingUtils.ml" 33 914 916 "CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1003
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 888 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 905
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  int_ref searchForAllPairs "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 466 "CoreJavaProject/Utils/subtypingUtils.ml" 19 458 483
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 906 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 907
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 908 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 909
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 887 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 910
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 33 914 920 "CoreJavaProject/Utils/subtypingUtils.ml" 33 914 934
+type(
+  (string * string) list -> (string * string) list -> bool
+)
+ident(
+  int_ref existsNewPairs "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 683 "CoreJavaProject/Utils/subtypingUtils.ml" 25 675 697
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 33 914 935 "CoreJavaProject/Utils/subtypingUtils.ml" 33 914 943
+type(
+  (string * string) list
+)
+ident(
+  int_ref newPairs "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 876 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 884
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 33 914 944 "CoreJavaProject/Utils/subtypingUtils.ml" 33 914 945
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 33 914 919 "CoreJavaProject/Utils/subtypingUtils.ml" 33 914 946
+type(
+  bool
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 955 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 972
+type(
+  (string * string) list -> (string * string) list
+)
+ident(
+  int_ref transitiveClosure "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 822 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 839
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 974 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 979
+type(
+  (string * string) list -> (string * string) list -> (string * string) list
+)
+ident(
+  ext_ref ListUtils.union
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 980 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 981
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 982 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 990
+type(
+  (string * string) list
+)
+ident(
+  int_ref newPairs "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 876 "CoreJavaProject/Utils/subtypingUtils.ml" 32 869 884
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 973 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 991
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 34 952 955 "CoreJavaProject/Utils/subtypingUtils.ml" 34 952 991
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1002 "CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1003
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 841 "CoreJavaProject/Utils/subtypingUtils.ml" 31 814 842
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 33 914 916 "CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1003
+type(
+  (string * string) list
+)
+"CoreJavaProject/Utils/subtypingUtils.ml" 32 869 872 "CoreJavaProject/Utils/subtypingUtils.ml" 36 999 1003
+type(
+  (string * string) list
+)

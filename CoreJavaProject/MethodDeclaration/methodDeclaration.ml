@@ -1,5 +1,6 @@
 open TypeDeclaration;;
 open ExpDeclaration;;
+open ListUtils;;
 
 type cJMethodParameter = CJMethodParameter of cJType*string;;
 
@@ -33,6 +34,22 @@ let getMethodName(c: cJMethod) =
 	match c with
 	| CJMethod(_,name, _, _) -> name;;
 
+let getParameterType(p: cJMethodParameter) = 
+	match p with
+	| CJMethodParameter(tip, _) -> tip;;
+
+let getParameterName(p: cJMethodParameter) = 
+	match p with
+	| CJMethodParameter(_, name) -> name;;
+
+let getMethodReturnType(m : cJMethod) = 
+	match m with 
+	| CJMethod(tip, _, _, _) -> tip;;
+
+let getMethodSuperExp(m : cJMethod) = 
+	match m with 
+	| CJMethod(_, _, _, superExp) -> superExp;;
+
 let rec methodListNotDuplicated(list: cJMethodList) =
 	match list with 
 	| CJMethodList([]) -> true
@@ -54,6 +71,28 @@ let rec existMainMethod(list: cJMethodList) =
 	| CJMethodList([]) -> true
 	| CJMethodList([x]) -> getMethodName(x) = "main"
 	| CJMethodList(h::t) -> getMethodName(h) = "main" || existMainMethod(CJMethodList(t));;
+
+let rec getParametersTE(l: cJMethodParameterList) = 
+	match l with 
+	| CJMethodParameterList([]) -> []
+	| CJMethodParameterList([x]) -> [(getParameterName(x), (toStringCJType (getParameterType(x))))]
+	| CJMethodParameterList(h::t) -> (getParameterName(h), (toStringCJType (getParameterType(h)))) :: getParametersTE(CJMethodParameterList(t));;
+
+let rec getVariablesTE(e: superExp) = 
+	match e with 
+	| DeclareVarExp(tip, name) -> [(name, toStringCJType(tip))]
+	| CompoundExp(e1, e2) -> append (getVariablesTE e1) (getVariablesTE e2)
+	|	IfExp(_, e) -> getVariablesTE e
+	| IfElseExp(_, e1, e2) -> append (getVariablesTE e1) (getVariablesTE e2)
+	| WhileExp(_, e) -> getVariablesTE e
+	| _ -> [];;
+
+let getMethodTE(m: cJMethod) = 
+	match m with
+	| CJMethod(_, _, paramList, exp) -> append (getParametersTE paramList) (getVariablesTE exp);;
+
+
+
 
 
 					

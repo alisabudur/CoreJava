@@ -4,7 +4,11 @@ type cJClass =
 val toStringCJClass : cJClass -> string
 val classWellTyped : cJClass -> bool
 val getClassName : cJClass -> string
-val getFiledList : cJClass -> FieldDeclaration.cJFieldList
+val getFieldList : cJClass -> FieldDeclaration.cJFieldList
+val getMethodList : cJClass -> MethodDeclaration.cJMethodList
 val hasMainMethod : cJClass -> bool
 val getInheritancePair : cJClass -> string * string
-val toStringPair : string * string -> string
+val getFieldWithName :
+  string -> FieldDeclaration.cJFieldList -> FieldDeclaration.cJField
+val getMethodWithName :
+  string -> MethodDeclaration.cJMethodList -> MethodDeclaration.cJMethod

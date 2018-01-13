@@ -1,0 +1,13 @@
+open MethodDeclaration;;
+open ExpUtils;;
+
+let rec getTypeOfSuperExp (e: superExp) (te: (string*string) list) (p: cJProgram)=
+	match e with
+	| Exp3(e) -> getTypeOfExp3 e te p
+	| IfExp(_, st) -> getTypeOfSuperExp st te p
+	| IfElseExp(_, ifSt, elseSt) -> if (getTypeOfSuperExp ifSt te p) = (getTypeOfSuperExp elseSt te p) then (getTypeOfSuperExp ifSt te p) else raise (Failure "Not the same return type")
+	| WhileExp(_, st) -> (getTypeOfSuperExp st te p)
+	| CompoundExp(_, st) -> (getTypeOfSuperExp st te p)
+	| AssignExp(_, _) -> toStringCJType(CJPrimType(CJVoid))
+	| ReturnExp(e) -> (getTypeOfExp e te p)
+	| DeclareVarExp(_, _) -> toStringCJType(CJPrimType(CJVoid))

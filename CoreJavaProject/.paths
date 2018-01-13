@@ -1,13 +1,13 @@
-Utils
-utils
 .
+Utils
 TypeDeclaration
-TypeChecker
 ProgramDeclaration
 MethodDeclaration
 FieldDeclaration
 ExpDeclaration
 ClassDeclaration
+utils
+TypeChecker
 StmtDeclaration
 FieldDeclaratios
 /usr/lib/ocaml

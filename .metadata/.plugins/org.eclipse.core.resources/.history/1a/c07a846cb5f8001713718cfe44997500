@@ -1,0 +1,49 @@
+open MethodDeclaration;;
+open ExpDeclaration;;
+open ProgramDeclaration;;
+open TypeDeclaration;;
+open ExpUtils;;
+
+let rec methodListNotDuplicated(list: cJMethodList) =
+	match list with 
+	| CJMethodList([]) -> true
+	| CJMethodList([x]) -> true
+	| CJMethodList(h::t) -> let x = (List.filter (fun x -> getMethodName(x) = getMethodName(h)) t) in
+         if (x == []) then
+					begin
+							(*Printf.printf "%s\n" "x method empty";*)
+            	methodListNotDuplicated(CJMethodList(t));
+					end						
+         else	
+					begin	
+							(*Printf.printf "%s\n" "x method not empty";*)				
+       				false;
+					end;;
+
+let rec existMainMethod(list: cJMethodList) = 
+	match list with
+	| CJMethodList([]) -> true
+	| CJMethodList([x]) -> getMethodName(x) = "main"
+	| CJMethodList(h::t) -> getMethodName(h) = "main" || existMainMethod(CJMethodList(t));;
+
+let rec getParametersTE(l: cJMethodParameterList) = 
+	match l with 
+	| CJMethodParameterList([]) -> []
+	| CJMethodParameterList([x]) -> [(getParameterName(x), (toStringCJType (getParameterType(x))))]
+	| CJMethodParameterList(h::t) -> (getParameterName(h), (toStringCJType (getParameterType(h)))) :: getParametersTE(CJMethodParameterList(t));;
+
+let rec getVariablesTE(e: superExp) = 
+	match e with 
+	| DeclareVarExp(tip, name) -> [(name, toStringCJType(tip))]
+	| CompoundExp(e1, e2) -> append (getVariablesTE e1) (getVariablesTE e2)
+	|	IfExp(_, e) -> getVariablesTE e
+	| IfElseExp(_, e1, e2) -> append (getVariablesTE e1) (getVariablesTE e2)
+	| WhileExp(_, e) -> getVariablesTE e
+	| _ -> [];;
+
+let getMethodTE(m: cJMethod) = 
+	match m with
+	| CJMethod(_, _, paramList, exp) -> append (getParametersTE paramList) (getVariablesTE exp);;
+
+let rec getMethodBodyType (m: cJMethod) (p: cJProgram) = 
+	getTypeOfSuperExp (getMethodSuperExp(m)) (getMethodTE(m)) p;;

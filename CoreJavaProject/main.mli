@@ -4,13 +4,14 @@ val setNameParameterList : MethodDeclaration.cJMethodParameterList
 val emptyParameterList : MethodDeclaration.cJMethodParameterList
 val assignStmt : ExpDeclaration.superExp
 val declareStmt : ExpDeclaration.superExp
-val varList : ExpDeclaration.varList
-val newStmt : ExpDeclaration.superExp
+val newStmt : ExpDeclaration.exp3
 val assignStmt2 : ExpDeclaration.superExp
 val compoundStmt : ExpDeclaration.superExp
 val compoundStmt2 : ExpDeclaration.superExp
 val ifStmt : ExpDeclaration.superExp
-val returnStmt : ExpDeclaration.superExp
+val constExp1 : ExpDeclaration.exp
+val varList : ExpDeclaration.varList
+val methodCallStmt : ExpDeclaration.exp3
 val setNameMethod : MethodDeclaration.cJMethod
 val getNameMethod : MethodDeclaration.cJMethod
 val methodList : MethodDeclaration.cJMethodList
