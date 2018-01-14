@@ -30,7 +30,7 @@ let getInheritancePair(c: cJClass): (string*string) =
 
 let rec getFieldWithName(name:string) (l: cJFieldList) = 
 	match l with
-	| CJFieldList([]) -> raise (Failure "Not Found")
+	| CJFieldList([]) -> raise (Failure (String.concat " " ["ClassDeclaration:"; "No field with name: "; name]))
 	| CJFieldList(h::t) -> if getFieldName(h) = name then 
 														h 
 												 else 
@@ -38,7 +38,7 @@ let rec getFieldWithName(name:string) (l: cJFieldList) =
 
 let rec getMethodWithName(name: string) (l: cJMethodList) = 
 	match l with
-	| CJMethodList([]) -> raise (Failure "Not Found")
+	| CJMethodList([]) -> raise (Failure (String.concat " " ["ClassDeclaration:"; "No method with name: "; name]))
   | CJMethodList(h :: t) -> if getMethodName(h) = name then 
 															 h 
 														else 

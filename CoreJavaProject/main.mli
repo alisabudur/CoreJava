@@ -10,12 +10,13 @@ val compoundStmt : ExpDeclaration.superExp
 val compoundStmt2 : ExpDeclaration.superExp
 val ifStmt : ExpDeclaration.superExp
 val constExp1 : ExpDeclaration.exp
+val declareStmt2 : ExpDeclaration.superExp
 val varList : ExpDeclaration.varList
 val methodCallStmt : ExpDeclaration.superExp
 val constExp2 : ExpDeclaration.superExp
 val compountStmt3 : ExpDeclaration.superExp
 val setNameMethod : MethodDeclaration.cJMethod
-val getNameMethod : MethodDeclaration.cJMethod
+val mainMethod : MethodDeclaration.cJMethod
 val methodList : MethodDeclaration.cJMethodList
 val nameField : FieldDeclaration.cJField
 val ageField : FieldDeclaration.cJField

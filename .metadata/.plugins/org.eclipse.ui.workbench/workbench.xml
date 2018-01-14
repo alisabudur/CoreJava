@@ -34,21 +34,31 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="ocaml.editors.mlEditor" name="main.ml" partName="main.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/main.ml" title="main.ml" tooltip="CoreJavaProject/main.ml" workbook="DefaultEditorWorkbook">
+<editor id="ocaml.editors.mlEditor" name="main.ml" partName="main.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/main.ml" title="main.ml" tooltip="CoreJavaProject/main.ml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/main.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1102" selectionTopPixel="263"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="627" selectionTopPixel="261"/>
 </editor>
-<editor id="ocaml.editors.mlEditor" name="methodUtils.ml" partName="methodUtils.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Method/methodUtils.ml" title="methodUtils.ml" tooltip="CoreJavaProject/Method/methodUtils.ml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Method/methodUtils.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor focus="true" id="ocaml.editors.mlEditor" name="expDeclaration.ml" partName="expDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Exp/expDeclaration.ml" title="expDeclaration.ml" tooltip="CoreJavaProject/Exp/expDeclaration.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Exp/expDeclaration.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="290" selectionTopPixel="403"/>
 </editor>
-<editor id="ocaml.editors.mlEditor" name="methodDeclaration.ml" partName="methodDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Method/methodDeclaration.ml" title="methodDeclaration.ml" tooltip="CoreJavaProject/Method/methodDeclaration.ml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Method/methodDeclaration.ml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="448"/>
+<editor id="ocaml.editors.mlEditor" name="wellTypedExp.ml" partName="wellTypedExp.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Exp/wellTypedExp.ml" title="wellTypedExp.ml" tooltip="CoreJavaProject/Exp/wellTypedExp.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Exp/wellTypedExp.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1714" selectionTopPixel="405"/>
+</editor>
+<editor id="ocaml.editors.mlEditor" name="subtypingUtils.ml" partName="subtypingUtils.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Utils/subtypingUtils.ml" title="subtypingUtils.ml" tooltip="CoreJavaProject/Utils/subtypingUtils.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Utils/subtypingUtils.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="148"/>
+</editor>
+<editor id="ocaml.editors.mlEditor" name="ProgramDeclaration.ml" partName="ProgramDeclaration.ml" path="/home/alisa/workspace/CoreJava/CoreJavaProject/Program/ProgramDeclaration.ml" title="ProgramDeclaration.ml" tooltip="CoreJavaProject/Program/ProgramDeclaration.ml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CoreJavaProject/Program/ProgramDeclaration.ml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1864" selectionTopPixel="629"/>
 </editor>
 </editors>
 <views>
@@ -87,10 +97,9 @@
 </filters>
 <expanded>
 <element path="/CoreJavaProject"/>
+<element path="/CoreJavaProject/Class"/>
 <element path="/CoreJavaProject/Exp"/>
-<element path="/CoreJavaProject/Method"/>
 <element path="/CoreJavaProject/Program"/>
-<element path="/CoreJavaProject/Type"/>
 </expanded>
 <selection>
 <element path="/CoreJavaProject/main.exe"/>
@@ -101,7 +110,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Errors (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="316" org.eclipse.ui.ide.resourceField="139" org.eclipse.ui.ide.severityAndDescriptionField="592"/>
@@ -267,8 +275,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.21339564" ratioLeft="274" ratioRight="1010" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.5876133" ratioLeft="389" ratioRight="273" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.19548286" ratioLeft="251" ratioRight="1033" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6329305" ratioLeft="419" ratioRight="243" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="Ocaml.ocamlToplevelView" label="OCaml Toplevel"/>
@@ -278,6 +286,7 @@
 <page content="Ocaml.ocamlCustomToplevelView:ocamlcustomtoplevelview-243745236" label="LabelNotFound"/>
 <page content="Ocaml.ocamlCustomToplevelView:ocamlcustomtoplevelview-540695015" label="LabelNotFound"/>
 <page content="Ocaml.ocamlCustomToplevelView:ocamlcustomtoplevelview-2101501742" label="LabelNotFound"/>
+<page content="Ocaml.ocamlCustomToplevelView:ocamlcustomtoplevelview-446580749" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -302,168 +311,181 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/wellTypedExp.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/main.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expDeclaration.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/wellTypedMethod.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" path="/CoreJavaProject/Type/typeDeclaration.mli"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Type/typeDeclaration.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" path="/CoreJavaProject/Exp/expDeclaration.mli"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expUtils.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expDeclaration.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expDeclaration.ml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/methodUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Program/ProgramDeclaration.ml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/methodDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/wellTypedMethod.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/wellTypedExp.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Class/classDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Class/wellTypedClass.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Field/fieldDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/methodUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Program/wellTypedProgram.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Utils/subtypingUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Utils/listUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/expUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Exp/wellTypedExp.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Field/fieldDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/methodDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/methodUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Method/wellTypedMethod.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Program/ProgramDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Program/wellTypedProgram.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Type/typeDeclaration.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/Utils/subtypingUtils.ml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" path="/CoreJavaProject/Exp/expUtils.mli"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" path="/CoreJavaProject/main.ml"/>
 </editors>
-<item historyLabel="typeDeclaration.mli" index="4">
+<item historyLabel="wellTypedExp.ml" index="3">
+<position info="not_deleted" x="2925" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="4">
 <position/>
 </item>
-<item historyLabel="expDeclaration.ml" index="2">
-<position info="not_deleted" x="861" y="0"/>
+<item historyLabel="wellTypedExp.ml" index="3">
+<position info="not_deleted" x="2925" y="0"/>
 </item>
-<item historyLabel="typeDeclaration.ml" index="5">
+<item historyLabel="wellTypedClass.ml" index="5">
 <position/>
 </item>
-<item historyLabel="expDeclaration.ml" index="2">
-<position info="not_deleted" x="814" y="0"/>
+<item historyLabel="wellTypedExp.ml" index="3">
+<position info="not_deleted" x="2925" y="0"/>
 </item>
-<item historyLabel="typeDeclaration.mli" index="4">
+<item historyLabel="expDeclaration.ml" index="6">
 <position/>
 </item>
-<item historyLabel="expDeclaration.ml" index="2">
-<position info="not_deleted" x="814" y="0"/>
-</item>
-<item historyLabel="expDeclaration.mli" index="6">
-<position/>
-</item>
-<item historyLabel="expDeclaration.ml" index="2">
-<position info="not_deleted" x="814" y="0"/>
+<item historyLabel="wellTypedExp.ml" index="3">
+<position info="not_deleted" x="2925" y="0"/>
 </item>
 <item historyLabel="expUtils.ml" index="7">
-<position info="not_deleted" x="1850" y="0"/>
+<position info="not_deleted" x="499" y="0"/>
 </item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
+<item historyLabel="wellTypedExp.ml" index="3">
+<position info="not_deleted" x="2925" y="0"/>
 </item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="719" y="1"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
-</item>
-<item historyLabel="wellTypedMethod.ml" index="3">
-<position info="not_deleted" x="184" y="0"/>
-</item>
-<item historyLabel="wellTypedExp.ml" index="0">
+<item historyLabel="fieldDeclaration.ml" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="expUtils.ml" index="7">
-<position info="not_deleted" x="1850" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
-</item>
-<item historyLabel="typeDeclaration.mli" index="4">
-<position/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
-</item>
-<item historyLabel="typeDeclaration.mli" index="4">
-<position/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
-</item>
-<item historyLabel="expUtils.ml" index="7">
-<position info="not_deleted" x="1604" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="755" y="11"/>
-</item>
-<item historyLabel="expDeclaration.mli" index="6">
-<position/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="3415" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="3415" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position info="not_deleted" x="456" y="19"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="3442" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="3415" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position info="not_deleted" x="452" y="40"/>
-</item>
-<item historyLabel="typeDeclaration.mli" index="4">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="typeDeclaration.ml" index="5">
-<position info="not_deleted" x="451" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="expDeclaration.mli" index="6">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="8">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="787" y="0"/>
-</item>
-<item historyLabel="expDeclaration.ml" index="9">
-<position info="not_deleted" x="177" y="0"/>
-</item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="617" y="0"/>
-</item>
-<item historyLabel="wellTypedMethod.ml" index="3">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="wellTypedExp.ml" index="0">
+<item historyLabel="methodDeclaration.ml" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="wellTypedMethod.ml" index="3">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="2509" y="0"/>
-</item>
-<item historyLabel="wellTypedMethod.ml" index="3">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="2509" y="0"/>
-</item>
-<item historyLabel="methodUtils.ml" index="10">
+<item historyLabel="methodUtils.ml" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="methodDeclaration.ml" index="11">
+<item historyLabel="wellTypedMethod.ml" index="2">
+<position info="not_deleted" x="289" y="59"/>
+</item>
+<item historyLabel="wellTypedProgram.ml" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.ml" index="1">
-<position info="not_deleted" x="2477" y="0"/>
-</item>
-<item historyLabel="methodUtils.ml" index="10">
+<item historyLabel="ProgramDeclaration.ml" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="main.ml" index="1">
-<position info="not_deleted" x="2477" y="0"/>
+<item historyLabel="subtypingUtils.ml" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="listUtils.ml" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="4">
+<position/>
+</item>
+<item historyLabel="wellTypedClass.ml" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="expDeclaration.ml" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="expUtils.ml" index="13">
+<position/>
+</item>
+<item historyLabel="wellTypedExp.ml" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="fieldDeclaration.ml" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="methodDeclaration.ml" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="methodUtils.ml" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="wellTypedMethod.ml" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="19">
+<position info="not_deleted" x="1438" y="0"/>
+</item>
+<item historyLabel="wellTypedProgram.ml" index="20">
+<position/>
+</item>
+<item historyLabel="typeDeclaration.ml" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="subtypingUtils.ml" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="4">
+<position/>
+</item>
+<item historyLabel="expUtils.mli" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="expUtils.ml" index="13">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="1675" y="0"/>
+</item>
+<item historyLabel="wellTypedProgram.ml" index="20">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="1083" y="0"/>
+</item>
+<item historyLabel="expDeclaration.ml" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="1046" y="0"/>
+</item>
+<item historyLabel="expDeclaration.ml" index="6">
+<position info="not_deleted" x="290" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="1571" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="4">
+<position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel="wellTypedExp.ml" index="14">
+<position info="not_deleted" x="1714" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="2099" y="13"/>
+</item>
+<item historyLabel="wellTypedExp.ml" index="14">
+<position info="not_deleted" x="1714" y="0"/>
+</item>
+<item historyLabel="classDeclaration.ml" index="4">
+<position info="not_deleted" x="1242" y="0"/>
+</item>
+<item historyLabel="wellTypedExp.ml" index="14">
+<position info="not_deleted" x="1714" y="0"/>
+</item>
+<item historyLabel="subtypingUtils.ml" index="22">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ProgramDeclaration.ml" index="19">
+<position info="not_deleted" x="1864" y="0"/>
+</item>
+<item historyLabel="main.ml" index="24">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item active="true" historyLabel="expDeclaration.ml" index="6">
+<position info="not_deleted" x="290" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -471,12 +493,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -484,55 +500,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="methodDeclaration.ml" tooltip="CoreJavaProject/Method/methodDeclaration.ml">
-<persistable path="/CoreJavaProject/Method/methodDeclaration.ml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="methodUtils.ml" tooltip="CoreJavaProject/Method/methodUtils.ml">
-<persistable path="/CoreJavaProject/Method/methodUtils.ml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="expDeclaration.ml" tooltip="CoreJavaProject/Exp/expDeclaration.ml">
-<persistable path="/CoreJavaProject/Exp/expDeclaration.ml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="expDeclaration.mli" tooltip="CoreJavaProject/Exp/expDeclaration.mli">
-<persistable path="/CoreJavaProject/Exp/expDeclaration.mli"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="typeDeclaration.mli" tooltip="CoreJavaProject/Type/typeDeclaration.mli">
-<persistable path="/CoreJavaProject/Type/typeDeclaration.mli"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="typeDeclaration.ml" tooltip="CoreJavaProject/Type/typeDeclaration.ml">
-<persistable path="/CoreJavaProject/Type/typeDeclaration.ml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="expUtils.ml" tooltip="CoreJavaProject/Exp/expUtils.ml">
-<persistable path="/CoreJavaProject/Exp/expUtils.ml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="ProgramDeclaration.ml" tooltip="CoreJavaProject/Program/ProgramDeclaration.ml">
 <persistable path="/CoreJavaProject/Program/ProgramDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedMethod.ml" tooltip="CoreJavaProject/Method/wellTypedMethod.ml">
-<persistable path="/CoreJavaProject/Method/wellTypedMethod.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="subtypingUtils.ml" tooltip="CoreJavaProject/Utils/subtypingUtils.ml">
+<persistable path="/CoreJavaProject/Utils/subtypingUtils.ml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedExp.ml" tooltip="CoreJavaProject/Exp/wellTypedExp.ml">
 <persistable path="/CoreJavaProject/Exp/wellTypedExp.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedClass.ml" tooltip="CoreJavaProject/Class/wellTypedClass.ml">
-<persistable path="/CoreJavaProject/Class/wellTypedClass.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="classDeclaration.ml" tooltip="CoreJavaProject/Class/classDeclaration.ml">
+<persistable path="/CoreJavaProject/Class/classDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="programWellTyped.mli" tooltip="CoreJavaProject/Program/programWellTyped.mli">
-<persistable path="/CoreJavaProject/Program/programWellTyped.mli"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="expDeclaration.ml" tooltip="CoreJavaProject/Exp/expDeclaration.ml">
+<persistable path="/CoreJavaProject/Exp/expDeclaration.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="programWellTyped.ml" tooltip="CoreJavaProject/Program/programWellTyped.ml">
-<persistable path="/CoreJavaProject/Program/programWellTyped.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedProgram.ml" tooltip="CoreJavaProject/Program/wellTypedProgram.ml">
+<persistable path="/CoreJavaProject/Program/wellTypedProgram.ml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="main.ml" tooltip="CoreJavaProject/main.ml">
 <persistable path="/CoreJavaProject/main.ml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="subtypingUtils.ml" tooltip="CoreJavaProject/Utils/subtypingUtils.ml">
-<persistable path="/CoreJavaProject/Utils/subtypingUtils.ml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="expUtils.ml" tooltip="CoreJavaProject/Exp/expUtils.ml">
+<persistable path="/CoreJavaProject/Exp/expUtils.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mliEditor" name="expUtils.mli" tooltip="CoreJavaProject/Exp/expUtils.mli">
+<persistable path="/CoreJavaProject/Exp/expUtils.mli"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="typeDeclaration.ml" tooltip="CoreJavaProject/Type/typeDeclaration.ml">
+<persistable path="/CoreJavaProject/Type/typeDeclaration.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedMethod.ml" tooltip="CoreJavaProject/Method/wellTypedMethod.ml">
+<persistable path="/CoreJavaProject/Method/wellTypedMethod.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="methodUtils.ml" tooltip="CoreJavaProject/Method/methodUtils.ml">
+<persistable path="/CoreJavaProject/Method/methodUtils.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="methodDeclaration.ml" tooltip="CoreJavaProject/Method/methodDeclaration.ml">
+<persistable path="/CoreJavaProject/Method/methodDeclaration.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="fieldDeclaration.ml" tooltip="CoreJavaProject/Field/fieldDeclaration.ml">
+<persistable path="/CoreJavaProject/Field/fieldDeclaration.ml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="ocaml.editors.mlEditor" name="wellTypedClass.ml" tooltip="CoreJavaProject/Class/wellTypedClass.ml">
+<persistable path="/CoreJavaProject/Class/wellTypedClass.ml"/>
 </file>
 </mruList>
 </workbench>

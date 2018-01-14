@@ -8,7 +8,7 @@ open FieldDeclaration;;
 
 let rec getVarType (varName: string) (te: (string*cJType) list) = 
 	match te with
-	| [] -> raise (Failure "Not Found")
+	| [] -> raise (Failure (String.concat " " ["ExpUtils:"; "No type found for var with name: "; varName]))
 	| h::t -> if first(h) = varName then (last(h)) else (getVarType varName t);;
 
 let rec existsVar (varName: string) (te: (string*cJType) list) = 

@@ -34,11 +34,16 @@ let lastClassIsMain(p: cJProgram):bool = hasMainMethod(List.hd(List.rev(getClass
 let rec getInheritancePairs(p: cJProgram): ((string*string) list) = 
 	match p with 
 	| CJProgram([]) -> []
-	| CJProgram(h::t) -> getInheritancePair(h) :: getInheritancePairs(CJProgram(t));;		
+	| CJProgram(h::t) -> getInheritancePair(h) :: getInheritancePairs(CJProgram(t));;	
+
+let rec toStringInheritancePairs(l: (string*string) list) = 
+	match l with 
+	| [] -> ""
+	| h::t -> String.concat "" [toStringPair(h); toStringInheritancePairs(t)];;		
 
 let rec getClassWithName (name: string) (p: cJProgram) = 
 	match p with
-	| CJProgram([]) -> raise (Failure "Not Found")
+	| CJProgram([]) -> raise (Failure (String.concat " " ["ProgramDeclaration:"; "No class with name: "; name]))
 	| CJProgram(h::t) -> if getClassName(h) = name then h else (getClassWithName name (CJProgram(t)));;
 
 let isSubtype(p: cJProgram) (pair: string*string) = 	
@@ -49,7 +54,7 @@ let isSubtype(p: cJProgram) (pair: string*string) =
 		end
   else
 		begin
-		(*Printf.printf "%s\n" "the same types";*)
+		(*Printf.printf "%s\n" "diff types";*)
 		find pair (transitiveClosure(getInheritancePairs p))
 		end;;
 

@@ -4,5 +4,6 @@ val toStringCJProgram : cJProgram -> string
 val classListNoDuplicated : cJProgram -> bool
 val lastClassIsMain : cJProgram -> bool
 val getInheritancePairs : cJProgram -> (string * string) list
+val toStringInheritancePairs : (string*string) list -> string
 val getClassWithName : string -> cJProgram -> ClassDeclaration.cJClass
 val isSubtype : cJProgram -> string * string -> bool

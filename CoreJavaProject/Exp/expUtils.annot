@@ -10,14 +10,14 @@ type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/expUtils.ml" 9 167 204 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
+  def varName "CoreJavaProject/Exp/expUtils.ml" 9 167 204 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
 )
 "CoreJavaProject/Exp/expUtils.ml" 9 167 205 "CoreJavaProject/Exp/expUtils.ml" 9 167 207
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 10 234 235 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
+  def te "CoreJavaProject/Exp/expUtils.ml" 10 234 235 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
 )
 "CoreJavaProject/Exp/expUtils.ml" 10 234 241 "CoreJavaProject/Exp/expUtils.ml" 10 234 243
 type(
@@ -37,1565 +37,1595 @@ type(
 ident(
   ext_ref Pervasives.raise
 )
-"CoreJavaProject/Exp/expUtils.ml" 11 249 273 "CoreJavaProject/Exp/expUtils.ml" 11 249 284
+"CoreJavaProject/Exp/expUtils.ml" 11 249 274 "CoreJavaProject/Exp/expUtils.ml" 11 249 287
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Exp/expUtils.ml" 11 249 288 "CoreJavaProject/Exp/expUtils.ml" 11 249 291
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 11 249 264 "CoreJavaProject/Exp/expUtils.ml" 11 249 285
-type(
-  exn
-)
-"CoreJavaProject/Exp/expUtils.ml" 11 249 258 "CoreJavaProject/Exp/expUtils.ml" 11 249 285
-type(
-  TypeDeclaration.cJType
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 289 "CoreJavaProject/Exp/expUtils.ml" 12 286 290
-type(
-  string * TypeDeclaration.cJType
-)
-ident(
-  def h "CoreJavaProject/Exp/expUtils.ml" 12 286 297 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 292 "CoreJavaProject/Exp/expUtils.ml" 12 286 293
-type(
-  (string * TypeDeclaration.cJType) list
-)
-ident(
-  def t "CoreJavaProject/Exp/expUtils.ml" 12 286 297 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 289 "CoreJavaProject/Exp/expUtils.ml" 12 286 293
-type(
-  (string * TypeDeclaration.cJType) list
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 300 "CoreJavaProject/Exp/expUtils.ml" 12 286 305
-type(
-  string * TypeDeclaration.cJType -> string
-)
-ident(
-  ext_ref SubtypingUtils.first
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 305 "CoreJavaProject/Exp/expUtils.ml" 12 286 308
-type(
-  string * TypeDeclaration.cJType
-)
-ident(
-  int_ref h "CoreJavaProject/Exp/expUtils.ml" 12 286 289 "CoreJavaProject/Exp/expUtils.ml" 12 286 290
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 300 "CoreJavaProject/Exp/expUtils.ml" 12 286 308
+"CoreJavaProject/Exp/expUtils.ml" 11 249 293 "CoreJavaProject/Exp/expUtils.ml" 11 249 304
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 309 "CoreJavaProject/Exp/expUtils.ml" 12 286 310
+"CoreJavaProject/Exp/expUtils.ml" 11 249 306 "CoreJavaProject/Exp/expUtils.ml" 11 249 341
 type(
-  string -> string -> bool
+  string
 )
-ident(
-  ext_ref Pervasives.( = )
-)
-"CoreJavaProject/Exp/expUtils.ml" 12 286 311 "CoreJavaProject/Exp/expUtils.ml" 12 286 318
+"CoreJavaProject/Exp/expUtils.ml" 11 249 343 "CoreJavaProject/Exp/expUtils.ml" 11 249 350
 type(
   string
 )
 ident(
   int_ref varName "CoreJavaProject/Exp/expUtils.ml" 9 167 187 "CoreJavaProject/Exp/expUtils.ml" 9 167 194
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 300 "CoreJavaProject/Exp/expUtils.ml" 12 286 318
+"CoreJavaProject/Exp/expUtils.ml" 11 249 292 "CoreJavaProject/Exp/expUtils.ml" 11 249 351
+type(
+  string list
+)
+"CoreJavaProject/Exp/expUtils.ml" 11 249 273 "CoreJavaProject/Exp/expUtils.ml" 11 249 352
+type(
+  string
+)
+"CoreJavaProject/Exp/expUtils.ml" 11 249 264 "CoreJavaProject/Exp/expUtils.ml" 11 249 353
+type(
+  exn
+)
+"CoreJavaProject/Exp/expUtils.ml" 11 249 258 "CoreJavaProject/Exp/expUtils.ml" 11 249 353
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 357 "CoreJavaProject/Exp/expUtils.ml" 12 354 358
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  def h "CoreJavaProject/Exp/expUtils.ml" 12 354 365 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 360 "CoreJavaProject/Exp/expUtils.ml" 12 354 361
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  def t "CoreJavaProject/Exp/expUtils.ml" 12 354 365 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 357 "CoreJavaProject/Exp/expUtils.ml" 12 354 361
+type(
+  (string * TypeDeclaration.cJType) list
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 368 "CoreJavaProject/Exp/expUtils.ml" 12 354 373
+type(
+  string * TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref SubtypingUtils.first
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 373 "CoreJavaProject/Exp/expUtils.ml" 12 354 376
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref h "CoreJavaProject/Exp/expUtils.ml" 12 354 357 "CoreJavaProject/Exp/expUtils.ml" 12 354 358
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 368 "CoreJavaProject/Exp/expUtils.ml" 12 354 376
+type(
+  string
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 377 "CoreJavaProject/Exp/expUtils.ml" 12 354 378
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 379 "CoreJavaProject/Exp/expUtils.ml" 12 354 386
+type(
+  string
+)
+ident(
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 9 167 187 "CoreJavaProject/Exp/expUtils.ml" 9 167 194
+)
+"CoreJavaProject/Exp/expUtils.ml" 12 354 368 "CoreJavaProject/Exp/expUtils.ml" 12 354 386
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 325 "CoreJavaProject/Exp/expUtils.ml" 12 286 329
+"CoreJavaProject/Exp/expUtils.ml" 12 354 393 "CoreJavaProject/Exp/expUtils.ml" 12 354 397
 type(
   string * TypeDeclaration.cJType -> TypeDeclaration.cJType
 )
 ident(
   ext_ref SubtypingUtils.last
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 329 "CoreJavaProject/Exp/expUtils.ml" 12 286 332
+"CoreJavaProject/Exp/expUtils.ml" 12 354 397 "CoreJavaProject/Exp/expUtils.ml" 12 354 400
 type(
   string * TypeDeclaration.cJType
 )
 ident(
-  int_ref h "CoreJavaProject/Exp/expUtils.ml" 12 286 289 "CoreJavaProject/Exp/expUtils.ml" 12 286 290
+  int_ref h "CoreJavaProject/Exp/expUtils.ml" 12 354 357 "CoreJavaProject/Exp/expUtils.ml" 12 354 358
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 324 "CoreJavaProject/Exp/expUtils.ml" 12 286 333
+"CoreJavaProject/Exp/expUtils.ml" 12 354 392 "CoreJavaProject/Exp/expUtils.ml" 12 354 401
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 340 "CoreJavaProject/Exp/expUtils.ml" 12 286 350
+"CoreJavaProject/Exp/expUtils.ml" 12 354 408 "CoreJavaProject/Exp/expUtils.ml" 12 354 418
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   int_ref getVarType "CoreJavaProject/Exp/expUtils.ml" 9 167 175 "CoreJavaProject/Exp/expUtils.ml" 9 167 185
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 351 "CoreJavaProject/Exp/expUtils.ml" 12 286 358
+"CoreJavaProject/Exp/expUtils.ml" 12 354 419 "CoreJavaProject/Exp/expUtils.ml" 12 354 426
 type(
   string
 )
 ident(
   int_ref varName "CoreJavaProject/Exp/expUtils.ml" 9 167 187 "CoreJavaProject/Exp/expUtils.ml" 9 167 194
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 359 "CoreJavaProject/Exp/expUtils.ml" 12 286 360
+"CoreJavaProject/Exp/expUtils.ml" 12 354 427 "CoreJavaProject/Exp/expUtils.ml" 12 354 428
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref t "CoreJavaProject/Exp/expUtils.ml" 12 286 292 "CoreJavaProject/Exp/expUtils.ml" 12 286 293
+  int_ref t "CoreJavaProject/Exp/expUtils.ml" 12 354 360 "CoreJavaProject/Exp/expUtils.ml" 12 354 361
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 339 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
+"CoreJavaProject/Exp/expUtils.ml" 12 354 407 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 12 286 297 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
+"CoreJavaProject/Exp/expUtils.ml" 12 354 365 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 10 234 235 "CoreJavaProject/Exp/expUtils.ml" 12 286 361
+"CoreJavaProject/Exp/expUtils.ml" 10 234 235 "CoreJavaProject/Exp/expUtils.ml" 12 354 429
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 14 365 373 "CoreJavaProject/Exp/expUtils.ml" 14 365 382
+"CoreJavaProject/Exp/expUtils.ml" 14 433 441 "CoreJavaProject/Exp/expUtils.ml" 14 433 450
 type(
   string -> (string * TypeDeclaration.cJType) list -> bool
 )
 ident(
-  def existsVar "CoreJavaProject/Exp/expUtils.ml" 14 365 365 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def existsVar "CoreJavaProject/Exp/expUtils.ml" 14 433 433 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 14 365 384 "CoreJavaProject/Exp/expUtils.ml" 14 365 391
+"CoreJavaProject/Exp/expUtils.ml" 14 433 452 "CoreJavaProject/Exp/expUtils.ml" 14 433 459
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/expUtils.ml" 14 365 401 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+  def varName "CoreJavaProject/Exp/expUtils.ml" 14 433 469 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 )
-"CoreJavaProject/Exp/expUtils.ml" 14 365 402 "CoreJavaProject/Exp/expUtils.ml" 14 365 404
+"CoreJavaProject/Exp/expUtils.ml" 14 433 470 "CoreJavaProject/Exp/expUtils.ml" 14 433 472
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 15 431 432 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+  def te "CoreJavaProject/Exp/expUtils.ml" 15 499 500 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 )
-"CoreJavaProject/Exp/expUtils.ml" 15 431 438 "CoreJavaProject/Exp/expUtils.ml" 15 431 440
+"CoreJavaProject/Exp/expUtils.ml" 15 499 506 "CoreJavaProject/Exp/expUtils.ml" 15 499 508
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 14 365 402 "CoreJavaProject/Exp/expUtils.ml" 14 365 404
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 14 433 470 "CoreJavaProject/Exp/expUtils.ml" 14 433 472
 )
-"CoreJavaProject/Exp/expUtils.ml" 16 446 449 "CoreJavaProject/Exp/expUtils.ml" 16 446 451
+"CoreJavaProject/Exp/expUtils.ml" 16 514 517 "CoreJavaProject/Exp/expUtils.ml" 16 514 519
 type(
   (string * TypeDeclaration.cJType) list
 )
-"CoreJavaProject/Exp/expUtils.ml" 16 446 455 "CoreJavaProject/Exp/expUtils.ml" 16 446 460
+"CoreJavaProject/Exp/expUtils.ml" 16 514 523 "CoreJavaProject/Exp/expUtils.ml" 16 514 528
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 464 "CoreJavaProject/Exp/expUtils.ml" 17 461 465
+"CoreJavaProject/Exp/expUtils.ml" 17 529 532 "CoreJavaProject/Exp/expUtils.ml" 17 529 533
 type(
   string * TypeDeclaration.cJType
 )
 ident(
-  def h "CoreJavaProject/Exp/expUtils.ml" 17 461 472 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+  def h "CoreJavaProject/Exp/expUtils.ml" 17 529 540 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 467 "CoreJavaProject/Exp/expUtils.ml" 17 461 468
+"CoreJavaProject/Exp/expUtils.ml" 17 529 535 "CoreJavaProject/Exp/expUtils.ml" 17 529 536
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def t "CoreJavaProject/Exp/expUtils.ml" 17 461 472 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+  def t "CoreJavaProject/Exp/expUtils.ml" 17 529 540 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 464 "CoreJavaProject/Exp/expUtils.ml" 17 461 468
+"CoreJavaProject/Exp/expUtils.ml" 17 529 532 "CoreJavaProject/Exp/expUtils.ml" 17 529 536
 type(
   (string * TypeDeclaration.cJType) list
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 475 "CoreJavaProject/Exp/expUtils.ml" 17 461 480
+"CoreJavaProject/Exp/expUtils.ml" 17 529 543 "CoreJavaProject/Exp/expUtils.ml" 17 529 548
 type(
   string * TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref SubtypingUtils.first
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 480 "CoreJavaProject/Exp/expUtils.ml" 17 461 483
+"CoreJavaProject/Exp/expUtils.ml" 17 529 548 "CoreJavaProject/Exp/expUtils.ml" 17 529 551
 type(
   string * TypeDeclaration.cJType
 )
 ident(
-  int_ref h "CoreJavaProject/Exp/expUtils.ml" 17 461 464 "CoreJavaProject/Exp/expUtils.ml" 17 461 465
+  int_ref h "CoreJavaProject/Exp/expUtils.ml" 17 529 532 "CoreJavaProject/Exp/expUtils.ml" 17 529 533
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 475 "CoreJavaProject/Exp/expUtils.ml" 17 461 483
+"CoreJavaProject/Exp/expUtils.ml" 17 529 543 "CoreJavaProject/Exp/expUtils.ml" 17 529 551
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 484 "CoreJavaProject/Exp/expUtils.ml" 17 461 485
+"CoreJavaProject/Exp/expUtils.ml" 17 529 552 "CoreJavaProject/Exp/expUtils.ml" 17 529 553
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 486 "CoreJavaProject/Exp/expUtils.ml" 17 461 493
+"CoreJavaProject/Exp/expUtils.ml" 17 529 554 "CoreJavaProject/Exp/expUtils.ml" 17 529 561
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 14 365 384 "CoreJavaProject/Exp/expUtils.ml" 14 365 391
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 14 433 452 "CoreJavaProject/Exp/expUtils.ml" 14 433 459
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 475 "CoreJavaProject/Exp/expUtils.ml" 17 461 493
+"CoreJavaProject/Exp/expUtils.ml" 17 529 543 "CoreJavaProject/Exp/expUtils.ml" 17 529 561
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 499 "CoreJavaProject/Exp/expUtils.ml" 17 461 503
+"CoreJavaProject/Exp/expUtils.ml" 17 529 567 "CoreJavaProject/Exp/expUtils.ml" 17 529 571
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 510 "CoreJavaProject/Exp/expUtils.ml" 17 461 519
+"CoreJavaProject/Exp/expUtils.ml" 17 529 578 "CoreJavaProject/Exp/expUtils.ml" 17 529 587
 type(
   string -> (string * TypeDeclaration.cJType) list -> bool
 )
 ident(
-  int_ref existsVar "CoreJavaProject/Exp/expUtils.ml" 14 365 373 "CoreJavaProject/Exp/expUtils.ml" 14 365 382
+  int_ref existsVar "CoreJavaProject/Exp/expUtils.ml" 14 433 441 "CoreJavaProject/Exp/expUtils.ml" 14 433 450
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 520 "CoreJavaProject/Exp/expUtils.ml" 17 461 527
+"CoreJavaProject/Exp/expUtils.ml" 17 529 588 "CoreJavaProject/Exp/expUtils.ml" 17 529 595
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 14 365 384 "CoreJavaProject/Exp/expUtils.ml" 14 365 391
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 14 433 452 "CoreJavaProject/Exp/expUtils.ml" 14 433 459
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 528 "CoreJavaProject/Exp/expUtils.ml" 17 461 529
+"CoreJavaProject/Exp/expUtils.ml" 17 529 596 "CoreJavaProject/Exp/expUtils.ml" 17 529 597
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref t "CoreJavaProject/Exp/expUtils.ml" 17 461 467 "CoreJavaProject/Exp/expUtils.ml" 17 461 468
+  int_ref t "CoreJavaProject/Exp/expUtils.ml" 17 529 535 "CoreJavaProject/Exp/expUtils.ml" 17 529 536
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 509 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+"CoreJavaProject/Exp/expUtils.ml" 17 529 577 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 17 461 472 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+"CoreJavaProject/Exp/expUtils.ml" 17 529 540 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 15 431 432 "CoreJavaProject/Exp/expUtils.ml" 17 461 530
+"CoreJavaProject/Exp/expUtils.ml" 15 499 500 "CoreJavaProject/Exp/expUtils.ml" 17 529 598
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 19 534 542 "CoreJavaProject/Exp/expUtils.ml" 19 534 559
+"CoreJavaProject/Exp/expUtils.ml" 19 602 610 "CoreJavaProject/Exp/expUtils.ml" 19 602 627
 type(
   ExpDeclaration.constExp -> TypeDeclaration.cJType
 )
 ident(
-  def getTypeOfConstExp "CoreJavaProject/Exp/expUtils.ml" 19 534 534 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def getTypeOfConstExp "CoreJavaProject/Exp/expUtils.ml" 19 602 602 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 19 534 561 "CoreJavaProject/Exp/expUtils.ml" 19 534 562
+"CoreJavaProject/Exp/expUtils.ml" 19 602 629 "CoreJavaProject/Exp/expUtils.ml" 19 602 630
 type(
   ExpDeclaration.constExp
 )
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 20 577 578 "CoreJavaProject/Exp/expUtils.ml" 26 783 820
+  def e "CoreJavaProject/Exp/expUtils.ml" 20 645 646 "CoreJavaProject/Exp/expUtils.ml" 26 851 888
 )
-"CoreJavaProject/Exp/expUtils.ml" 20 577 584 "CoreJavaProject/Exp/expUtils.ml" 20 577 585
+"CoreJavaProject/Exp/expUtils.ml" 20 645 652 "CoreJavaProject/Exp/expUtils.ml" 20 645 653
 type(
   ExpDeclaration.constExp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 19 534 561 "CoreJavaProject/Exp/expUtils.ml" 19 534 562
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 19 602 629 "CoreJavaProject/Exp/expUtils.ml" 19 602 630
 )
-"CoreJavaProject/Exp/expUtils.ml" 21 592 603 "CoreJavaProject/Exp/expUtils.ml" 21 592 606
+"CoreJavaProject/Exp/expUtils.ml" 21 660 671 "CoreJavaProject/Exp/expUtils.ml" 21 660 674
 type(
   int
 )
-"CoreJavaProject/Exp/expUtils.ml" 21 592 595 "CoreJavaProject/Exp/expUtils.ml" 21 592 606
+"CoreJavaProject/Exp/expUtils.ml" 21 660 663 "CoreJavaProject/Exp/expUtils.ml" 21 660 674
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 21 592 620 "CoreJavaProject/Exp/expUtils.ml" 21 592 627
+"CoreJavaProject/Exp/expUtils.ml" 21 660 688 "CoreJavaProject/Exp/expUtils.ml" 21 660 695
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 21 592 610 "CoreJavaProject/Exp/expUtils.ml" 21 592 627
+"CoreJavaProject/Exp/expUtils.ml" 21 660 678 "CoreJavaProject/Exp/expUtils.ml" 21 660 695
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 22 628 641 "CoreJavaProject/Exp/expUtils.ml" 22 628 644
+"CoreJavaProject/Exp/expUtils.ml" 22 696 709 "CoreJavaProject/Exp/expUtils.ml" 22 696 712
 type(
   float
 )
-"CoreJavaProject/Exp/expUtils.ml" 22 628 631 "CoreJavaProject/Exp/expUtils.ml" 22 628 644
+"CoreJavaProject/Exp/expUtils.ml" 22 696 699 "CoreJavaProject/Exp/expUtils.ml" 22 696 712
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 22 628 658 "CoreJavaProject/Exp/expUtils.ml" 22 628 667
+"CoreJavaProject/Exp/expUtils.ml" 22 696 726 "CoreJavaProject/Exp/expUtils.ml" 22 696 735
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 22 628 648 "CoreJavaProject/Exp/expUtils.ml" 22 628 667
+"CoreJavaProject/Exp/expUtils.ml" 22 696 716 "CoreJavaProject/Exp/expUtils.ml" 22 696 735
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 23 668 680 "CoreJavaProject/Exp/expUtils.ml" 23 668 683
+"CoreJavaProject/Exp/expUtils.ml" 23 736 748 "CoreJavaProject/Exp/expUtils.ml" 23 736 751
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 23 668 671 "CoreJavaProject/Exp/expUtils.ml" 23 668 683
+"CoreJavaProject/Exp/expUtils.ml" 23 736 739 "CoreJavaProject/Exp/expUtils.ml" 23 736 751
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 23 668 697 "CoreJavaProject/Exp/expUtils.ml" 23 668 705
+"CoreJavaProject/Exp/expUtils.ml" 23 736 765 "CoreJavaProject/Exp/expUtils.ml" 23 736 773
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 23 668 687 "CoreJavaProject/Exp/expUtils.ml" 23 668 705
+"CoreJavaProject/Exp/expUtils.ml" 23 736 755 "CoreJavaProject/Exp/expUtils.ml" 23 736 773
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 24 706 720 "CoreJavaProject/Exp/expUtils.ml" 24 706 723
+"CoreJavaProject/Exp/expUtils.ml" 24 774 788 "CoreJavaProject/Exp/expUtils.ml" 24 774 791
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 24 706 709 "CoreJavaProject/Exp/expUtils.ml" 24 706 723
+"CoreJavaProject/Exp/expUtils.ml" 24 774 777 "CoreJavaProject/Exp/expUtils.ml" 24 774 791
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 24 706 737 "CoreJavaProject/Exp/expUtils.ml" 24 706 747
+"CoreJavaProject/Exp/expUtils.ml" 24 774 805 "CoreJavaProject/Exp/expUtils.ml" 24 774 815
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 24 706 727 "CoreJavaProject/Exp/expUtils.ml" 24 706 747
+"CoreJavaProject/Exp/expUtils.ml" 24 774 795 "CoreJavaProject/Exp/expUtils.ml" 24 774 815
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 25 748 751 "CoreJavaProject/Exp/expUtils.ml" 25 748 760
+"CoreJavaProject/Exp/expUtils.ml" 25 816 819 "CoreJavaProject/Exp/expUtils.ml" 25 816 828
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 25 748 774 "CoreJavaProject/Exp/expUtils.ml" 25 748 782
+"CoreJavaProject/Exp/expUtils.ml" 25 816 842 "CoreJavaProject/Exp/expUtils.ml" 25 816 850
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 25 748 764 "CoreJavaProject/Exp/expUtils.ml" 25 748 782
+"CoreJavaProject/Exp/expUtils.ml" 25 816 832 "CoreJavaProject/Exp/expUtils.ml" 25 816 850
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 26 783 786 "CoreJavaProject/Exp/expUtils.ml" 26 783 790
+"CoreJavaProject/Exp/expUtils.ml" 26 851 854 "CoreJavaProject/Exp/expUtils.ml" 26 851 858
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 26 783 811 "CoreJavaProject/Exp/expUtils.ml" 26 783 819
+"CoreJavaProject/Exp/expUtils.ml" 26 851 879 "CoreJavaProject/Exp/expUtils.ml" 26 851 887
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 26 783 802 "CoreJavaProject/Exp/expUtils.ml" 26 783 820
+"CoreJavaProject/Exp/expUtils.ml" 26 851 870 "CoreJavaProject/Exp/expUtils.ml" 26 851 888
 type(
   TypeDeclaration.cJBottom
 )
-"CoreJavaProject/Exp/expUtils.ml" 26 783 794 "CoreJavaProject/Exp/expUtils.ml" 26 783 820
+"CoreJavaProject/Exp/expUtils.ml" 26 851 862 "CoreJavaProject/Exp/expUtils.ml" 26 851 888
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 20 577 578 "CoreJavaProject/Exp/expUtils.ml" 26 783 820
+"CoreJavaProject/Exp/expUtils.ml" 20 645 646 "CoreJavaProject/Exp/expUtils.ml" 26 851 888
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 28 824 828 "CoreJavaProject/Exp/expUtils.ml" 28 824 840
+"CoreJavaProject/Exp/expUtils.ml" 28 892 896 "CoreJavaProject/Exp/expUtils.ml" 28 892 908
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  def getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 43 1519 1519 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 43 1587 1587 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 28 824 841 "CoreJavaProject/Exp/expUtils.ml" 28 824 842
+"CoreJavaProject/Exp/expUtils.ml" 28 892 909 "CoreJavaProject/Exp/expUtils.ml" 28 892 910
 type(
   ExpDeclaration.exp
 )
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 28 824 849 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+  def e "CoreJavaProject/Exp/expUtils.ml" 28 892 917 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 )
-"CoreJavaProject/Exp/expUtils.ml" 28 824 850 "CoreJavaProject/Exp/expUtils.ml" 28 824 852
+"CoreJavaProject/Exp/expUtils.ml" 28 892 918 "CoreJavaProject/Exp/expUtils.ml" 28 892 920
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 28 824 876 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+  def te "CoreJavaProject/Exp/expUtils.ml" 28 892 944 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 )
-"CoreJavaProject/Exp/expUtils.ml" 28 824 877 "CoreJavaProject/Exp/expUtils.ml" 28 824 878
+"CoreJavaProject/Exp/expUtils.ml" 28 892 945 "CoreJavaProject/Exp/expUtils.ml" 28 892 946
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/expUtils.ml" 29 894 895 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+  def p "CoreJavaProject/Exp/expUtils.ml" 29 962 963 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 )
-"CoreJavaProject/Exp/expUtils.ml" 29 894 901 "CoreJavaProject/Exp/expUtils.ml" 29 894 902
+"CoreJavaProject/Exp/expUtils.ml" 29 962 969 "CoreJavaProject/Exp/expUtils.ml" 29 962 970
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 28 824 841 "CoreJavaProject/Exp/expUtils.ml" 28 824 842
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 28 892 909 "CoreJavaProject/Exp/expUtils.ml" 28 892 910
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 924 "CoreJavaProject/Exp/expUtils.ml" 30 909 925
+"CoreJavaProject/Exp/expUtils.ml" 30 977 992 "CoreJavaProject/Exp/expUtils.ml" 30 977 993
 type(
   ExpDeclaration.operatorInt
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 927 "CoreJavaProject/Exp/expUtils.ml" 30 909 928
+"CoreJavaProject/Exp/expUtils.ml" 30 977 995 "CoreJavaProject/Exp/expUtils.ml" 30 977 996
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 930 "CoreJavaProject/Exp/expUtils.ml" 30 909 931
+"CoreJavaProject/Exp/expUtils.ml" 30 977 998 "CoreJavaProject/Exp/expUtils.ml" 30 977 999
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 912 "CoreJavaProject/Exp/expUtils.ml" 30 909 932
+"CoreJavaProject/Exp/expUtils.ml" 30 977 980 "CoreJavaProject/Exp/expUtils.ml" 30 977 1000
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 946 "CoreJavaProject/Exp/expUtils.ml" 30 909 953
+"CoreJavaProject/Exp/expUtils.ml" 30 977 1014 "CoreJavaProject/Exp/expUtils.ml" 30 977 1021
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 30 909 936 "CoreJavaProject/Exp/expUtils.ml" 30 909 953
+"CoreJavaProject/Exp/expUtils.ml" 30 977 1004 "CoreJavaProject/Exp/expUtils.ml" 30 977 1021
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 971 "CoreJavaProject/Exp/expUtils.ml" 31 954 972
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1039 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1040
 type(
   ExpDeclaration.operatorFloat
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 974 "CoreJavaProject/Exp/expUtils.ml" 31 954 975
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1042 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1043
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 977 "CoreJavaProject/Exp/expUtils.ml" 31 954 978
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1045 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1046
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 957 "CoreJavaProject/Exp/expUtils.ml" 31 954 979
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1025 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1047
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 993 "CoreJavaProject/Exp/expUtils.ml" 31 954 1002
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1061 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1070
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 31 954 983 "CoreJavaProject/Exp/expUtils.ml" 31 954 1002
+"CoreJavaProject/Exp/expUtils.ml" 31 1022 1051 "CoreJavaProject/Exp/expUtils.ml" 31 1022 1070
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1015 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1016
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1083 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1084
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 32 1003 1021 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1041
+  def e "CoreJavaProject/Exp/expUtils.ml" 32 1071 1089 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1109
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1014 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1017
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1082 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1085
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1006 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1017
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1074 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1085
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1021 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1038
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1089 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1106
 type(
   ExpDeclaration.constExp -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfConstExp "CoreJavaProject/Exp/expUtils.ml" 19 534 542 "CoreJavaProject/Exp/expUtils.ml" 19 534 559
+  int_ref getTypeOfConstExp "CoreJavaProject/Exp/expUtils.ml" 19 602 610 "CoreJavaProject/Exp/expUtils.ml" 19 602 627
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1038 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1041
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1106 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1109
 type(
   ExpDeclaration.constExp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 32 1003 1014 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1017
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 32 1071 1082 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1085
 )
-"CoreJavaProject/Exp/expUtils.ml" 32 1003 1021 "CoreJavaProject/Exp/expUtils.ml" 32 1003 1041
+"CoreJavaProject/Exp/expUtils.ml" 32 1071 1089 "CoreJavaProject/Exp/expUtils.ml" 32 1071 1109
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1057 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1061
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1125 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1129
 ident(
-  def name "CoreJavaProject/Exp/expUtils.ml" 33 1042 1066 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1084
+  def name "CoreJavaProject/Exp/expUtils.ml" 33 1110 1134 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1152
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1056 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1062
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1124 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1130
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1045 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1062
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1113 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1130
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1066 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1076
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1134 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1144
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   int_ref getVarType "CoreJavaProject/Exp/expUtils.ml" 9 167 175 "CoreJavaProject/Exp/expUtils.ml" 9 167 185
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1077 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1081
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1145 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1149
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Exp/expUtils.ml" 33 1042 1056 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1062
+  int_ref name "CoreJavaProject/Exp/expUtils.ml" 33 1110 1124 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1130
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1082 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1084
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1150 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1152
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 28 824 850 "CoreJavaProject/Exp/expUtils.ml" 28 824 852
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 28 892 918 "CoreJavaProject/Exp/expUtils.ml" 28 892 920
 )
-"CoreJavaProject/Exp/expUtils.ml" 33 1042 1066 "CoreJavaProject/Exp/expUtils.ml" 33 1042 1084
+"CoreJavaProject/Exp/expUtils.ml" 33 1110 1134 "CoreJavaProject/Exp/expUtils.ml" 33 1110 1152
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1102 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1109
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1170 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1177
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/expUtils.ml" 34 1085 1125 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1241
+  def varName "CoreJavaProject/Exp/expUtils.ml" 34 1153 1193 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1309
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1111 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1120
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1179 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1188
 type(
   string
 )
 ident(
-  def fieldName "CoreJavaProject/Exp/expUtils.ml" 34 1085 1125 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1241
+  def fieldName "CoreJavaProject/Exp/expUtils.ml" 34 1153 1193 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1309
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1088 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1121
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1156 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1189
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1125 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1137
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1193 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1205
 type(
   FieldDeclaration.cJField -> TypeDeclaration.cJType
 )
 ident(
   ext_ref FieldDeclaration.getFieldType
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1139 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1155
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1207 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1223
 type(
   string -> FieldDeclaration.cJFieldList -> FieldDeclaration.cJField
 )
 ident(
   ext_ref ClassDeclaration.getFieldWithName
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1156 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1163
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1224 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1231
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 34 1085 1102 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1109
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 34 1153 1170 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1177
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1165 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1177
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1233 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1245
 type(
   ClassDeclaration.cJClass -> FieldDeclaration.cJFieldList
 )
 ident(
   ext_ref ClassDeclaration.getFieldList
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1179 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1195
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1247 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1263
 type(
   string -> ProgramDeclaration.cJProgram -> ClassDeclaration.cJClass
 )
 ident(
   ext_ref ProgramDeclaration.getClassWithName
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1197 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1211
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1265 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1279
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1213 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1223
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1281 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1291
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   int_ref getVarType "CoreJavaProject/Exp/expUtils.ml" 9 167 175 "CoreJavaProject/Exp/expUtils.ml" 9 167 185
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1224 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1231
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1292 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1299
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 34 1085 1102 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1109
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 34 1153 1170 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1177
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1232 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1234
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1300 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1302
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 28 824 850 "CoreJavaProject/Exp/expUtils.ml" 28 824 852
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 28 892 918 "CoreJavaProject/Exp/expUtils.ml" 28 892 920
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1212 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1235
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1280 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1303
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1196 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1236
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1264 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1304
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1237 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1238
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1305 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1306
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 28 824 877 "CoreJavaProject/Exp/expUtils.ml" 28 824 878
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 28 892 945 "CoreJavaProject/Exp/expUtils.ml" 28 892 946
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1178 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1239
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1246 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1307
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1164 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1240
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1232 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1308
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1138 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1241
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1206 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1309
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/Exp/expUtils.ml" 34 1085 1125 "CoreJavaProject/Exp/expUtils.ml" 34 1085 1241
+"CoreJavaProject/Exp/expUtils.ml" 34 1153 1193 "CoreJavaProject/Exp/expUtils.ml" 34 1153 1309
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 35 1242 1251 "CoreJavaProject/Exp/expUtils.ml" 35 1242 1254
+"CoreJavaProject/Exp/expUtils.ml" 35 1310 1319 "CoreJavaProject/Exp/expUtils.ml" 35 1310 1322
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 35 1242 1245 "CoreJavaProject/Exp/expUtils.ml" 35 1242 1254
+"CoreJavaProject/Exp/expUtils.ml" 35 1310 1313 "CoreJavaProject/Exp/expUtils.ml" 35 1310 1322
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 35 1242 1268 "CoreJavaProject/Exp/expUtils.ml" 35 1242 1276
+"CoreJavaProject/Exp/expUtils.ml" 35 1310 1336 "CoreJavaProject/Exp/expUtils.ml" 35 1310 1344
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 35 1242 1258 "CoreJavaProject/Exp/expUtils.ml" 35 1242 1276
+"CoreJavaProject/Exp/expUtils.ml" 35 1310 1326 "CoreJavaProject/Exp/expUtils.ml" 35 1310 1344
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 36 1277 1291 "CoreJavaProject/Exp/expUtils.ml" 36 1277 1292
+"CoreJavaProject/Exp/expUtils.ml" 36 1345 1359 "CoreJavaProject/Exp/expUtils.ml" 36 1345 1360
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 36 1277 1294 "CoreJavaProject/Exp/expUtils.ml" 36 1277 1295
+"CoreJavaProject/Exp/expUtils.ml" 36 1345 1362 "CoreJavaProject/Exp/expUtils.ml" 36 1345 1363
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 36 1277 1280 "CoreJavaProject/Exp/expUtils.ml" 36 1277 1296
+"CoreJavaProject/Exp/expUtils.ml" 36 1345 1348 "CoreJavaProject/Exp/expUtils.ml" 36 1345 1364
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 36 1277 1310 "CoreJavaProject/Exp/expUtils.ml" 36 1277 1318
+"CoreJavaProject/Exp/expUtils.ml" 36 1345 1378 "CoreJavaProject/Exp/expUtils.ml" 36 1345 1386
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 36 1277 1300 "CoreJavaProject/Exp/expUtils.ml" 36 1277 1318
+"CoreJavaProject/Exp/expUtils.ml" 36 1345 1368 "CoreJavaProject/Exp/expUtils.ml" 36 1345 1386
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 37 1319 1330 "CoreJavaProject/Exp/expUtils.ml" 37 1319 1331
+"CoreJavaProject/Exp/expUtils.ml" 37 1387 1398 "CoreJavaProject/Exp/expUtils.ml" 37 1387 1399
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 37 1319 1333 "CoreJavaProject/Exp/expUtils.ml" 37 1319 1334
+"CoreJavaProject/Exp/expUtils.ml" 37 1387 1401 "CoreJavaProject/Exp/expUtils.ml" 37 1387 1402
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 37 1319 1322 "CoreJavaProject/Exp/expUtils.ml" 37 1319 1335
+"CoreJavaProject/Exp/expUtils.ml" 37 1387 1390 "CoreJavaProject/Exp/expUtils.ml" 37 1387 1403
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 37 1319 1349 "CoreJavaProject/Exp/expUtils.ml" 37 1319 1357
+"CoreJavaProject/Exp/expUtils.ml" 37 1387 1417 "CoreJavaProject/Exp/expUtils.ml" 37 1387 1425
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 37 1319 1339 "CoreJavaProject/Exp/expUtils.ml" 37 1319 1357
+"CoreJavaProject/Exp/expUtils.ml" 37 1387 1407 "CoreJavaProject/Exp/expUtils.ml" 37 1387 1425
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 38 1358 1370 "CoreJavaProject/Exp/expUtils.ml" 38 1358 1371
+"CoreJavaProject/Exp/expUtils.ml" 38 1426 1438 "CoreJavaProject/Exp/expUtils.ml" 38 1426 1439
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 38 1358 1373 "CoreJavaProject/Exp/expUtils.ml" 38 1358 1374
+"CoreJavaProject/Exp/expUtils.ml" 38 1426 1441 "CoreJavaProject/Exp/expUtils.ml" 38 1426 1442
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 38 1358 1361 "CoreJavaProject/Exp/expUtils.ml" 38 1358 1375
+"CoreJavaProject/Exp/expUtils.ml" 38 1426 1429 "CoreJavaProject/Exp/expUtils.ml" 38 1426 1443
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 38 1358 1389 "CoreJavaProject/Exp/expUtils.ml" 38 1358 1397
+"CoreJavaProject/Exp/expUtils.ml" 38 1426 1457 "CoreJavaProject/Exp/expUtils.ml" 38 1426 1465
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 38 1358 1379 "CoreJavaProject/Exp/expUtils.ml" 38 1358 1397
+"CoreJavaProject/Exp/expUtils.ml" 38 1426 1447 "CoreJavaProject/Exp/expUtils.ml" 38 1426 1465
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 39 1398 1413 "CoreJavaProject/Exp/expUtils.ml" 39 1398 1414
+"CoreJavaProject/Exp/expUtils.ml" 39 1466 1481 "CoreJavaProject/Exp/expUtils.ml" 39 1466 1482
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 39 1398 1416 "CoreJavaProject/Exp/expUtils.ml" 39 1398 1417
+"CoreJavaProject/Exp/expUtils.ml" 39 1466 1484 "CoreJavaProject/Exp/expUtils.ml" 39 1466 1485
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 39 1398 1401 "CoreJavaProject/Exp/expUtils.ml" 39 1398 1418
+"CoreJavaProject/Exp/expUtils.ml" 39 1466 1469 "CoreJavaProject/Exp/expUtils.ml" 39 1466 1486
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 39 1398 1432 "CoreJavaProject/Exp/expUtils.ml" 39 1398 1440
+"CoreJavaProject/Exp/expUtils.ml" 39 1466 1500 "CoreJavaProject/Exp/expUtils.ml" 39 1466 1508
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 39 1398 1422 "CoreJavaProject/Exp/expUtils.ml" 39 1398 1440
+"CoreJavaProject/Exp/expUtils.ml" 39 1466 1490 "CoreJavaProject/Exp/expUtils.ml" 39 1466 1508
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 40 1441 1451 "CoreJavaProject/Exp/expUtils.ml" 40 1441 1452
+"CoreJavaProject/Exp/expUtils.ml" 40 1509 1519 "CoreJavaProject/Exp/expUtils.ml" 40 1509 1520
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 40 1441 1454 "CoreJavaProject/Exp/expUtils.ml" 40 1441 1455
+"CoreJavaProject/Exp/expUtils.ml" 40 1509 1522 "CoreJavaProject/Exp/expUtils.ml" 40 1509 1523
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 40 1441 1444 "CoreJavaProject/Exp/expUtils.ml" 40 1441 1456
+"CoreJavaProject/Exp/expUtils.ml" 40 1509 1512 "CoreJavaProject/Exp/expUtils.ml" 40 1509 1524
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 40 1441 1470 "CoreJavaProject/Exp/expUtils.ml" 40 1441 1478
+"CoreJavaProject/Exp/expUtils.ml" 40 1509 1538 "CoreJavaProject/Exp/expUtils.ml" 40 1509 1546
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 40 1441 1460 "CoreJavaProject/Exp/expUtils.ml" 40 1441 1478
+"CoreJavaProject/Exp/expUtils.ml" 40 1509 1528 "CoreJavaProject/Exp/expUtils.ml" 40 1509 1546
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 41 1479 1488 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1489
+"CoreJavaProject/Exp/expUtils.ml" 41 1547 1556 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1557
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 41 1479 1491 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1492
+"CoreJavaProject/Exp/expUtils.ml" 41 1547 1559 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1560
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 41 1479 1482 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1493
+"CoreJavaProject/Exp/expUtils.ml" 41 1547 1550 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1561
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 41 1479 1507 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+"CoreJavaProject/Exp/expUtils.ml" 41 1547 1575 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 41 1479 1497 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+"CoreJavaProject/Exp/expUtils.ml" 41 1547 1565 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 29 894 895 "CoreJavaProject/Exp/expUtils.ml" 41 1479 1515
+"CoreJavaProject/Exp/expUtils.ml" 29 962 963 "CoreJavaProject/Exp/expUtils.ml" 41 1547 1583
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 43 1519 1523 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1536
+"CoreJavaProject/Exp/expUtils.ml" 43 1587 1591 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1604
 type(
   ExpDeclaration.exp2 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  def getTypeOfExp2 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1812 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def getTypeOfExp2 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1880 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 43 1519 1538 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1539
+"CoreJavaProject/Exp/expUtils.ml" 43 1587 1606 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1607
 type(
   ExpDeclaration.exp2
 )
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 43 1519 1547 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def e "CoreJavaProject/Exp/expUtils.ml" 43 1587 1615 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 43 1519 1548 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1550
+"CoreJavaProject/Exp/expUtils.ml" 43 1587 1616 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1618
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 43 1519 1574 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def te "CoreJavaProject/Exp/expUtils.ml" 43 1587 1642 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 43 1519 1575 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1576
+"CoreJavaProject/Exp/expUtils.ml" 43 1587 1643 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1644
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/expUtils.ml" 44 1591 1592 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def p "CoreJavaProject/Exp/expUtils.ml" 44 1659 1660 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 44 1591 1598 "CoreJavaProject/Exp/expUtils.ml" 44 1591 1599
+"CoreJavaProject/Exp/expUtils.ml" 44 1659 1666 "CoreJavaProject/Exp/expUtils.ml" 44 1659 1667
 type(
   ExpDeclaration.exp2
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 43 1519 1538 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1539
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 43 1587 1606 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1607
 )
-"CoreJavaProject/Exp/expUtils.ml" 45 1605 1615 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1619
+"CoreJavaProject/Exp/expUtils.ml" 45 1673 1683 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1687
 type(
   TypeDeclaration.cJClassType
 )
 ident(
-  def name "CoreJavaProject/Exp/expUtils.ml" 45 1605 1627 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1644
+  def name "CoreJavaProject/Exp/expUtils.ml" 45 1673 1695 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1712
 )
-"CoreJavaProject/Exp/expUtils.ml" 45 1605 1621 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1622
+"CoreJavaProject/Exp/expUtils.ml" 45 1673 1689 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1690
 type(
   ExpDeclaration.varList
 )
-"CoreJavaProject/Exp/expUtils.ml" 45 1605 1608 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1623
+"CoreJavaProject/Exp/expUtils.ml" 45 1673 1676 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1691
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/expUtils.ml" 45 1605 1638 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1644
+"CoreJavaProject/Exp/expUtils.ml" 45 1673 1706 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1712
 type(
   TypeDeclaration.cJClassType
 )
 ident(
-  int_ref name "CoreJavaProject/Exp/expUtils.ml" 45 1605 1615 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1619
+  int_ref name "CoreJavaProject/Exp/expUtils.ml" 45 1673 1683 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1687
 )
-"CoreJavaProject/Exp/expUtils.ml" 45 1605 1627 "CoreJavaProject/Exp/expUtils.ml" 45 1605 1644
+"CoreJavaProject/Exp/expUtils.ml" 45 1673 1695 "CoreJavaProject/Exp/expUtils.ml" 45 1673 1712
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1659 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1666
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1727 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1734
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/expUtils.ml" 46 1645 1686 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def varName "CoreJavaProject/Exp/expUtils.ml" 46 1713 1754 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1668 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1672
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1736 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1740
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Exp/expUtils.ml" 46 1645 1686 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def name "CoreJavaProject/Exp/expUtils.ml" 46 1713 1754 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1674 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1681
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1742 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1749
 type(
   ExpDeclaration.varList
 )
 ident(
-  def varList "CoreJavaProject/Exp/expUtils.ml" 46 1645 1686 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+  def varList "CoreJavaProject/Exp/expUtils.ml" 46 1713 1754 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1648 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1682
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1716 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1750
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1686 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1705
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1754 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1773
 type(
   MethodDeclaration.cJMethod -> TypeDeclaration.cJType
 )
 ident(
   ext_ref MethodDeclaration.getMethodReturnType
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1707 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1724
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1775 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1792
 type(
   string -> MethodDeclaration.cJMethodList -> MethodDeclaration.cJMethod
 )
 ident(
   ext_ref ClassDeclaration.getMethodWithName
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1725 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1729
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1793 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1797
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Exp/expUtils.ml" 46 1645 1668 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1672
+  int_ref name "CoreJavaProject/Exp/expUtils.ml" 46 1713 1736 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1740
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1731 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1744
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1799 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1812
 type(
   ClassDeclaration.cJClass -> MethodDeclaration.cJMethodList
 )
 ident(
   ext_ref ClassDeclaration.getMethodList
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1746 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1762
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1814 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1830
 type(
   string -> ProgramDeclaration.cJProgram -> ClassDeclaration.cJClass
 )
 ident(
   ext_ref ProgramDeclaration.getClassWithName
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1764 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1778
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1832 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1846
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1780 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1790
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1848 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1858
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   int_ref getVarType "CoreJavaProject/Exp/expUtils.ml" 9 167 175 "CoreJavaProject/Exp/expUtils.ml" 9 167 185
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1791 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1798
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1859 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1866
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 46 1645 1659 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1666
+  int_ref varName "CoreJavaProject/Exp/expUtils.ml" 46 1713 1727 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1734
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1799 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1801
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1867 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1869
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 43 1519 1548 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1550
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 43 1587 1616 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1618
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1779 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1802
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1847 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1870
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1763 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1803
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1831 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1871
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1804 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1805
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1872 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1873
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 43 1519 1575 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1576
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 43 1587 1643 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1644
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1745 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1806
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1813 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1874
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1730 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1807
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1798 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1875
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1706 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1774 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/Exp/expUtils.ml" 46 1645 1686 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+"CoreJavaProject/Exp/expUtils.ml" 46 1713 1754 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 44 1591 1592 "CoreJavaProject/Exp/expUtils.ml" 46 1645 1808
+"CoreJavaProject/Exp/expUtils.ml" 44 1659 1660 "CoreJavaProject/Exp/expUtils.ml" 46 1713 1876
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 48 1812 1816 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1829
+"CoreJavaProject/Exp/expUtils.ml" 48 1880 1884 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1897
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  def getTypeOfExp3 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1971 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def getTypeOfExp3 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2039 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 48 1812 1831 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1832
+"CoreJavaProject/Exp/expUtils.ml" 48 1880 1899 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1900
 type(
   ExpDeclaration.exp3
 )
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 48 1812 1840 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+  def e "CoreJavaProject/Exp/expUtils.ml" 48 1880 1908 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 )
-"CoreJavaProject/Exp/expUtils.ml" 48 1812 1841 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1843
+"CoreJavaProject/Exp/expUtils.ml" 48 1880 1909 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1911
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 48 1812 1867 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+  def te "CoreJavaProject/Exp/expUtils.ml" 48 1880 1935 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 )
-"CoreJavaProject/Exp/expUtils.ml" 48 1812 1868 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1869
+"CoreJavaProject/Exp/expUtils.ml" 48 1880 1936 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1937
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/expUtils.ml" 49 1885 1886 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+  def p "CoreJavaProject/Exp/expUtils.ml" 49 1953 1954 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 )
-"CoreJavaProject/Exp/expUtils.ml" 49 1885 1892 "CoreJavaProject/Exp/expUtils.ml" 49 1885 1893
+"CoreJavaProject/Exp/expUtils.ml" 49 1953 1960 "CoreJavaProject/Exp/expUtils.ml" 49 1953 1961
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 48 1812 1831 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1832
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 48 1880 1899 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1900
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1907 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1908
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1975 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1976
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 50 1900 1913 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1932
+  def e "CoreJavaProject/Exp/expUtils.ml" 50 1968 1981 "CoreJavaProject/Exp/expUtils.ml" 50 1968 2000
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1906 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1909
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1974 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1977
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1903 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1909
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1971 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1977
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1913 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1925
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1981 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1993
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 28 824 828 "CoreJavaProject/Exp/expUtils.ml" 28 824 840
+  int_ref getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 28 892 896 "CoreJavaProject/Exp/expUtils.ml" 28 892 908
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1926 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1927
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1994 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1995
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 50 1900 1906 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1909
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 50 1968 1974 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1977
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1928 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1930
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1996 "CoreJavaProject/Exp/expUtils.ml" 50 1968 1998
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 48 1812 1841 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1843
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 48 1880 1909 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1911
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1931 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1932
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1999 "CoreJavaProject/Exp/expUtils.ml" 50 1968 2000
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 48 1812 1868 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1869
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 48 1880 1936 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1937
 )
-"CoreJavaProject/Exp/expUtils.ml" 50 1900 1913 "CoreJavaProject/Exp/expUtils.ml" 50 1900 1932
+"CoreJavaProject/Exp/expUtils.ml" 50 1968 1981 "CoreJavaProject/Exp/expUtils.ml" 50 1968 2000
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1941 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1942
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2009 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2010
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 51 1933 1947 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+  def e "CoreJavaProject/Exp/expUtils.ml" 51 2001 2015 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1940 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1943
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2008 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2011
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1936 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1943
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2004 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2011
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1947 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1960
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2015 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2028
 type(
   ExpDeclaration.exp2 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfExp2 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1523 "CoreJavaProject/Exp/expUtils.ml" 43 1519 1536
+  int_ref getTypeOfExp2 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1591 "CoreJavaProject/Exp/expUtils.ml" 43 1587 1604
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1961 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1962
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2029 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2030
 type(
   ExpDeclaration.exp2
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 51 1933 1940 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1943
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 51 2001 2008 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2011
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1963 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1965
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2031 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2033
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 48 1812 1841 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1843
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 48 1880 1909 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1911
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1966 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2034 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 48 1812 1868 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1869
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 48 1880 1936 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1937
 )
-"CoreJavaProject/Exp/expUtils.ml" 51 1933 1947 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+"CoreJavaProject/Exp/expUtils.ml" 51 2001 2015 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 49 1885 1886 "CoreJavaProject/Exp/expUtils.ml" 51 1933 1967
+"CoreJavaProject/Exp/expUtils.ml" 49 1953 1954 "CoreJavaProject/Exp/expUtils.ml" 51 2001 2035
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+"CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  def getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1971 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
+  def getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2039 "CoreJavaProject/Exp/expUtils.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/expUtils.ml" 53 1971 1998 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1999
+"CoreJavaProject/Exp/expUtils.ml" 53 2039 2066 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2067
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 53 1971 2011 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+  def e "CoreJavaProject/Exp/expUtils.ml" 53 2039 2079 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 )
-"CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+"CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2038 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+  def te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2106 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 )
-"CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+"CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/expUtils.ml" 54 2054 2055 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+  def p "CoreJavaProject/Exp/expUtils.ml" 54 2122 2123 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 )
-"CoreJavaProject/Exp/expUtils.ml" 54 2054 2061 "CoreJavaProject/Exp/expUtils.ml" 54 2054 2062
+"CoreJavaProject/Exp/expUtils.ml" 54 2122 2129 "CoreJavaProject/Exp/expUtils.ml" 54 2122 2130
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 53 1971 1998 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1999
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 53 2039 2066 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2067
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2076 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2077
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2144 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2145
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 55 2068 2082 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2102
+  def e "CoreJavaProject/Exp/expUtils.ml" 55 2136 2150 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2170
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2075 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2078
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2143 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2146
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2071 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2078
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2139 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2146
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2082 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2095
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2150 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2163
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfExp3 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1816 "CoreJavaProject/Exp/expUtils.ml" 48 1812 1829
+  int_ref getTypeOfExp3 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1884 "CoreJavaProject/Exp/expUtils.ml" 48 1880 1897
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2096 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2097
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2164 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2165
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 55 2068 2075 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2078
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 55 2136 2143 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2146
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2098 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2100
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2166 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2168
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2101 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2102
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2169 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2170
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 55 2068 2082 "CoreJavaProject/Exp/expUtils.ml" 55 2068 2102
+"CoreJavaProject/Exp/expUtils.ml" 55 2136 2150 "CoreJavaProject/Exp/expUtils.ml" 55 2136 2170
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2112 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2113
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2180 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2181
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2115 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2117
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2183 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2185
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def st "CoreJavaProject/Exp/expUtils.ml" 56 2103 2122 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2147
+  def st "CoreJavaProject/Exp/expUtils.ml" 56 2171 2190 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2215
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2106 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2118
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2174 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2186
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2122 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2139
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2190 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2207
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2140 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2142
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2208 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2210
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref st "CoreJavaProject/Exp/expUtils.ml" 56 2103 2115 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2117
+  int_ref st "CoreJavaProject/Exp/expUtils.ml" 56 2171 2183 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2185
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2143 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2145
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2211 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2213
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2146 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2147
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2214 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2215
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 56 2103 2122 "CoreJavaProject/Exp/expUtils.ml" 56 2103 2147
+"CoreJavaProject/Exp/expUtils.ml" 56 2171 2190 "CoreJavaProject/Exp/expUtils.ml" 56 2171 2215
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2161 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2162
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2229 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2230
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2164 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2168
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2232 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2236
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2148 2181 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2330
+  def ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2216 2249 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2398
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2170 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2176
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2238 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2244
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def elseSt "CoreJavaProject/Exp/expUtils.ml" 57 2148 2181 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2330
+  def elseSt "CoreJavaProject/Exp/expUtils.ml" 57 2216 2249 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2398
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2151 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2177
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2219 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2245
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2185 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2202
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2253 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2270
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2203 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2207
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2271 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2275
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2148 2164 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2168
+  int_ref ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2216 2232 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2236
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2208 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2210
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2276 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2278
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2211 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2212
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2279 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2280
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2184 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2213
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2252 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2281
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2214 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2215
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2282 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2283
 type(
   TypeDeclaration.cJType -> TypeDeclaration.cJType -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2217 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2234
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2285 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2302
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2235 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2241
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2303 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2309
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref elseSt "CoreJavaProject/Exp/expUtils.ml" 57 2148 2170 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2176
+  int_ref elseSt "CoreJavaProject/Exp/expUtils.ml" 57 2216 2238 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2244
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2242 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2244
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2310 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2312
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2245 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2246
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2313 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2314
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2216 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2247
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2284 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2315
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2184 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2247
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2252 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2315
 type(
   bool
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2254 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2271
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2322 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2339
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2272 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2276
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2340 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2344
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2148 2164 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2168
+  int_ref ifSt "CoreJavaProject/Exp/expUtils.ml" 57 2216 2232 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2236
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2277 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2279
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2345 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2347
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2280 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2281
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2348 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2349
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2253 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2282
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2321 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2350
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2288 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2293
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2356 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2361
 type(
   exn -> TypeDeclaration.cJType
 )
 ident(
   ext_ref Pervasives.raise
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2303 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2329
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2371 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2397
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2294 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2330
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2362 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2398
 type(
   exn
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2288 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2330
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2356 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2398
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 57 2148 2181 "CoreJavaProject/Exp/expUtils.ml" 57 2148 2330
+"CoreJavaProject/Exp/expUtils.ml" 57 2216 2249 "CoreJavaProject/Exp/expUtils.ml" 57 2216 2398
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2343 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2344
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2411 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2412
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2346 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2348
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2414 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2416
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def st "CoreJavaProject/Exp/expUtils.ml" 58 2331 2353 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2380
+  def st "CoreJavaProject/Exp/expUtils.ml" 58 2399 2421 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2448
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2334 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2349
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2402 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2417
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2354 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2371
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2422 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2439
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2372 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2374
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2440 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2442
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref st "CoreJavaProject/Exp/expUtils.ml" 58 2331 2346 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2348
+  int_ref st "CoreJavaProject/Exp/expUtils.ml" 58 2399 2414 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2416
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2375 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2377
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2443 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2445
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2378 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2379
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2446 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2447
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 58 2331 2353 "CoreJavaProject/Exp/expUtils.ml" 58 2331 2380
+"CoreJavaProject/Exp/expUtils.ml" 58 2399 2421 "CoreJavaProject/Exp/expUtils.ml" 58 2399 2448
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2396 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2397
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2464 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2465
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2399 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2401
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2467 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2469
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def st "CoreJavaProject/Exp/expUtils.ml" 59 2381 2406 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2433
+  def st "CoreJavaProject/Exp/expUtils.ml" 59 2449 2474 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2501
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2384 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2402
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2452 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2470
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2407 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2424
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2475 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2492
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 1971 1979 "CoreJavaProject/Exp/expUtils.ml" 53 1971 1996
+  int_ref getTypeOfSuperExp "CoreJavaProject/Exp/expUtils.ml" 53 2039 2047 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2064
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2425 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2427
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2493 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2495
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref st "CoreJavaProject/Exp/expUtils.ml" 59 2381 2399 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2401
+  int_ref st "CoreJavaProject/Exp/expUtils.ml" 59 2449 2467 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2469
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2428 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2430
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2496 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2498
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2431 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2432
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2499 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2500
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 59 2381 2406 "CoreJavaProject/Exp/expUtils.ml" 59 2381 2433
+"CoreJavaProject/Exp/expUtils.ml" 59 2449 2474 "CoreJavaProject/Exp/expUtils.ml" 59 2449 2501
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 60 2434 2447 "CoreJavaProject/Exp/expUtils.ml" 60 2434 2448
+"CoreJavaProject/Exp/expUtils.ml" 60 2502 2515 "CoreJavaProject/Exp/expUtils.ml" 60 2502 2516
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 60 2434 2450 "CoreJavaProject/Exp/expUtils.ml" 60 2434 2451
+"CoreJavaProject/Exp/expUtils.ml" 60 2502 2518 "CoreJavaProject/Exp/expUtils.ml" 60 2502 2519
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/expUtils.ml" 60 2434 2437 "CoreJavaProject/Exp/expUtils.ml" 60 2434 2452
+"CoreJavaProject/Exp/expUtils.ml" 60 2502 2505 "CoreJavaProject/Exp/expUtils.ml" 60 2502 2520
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 60 2434 2466 "CoreJavaProject/Exp/expUtils.ml" 60 2434 2474
+"CoreJavaProject/Exp/expUtils.ml" 60 2502 2534 "CoreJavaProject/Exp/expUtils.ml" 60 2502 2542
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 60 2434 2456 "CoreJavaProject/Exp/expUtils.ml" 60 2434 2474
+"CoreJavaProject/Exp/expUtils.ml" 60 2502 2524 "CoreJavaProject/Exp/expUtils.ml" 60 2502 2542
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2488 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2489
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2556 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2557
 ident(
-  def e "CoreJavaProject/Exp/expUtils.ml" 61 2475 2494 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2515
+  def e "CoreJavaProject/Exp/expUtils.ml" 61 2543 2562 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2583
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2487 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2490
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2555 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2558
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2478 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2490
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2546 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2558
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2495 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2507
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2563 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2575
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
-  int_ref getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 28 824 828 "CoreJavaProject/Exp/expUtils.ml" 28 824 840
+  int_ref getTypeOfExp "CoreJavaProject/Exp/expUtils.ml" 28 892 896 "CoreJavaProject/Exp/expUtils.ml" 28 892 908
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2508 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2509
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2576 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2577
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/expUtils.ml" 61 2475 2487 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2490
+  int_ref e "CoreJavaProject/Exp/expUtils.ml" 61 2543 2555 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2558
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2510 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2512
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2578 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2580
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 1971 2012 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2014
+  int_ref te "CoreJavaProject/Exp/expUtils.ml" 53 2039 2080 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2082
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2513 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2514
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2581 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2582
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 1971 2039 "CoreJavaProject/Exp/expUtils.ml" 53 1971 2040
+  int_ref p "CoreJavaProject/Exp/expUtils.ml" 53 2039 2107 "CoreJavaProject/Exp/expUtils.ml" 53 2039 2108
 )
-"CoreJavaProject/Exp/expUtils.ml" 61 2475 2494 "CoreJavaProject/Exp/expUtils.ml" 61 2475 2515
+"CoreJavaProject/Exp/expUtils.ml" 61 2543 2562 "CoreJavaProject/Exp/expUtils.ml" 61 2543 2583
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 62 2516 2533 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2534
+"CoreJavaProject/Exp/expUtils.ml" 62 2584 2601 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2602
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 62 2516 2536 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2537
+"CoreJavaProject/Exp/expUtils.ml" 62 2584 2604 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2605
 type(
   string
 )
-"CoreJavaProject/Exp/expUtils.ml" 62 2516 2519 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2538
+"CoreJavaProject/Exp/expUtils.ml" 62 2584 2587 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2606
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/expUtils.ml" 62 2516 2552 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+"CoreJavaProject/Exp/expUtils.ml" 62 2584 2620 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/Exp/expUtils.ml" 62 2516 2542 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+"CoreJavaProject/Exp/expUtils.ml" 62 2584 2610 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/expUtils.ml" 54 2054 2055 "CoreJavaProject/Exp/expUtils.ml" 62 2516 2560
+"CoreJavaProject/Exp/expUtils.ml" 54 2122 2123 "CoreJavaProject/Exp/expUtils.ml" 62 2584 2628
 type(
   TypeDeclaration.cJType
 )

@@ -32,7 +32,7 @@ let rec wellTypedVarList (l: varList) (te: (string*cJType) list) (p: cJProgram) 
 let rec wellTypedExp2 (e: exp2) (te: (string*cJType) list) (p: cJProgram) = 
 	match e with 
 	| NewExp(name, varList) -> (wellTypedVarList varList te p)
-	| MethodCall(varName, name, varList) -> let m = (getMethodWithName varName (getMethodList (getClassWithName (toStringCJType (getVarType varName te)) p))) in
+	| MethodCall(varName, name, varList) -> let m = (getMethodWithName name (getMethodList (getClassWithName (toStringCJType (getVarType varName te)) p))) in
 																					if (isClassType (getVarType varName te)) && (isSubtype p (toStringCJType (getMethodBodyType m p), toStringCJType (getMethodReturnType m))) && (wellTypedVarList varList te p) then true else false;;
 
 let rec wellTypedExp3 (e: exp3) (te: (string*cJType) list) (p: cJProgram) =
@@ -49,7 +49,7 @@ let rec wellTypedSuperExp (e: superExp) (te: (string*cJType) list) (p: cJProgram
 	| CompoundExp(e1, e2) -> (wellTypedSuperExp e1 te p) && (wellTypedSuperExp e2 te p)
 	| AssignExp(varName, e) -> (existsVar varName te) && (wellTypedExp3 e te p) && (isSubtype p ((toStringCJType (getTypeOfExp3 e te p)), (toStringCJType (getVarType varName te))))
 	| ReturnExp(e) -> (wellTypedExp e te p)
-	| DeclareVarExp(_, varName) -> not (existsVar varName te);;
+	| DeclareVarExp(_, varName) -> true;;
 
 
 
