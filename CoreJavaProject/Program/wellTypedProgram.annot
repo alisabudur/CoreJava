@@ -1,0 +1,97 @@
+"CoreJavaProject/Program/wellTypedProgram.ml" 5 72 76 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 92
+type(
+  ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  def wellTypedProgram "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186 "CoreJavaProject/Program/wellTypedProgram.ml" 1 0 -1
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 5 72 94 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 95
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 112 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 113 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 131
+type(
+  ProgramDeclaration.cJProgram -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  ext_ref WellTypedClass.wellTypedClassList
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 132 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 133
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 94 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 95
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 134 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 135
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 94 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 95
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 112 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 136
+type(
+  bool
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 137 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 139
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 140 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 161
+type(
+  ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  ext_ref ProgramDeclaration.classListNoDuplicated
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 161 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 164
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 94 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 95
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 140 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 164
+type(
+  bool
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 165 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 167
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 168 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 183
+type(
+  ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  ext_ref ProgramDeclaration.lastClassIsMain
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 183 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 94 "CoreJavaProject/Program/wellTypedProgram.ml" 5 72 95
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 168 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186
+type(
+  bool
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 140 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186
+type(
+  bool
+)
+"CoreJavaProject/Program/wellTypedProgram.ml" 6 111 112 "CoreJavaProject/Program/wellTypedProgram.ml" 6 111 186
+type(
+  bool
+)

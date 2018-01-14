@@ -1,0 +1,7 @@
+open ClassDeclaration;;
+open FiledDeclaration;;
+open MethodDeclaration;;
+
+let classWellTyped(c: cJClass) = 
+	match c with 
+	| CJClass(name, parentName, fieldList, methodList) -> fieldListNotDuplicated(fieldList) && methodListNotDuplicated(methodList);;

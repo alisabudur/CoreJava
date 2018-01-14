@@ -1,0 +1,7 @@
+open MethodDeclaration;;
+open ProgramDeclaration;;
+open ExpUtils;;
+open MethodUtils;;
+
+let rec wellTypedMethod (m: cJMethod) (p: cJProgram) =
+	 (isSubtype p ((toStringCJType (getMethodBodyType m p)), (toStringCJType (getMethodReturnType m))) && (wellTypedSuperExp (getMethodSuperExp m));;

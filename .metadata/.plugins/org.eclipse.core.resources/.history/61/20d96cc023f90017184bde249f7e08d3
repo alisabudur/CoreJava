@@ -1,0 +1,7 @@
+val wellTypedClass :
+  ClassDeclaration.cJClass ->
+  ProgramDeclaration.cJProgram -> bool
+val wellTypedClassList :
+  ProgramDeclaration.cJProgram ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> bool

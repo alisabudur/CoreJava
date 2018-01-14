@@ -1,0 +1,676 @@
+"CoreJavaProject/Field/fieldDeclaration.ml" 7 119 123 "CoreJavaProject/Field/fieldDeclaration.ml" 7 119 135
+type(
+  cJField -> TypeDeclaration.cJType
+)
+ident(
+  def getFieldType "CoreJavaProject/Field/fieldDeclaration.ml" 11 196 196 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 7 119 137 "CoreJavaProject/Field/fieldDeclaration.ml" 7 119 138
+type(
+  cJField
+)
+ident(
+  def f "CoreJavaProject/Field/fieldDeclaration.ml" 8 152 153 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 192
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 8 152 159 "CoreJavaProject/Field/fieldDeclaration.ml" 8 152 160
+type(
+  cJField
+)
+ident(
+  int_ref f "CoreJavaProject/Field/fieldDeclaration.ml" 7 119 137 "CoreJavaProject/Field/fieldDeclaration.ml" 7 119 138
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 9 167 178 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 181
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def tip "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 189 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 192
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 9 167 183 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 184
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 9 167 177 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 185
+type(
+  TypeDeclaration.cJType * string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 9 167 170 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 185
+type(
+  cJField
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 9 167 189 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 192
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref tip "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 178 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 181
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 8 152 153 "CoreJavaProject/Field/fieldDeclaration.ml" 9 167 192
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 11 196 200 "CoreJavaProject/Field/fieldDeclaration.ml" 11 196 212
+type(
+  cJField -> string
+)
+ident(
+  def getFieldName "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 273 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 11 196 214 "CoreJavaProject/Field/fieldDeclaration.ml" 11 196 215
+type(
+  cJField
+)
+ident(
+  def f "CoreJavaProject/Field/fieldDeclaration.ml" 12 228 229 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 269
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 12 228 235 "CoreJavaProject/Field/fieldDeclaration.ml" 12 228 236
+type(
+  cJField
+)
+ident(
+  int_ref f "CoreJavaProject/Field/fieldDeclaration.ml" 11 196 214 "CoreJavaProject/Field/fieldDeclaration.ml" 11 196 215
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 13 242 253 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 254
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 13 242 256 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 260
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 265 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 269
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 13 242 252 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 261
+type(
+  TypeDeclaration.cJType * string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 13 242 245 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 261
+type(
+  cJField
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 13 242 265 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 269
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 256 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 260
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 12 228 229 "CoreJavaProject/Field/fieldDeclaration.ml" 13 242 269
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 15 273 277 "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 292
+type(
+  cJField -> string
+)
+ident(
+  def toStringCJField "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 401 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 15 273 294 "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 295
+type(
+  cJField
+)
+ident(
+  def f "CoreJavaProject/Field/fieldDeclaration.ml" 16 308 309 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 16 308 315 "CoreJavaProject/Field/fieldDeclaration.ml" 16 308 316
+type(
+  cJField
+)
+ident(
+  int_ref f "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 294 "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 295
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 334 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 337
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def typ "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 348 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 339 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 343
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 348 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 333 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 344
+type(
+  TypeDeclaration.cJType * string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 325 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 344
+type(
+  cJField
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 348 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 361
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 362 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 364
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 366 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 380
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 380 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 385
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref typ "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 334 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 337
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 366 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 385
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 387 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 390
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 392 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 396
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 339 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 343
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 365 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+type(
+  string list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 17 322 348 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+call(
+  tail
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 16 308 309 "CoreJavaProject/Field/fieldDeclaration.ml" 17 322 397
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 19 401 409 "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 428
+type(
+  cJFieldList -> string
+)
+ident(
+  def toStringCJFieldList "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 401 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 19 401 430 "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 434
+type(
+  cJFieldList
+)
+ident(
+  def list "CoreJavaProject/Field/fieldDeclaration.ml" 20 452 453 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 20 452 459 "CoreJavaProject/Field/fieldDeclaration.ml" 20 452 463
+type(
+  cJFieldList
+)
+ident(
+  int_ref list "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 430 "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 434
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 21 469 483 "CoreJavaProject/Field/fieldDeclaration.ml" 21 469 487
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 21 469 472 "CoreJavaProject/Field/fieldDeclaration.ml" 21 469 487
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 21 469 491 "CoreJavaProject/Field/fieldDeclaration.ml" 21 469 493
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 510 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 511
+type(
+  cJField
+)
+ident(
+  def x "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 517 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 562
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 508 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 513
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 497 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 513
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 517 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 530
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 531 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 533
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 535 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 550
+type(
+  cJField -> string
+)
+ident(
+  int_ref toStringCJField "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 277 "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 292
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 550 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 553
+type(
+  cJField
+)
+ident(
+  int_ref x "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 510 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 511
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 535 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 553
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 555 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 561
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 534 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 562
+type(
+  string list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 22 494 517 "CoreJavaProject/Field/fieldDeclaration.ml" 22 494 562
+call(
+  tail
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 578 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 579
+type(
+  cJField
+)
+ident(
+  def x "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 587 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 581 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 582
+type(
+  cJField list
+)
+ident(
+  def y "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 587 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 577 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 583
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 566 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 583
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 587 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 600
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 601 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 603
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 605 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 620
+type(
+  cJField -> string
+)
+ident(
+  int_ref toStringCJField "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 277 "CoreJavaProject/Field/fieldDeclaration.ml" 15 273 292
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 620 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 623
+type(
+  cJField
+)
+ident(
+  int_ref x "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 578 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 579
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 605 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 623
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 625 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 629
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 631 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 650
+type(
+  cJFieldList -> string
+)
+ident(
+  int_ref toStringCJFieldList "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 409 "CoreJavaProject/Field/fieldDeclaration.ml" 19 401 428
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 662 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 665
+type(
+  cJField list
+)
+ident(
+  int_ref y "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 581 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 582
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 650 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 666
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 631 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 666
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 604 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+type(
+  string list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 23 563 587 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+call(
+  tail
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 20 452 453 "CoreJavaProject/Field/fieldDeclaration.ml" 23 563 667
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 25 671 675 "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 687
+type(
+  cJField -> string
+)
+ident(
+  def getFieldName "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 748 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 25 671 688 "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 689
+type(
+  cJField
+)
+ident(
+  def c "CoreJavaProject/Field/fieldDeclaration.ml" 26 703 704 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 744
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 26 703 710 "CoreJavaProject/Field/fieldDeclaration.ml" 26 703 711
+type(
+  cJField
+)
+ident(
+  int_ref c "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 688 "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 689
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 27 717 728 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 729
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 27 717 731 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 735
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 740 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 744
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 27 717 727 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 736
+type(
+  TypeDeclaration.cJType * string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 27 717 720 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 736
+type(
+  cJField
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 27 717 740 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 744
+type(
+  string
+)
+ident(
+  int_ref name "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 731 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 735
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 26 703 704 "CoreJavaProject/Field/fieldDeclaration.ml" 27 717 744
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 29 748 756 "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 778
+type(
+  cJFieldList -> bool
+)
+ident(
+  def fieldListNotDuplicated "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 748 "CoreJavaProject/Field/fieldDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 29 748 779 "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 783
+type(
+  cJFieldList
+)
+ident(
+  def list "CoreJavaProject/Field/fieldDeclaration.ml" 30 800 801 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 30 800 807 "CoreJavaProject/Field/fieldDeclaration.ml" 30 800 811
+type(
+  cJFieldList
+)
+ident(
+  int_ref list "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 779 "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 783
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 31 818 832 "CoreJavaProject/Field/fieldDeclaration.ml" 31 818 836
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 31 818 821 "CoreJavaProject/Field/fieldDeclaration.ml" 31 818 836
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 31 818 840 "CoreJavaProject/Field/fieldDeclaration.ml" 31 818 844
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 32 845 861 "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 862
+type(
+  cJField
+)
+ident(
+  def x "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 868 "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 872
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 32 845 859 "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 864
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 32 845 848 "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 864
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 32 845 868 "CoreJavaProject/Field/fieldDeclaration.ml" 32 845 872
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 888 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 889
+type(
+  cJField
+)
+ident(
+  def h "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 897 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 891 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 892
+type(
+  cJField list
+)
+ident(
+  def t "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 897 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 887 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 893
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 876 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 893
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 901 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 902
+type(
+  cJField list
+)
+ident(
+  def x "CoreJavaProject/Field/fieldDeclaration.ml" 34 969 978 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 906 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 917
+type(
+  (cJField -> bool) -> cJField list -> cJField list
+)
+ident(
+  ext_ref List.filter
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 923 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 924
+type(
+  cJField
+)
+ident(
+  def x "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 928 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 961
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 928 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 940
+type(
+  cJField -> string
+)
+ident(
+  int_ref getFieldName "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 675 "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 687
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 940 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 943
+type(
+  cJField
+)
+ident(
+  int_ref x "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 923 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 924
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 928 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 943
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 944 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 945
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 946 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 958
+type(
+  cJField -> string
+)
+ident(
+  int_ref getFieldName "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 675 "CoreJavaProject/Field/fieldDeclaration.ml" 25 671 687
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 958 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 961
+type(
+  cJField
+)
+ident(
+  int_ref h "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 888 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 889
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 946 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 961
+call(
+  stack
+)
+type(
+  string
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 928 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 961
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 918 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 962
+type(
+  cJField -> bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 963 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 964
+type(
+  cJField list
+)
+ident(
+  int_ref t "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 891 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 892
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 905 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 965
+call(
+  stack
+)
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 34 969 982 "CoreJavaProject/Field/fieldDeclaration.ml" 34 969 983
+type(
+  cJField list
+)
+ident(
+  int_ref x "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 901 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 902
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 34 969 984 "CoreJavaProject/Field/fieldDeclaration.ml" 34 969 986
+type(
+  cJField list -> cJField list -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 34 969 987 "CoreJavaProject/Field/fieldDeclaration.ml" 34 969 989
+type(
+  cJField list
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 34 969 981 "CoreJavaProject/Field/fieldDeclaration.ml" 34 969 990
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1074 "CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1096
+type(
+  cJFieldList -> bool
+)
+ident(
+  int_ref fieldListNotDuplicated "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 756 "CoreJavaProject/Field/fieldDeclaration.ml" 29 748 778
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1108 "CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1111
+type(
+  cJField list
+)
+ident(
+  int_ref t "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 891 "CoreJavaProject/Field/fieldDeclaration.ml" 33 873 892
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1096 "CoreJavaProject/Field/fieldDeclaration.ml" 37 1061 1112
+type(
+  cJFieldList
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 35 996 1001 "CoreJavaProject/Field/fieldDeclaration.ml" 38 1114 1122
+call(
+  tail
+)
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 40 1144 1149 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 34 969 978 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 33 873 897 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+type(
+  bool
+)
+"CoreJavaProject/Field/fieldDeclaration.ml" 30 800 801 "CoreJavaProject/Field/fieldDeclaration.ml" 43 1227 1235
+type(
+  bool
+)

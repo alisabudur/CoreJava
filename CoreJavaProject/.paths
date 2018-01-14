@@ -1,5 +1,11 @@
 .
 Utils
+Type
+Program
+Method
+Field
+Exp
+Class
 TypeDeclaration
 ProgramDeclaration
 MethodDeclaration

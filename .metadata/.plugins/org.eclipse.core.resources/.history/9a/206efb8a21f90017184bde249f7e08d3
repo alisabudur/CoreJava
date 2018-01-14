@@ -1,0 +1,18 @@
+open ClassDeclaration;;
+open FieldDeclaration;;
+open MethodDeclaration;;
+open TypeDeclaration;;
+open ProgramDeclaration;;
+open WellTypedMethod;;
+
+let classWellTyped(c: cJClass) (te: (string*cJType) list) (p: cJProgram) = 
+	match c with 
+	| CJClass(name, parentName, fieldList, methodList) -> (fieldListNotDuplicated fieldList) && 
+																												(methodListNotDuplicated methodList) &&
+																												(wellTypedMethodList methodList te p);;
+
+let rec classListWellTyped (p : cJProgram) (te: (string*cJType) list) (p: cJProgram) = 
+	match p with 
+	| CJProgram([]) -> false
+	| CJProgram([x]) -> classWellTyped x te p
+	| CJProgram(x::y) -> (classWellTyped x te p) && ( classListWellTyped (CJProgram(y)) te p);;

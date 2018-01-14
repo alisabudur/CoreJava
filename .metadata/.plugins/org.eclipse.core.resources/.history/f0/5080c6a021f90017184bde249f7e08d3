@@ -1,0 +1,4 @@
+open ProgramDeclaration;;
+open WellTypedClass;
+
+let programWellTyped(p: cJProgram):bool = classListWellTyped(p) && classListNoDuplicated(p) && lastClassIsMain(p);;

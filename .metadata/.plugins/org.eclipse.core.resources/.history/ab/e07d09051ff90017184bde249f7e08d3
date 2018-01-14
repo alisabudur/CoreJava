@@ -1,0 +1,10 @@
+open MethodDeclaration;;
+open ProgramDeclaration;;
+open ExpUtils;;
+open WellTypedExp;;
+
+let rec getMethodBodyType (m: cJMethod) (p: cJProgram) = 
+	getTypeOfSuperExp (getMethodSuperExp(m)) (getMethodTE(m)) p;;
+
+let rec wellTypedMethod (m: cJmethod) (p: cJProgram) =
+	

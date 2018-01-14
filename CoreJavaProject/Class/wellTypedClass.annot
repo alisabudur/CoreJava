@@ -1,0 +1,336 @@
+"CoreJavaProject/Class/wellTypedClass.ml" 8 146 150 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 164
+type(
+  ClassDeclaration.cJClass -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  def wellTypedClass "CoreJavaProject/Class/wellTypedClass.ml" 14 439 439 "CoreJavaProject/Class/wellTypedClass.ml" 1 0 -1
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 8 146 166 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 167
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  def c "CoreJavaProject/Class/wellTypedClass.ml" 8 146 178 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 8 146 179 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 180
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Class/wellTypedClass.ml" 9 196 197 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 9 196 203 "CoreJavaProject/Class/wellTypedClass.ml" 9 196 204
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  int_ref c "CoreJavaProject/Class/wellTypedClass.ml" 8 146 166 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 167
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 222 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 226
+type(
+  string
+)
+ident(
+  def name "CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 228 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 238
+type(
+  string
+)
+ident(
+  def parentName "CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 240 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 249
+type(
+  FieldDeclaration.cJFieldList
+)
+ident(
+  def fieldList "CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 251 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 261
+type(
+  MethodDeclaration.cJMethodList
+)
+ident(
+  def methodList "CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 214 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 262
+type(
+  ClassDeclaration.cJClass
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 267 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 289
+type(
+  FieldDeclaration.cJFieldList -> bool
+)
+ident(
+  ext_ref FieldDeclaration.fieldListNotDuplicated
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 290 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 299
+type(
+  FieldDeclaration.cJFieldList
+)
+ident(
+  int_ref fieldList "CoreJavaProject/Class/wellTypedClass.ml" 10 211 240 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 249
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 300
+call(
+  stack
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 301 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 303
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 11 305 334 "CoreJavaProject/Class/wellTypedClass.ml" 11 305 357
+type(
+  MethodDeclaration.cJMethodList -> bool
+)
+ident(
+  ext_ref MethodDeclaration.methodListNotDuplicated
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 11 305 358 "CoreJavaProject/Class/wellTypedClass.ml" 11 305 368
+type(
+  MethodDeclaration.cJMethodList
+)
+ident(
+  int_ref methodList "CoreJavaProject/Class/wellTypedClass.ml" 10 211 251 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 261
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 11 305 333 "CoreJavaProject/Class/wellTypedClass.ml" 11 305 369
+call(
+  stack
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 11 305 370 "CoreJavaProject/Class/wellTypedClass.ml" 11 305 372
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 12 373 402 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 421
+type(
+  MethodDeclaration.cJMethodList -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  ext_ref WellTypedMethod.wellTypedMethodList
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 12 373 422 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 432
+type(
+  MethodDeclaration.cJMethodList
+)
+ident(
+  int_ref methodList "CoreJavaProject/Class/wellTypedClass.ml" 10 211 251 "CoreJavaProject/Class/wellTypedClass.ml" 10 211 261
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 12 373 433 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 434
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Class/wellTypedClass.ml" 8 146 179 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 180
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 12 373 401 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+call(
+  tail
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 11 305 333 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 10 211 266 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 9 196 197 "CoreJavaProject/Class/wellTypedClass.ml" 12 373 435
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 14 439 447 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 465
+type(
+  ProgramDeclaration.cJProgram -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  def wellTypedClassList "CoreJavaProject/Class/wellTypedClass.ml" 14 439 439 "CoreJavaProject/Class/wellTypedClass.ml" 1 0 -1
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 14 439 467 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 468
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Class/wellTypedClass.ml" 14 439 481 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 14 439 482 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 486
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def paux "CoreJavaProject/Class/wellTypedClass.ml" 15 502 503 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 15 502 509 "CoreJavaProject/Class/wellTypedClass.ml" 15 502 510
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Class/wellTypedClass.ml" 14 439 467 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 468
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 16 517 529 "CoreJavaProject/Class/wellTypedClass.ml" 16 517 533
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 16 517 520 "CoreJavaProject/Class/wellTypedClass.ml" 16 517 533
+type(
+  ProgramDeclaration.cJProgram
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 16 517 537 "CoreJavaProject/Class/wellTypedClass.ml" 16 517 542
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 557 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 558
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  def x "CoreJavaProject/Class/wellTypedClass.ml" 17 543 564 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 585
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 555 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 560
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 546 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 560
+type(
+  ProgramDeclaration.cJProgram
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 564 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 578
+type(
+  ClassDeclaration.cJClass -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  int_ref wellTypedClass "CoreJavaProject/Class/wellTypedClass.ml" 8 146 150 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 164
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 579 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 580
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  int_ref x "CoreJavaProject/Class/wellTypedClass.ml" 17 543 557 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 558
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 581 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 585
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref paux "CoreJavaProject/Class/wellTypedClass.ml" 14 439 482 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 486
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 17 543 564 "CoreJavaProject/Class/wellTypedClass.ml" 17 543 585
+call(
+  tail
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 599 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 600
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  def x "CoreJavaProject/Class/wellTypedClass.ml" 18 586 608 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 602 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 603
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  def y "CoreJavaProject/Class/wellTypedClass.ml" 18 586 608 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 598 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 604
+type(
+  ClassDeclaration.cJClass list
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 589 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 604
+type(
+  ProgramDeclaration.cJProgram
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 609 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 623
+type(
+  ClassDeclaration.cJClass -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  int_ref wellTypedClass "CoreJavaProject/Class/wellTypedClass.ml" 8 146 150 "CoreJavaProject/Class/wellTypedClass.ml" 8 146 164
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 624 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 625
+type(
+  ClassDeclaration.cJClass
+)
+ident(
+  int_ref x "CoreJavaProject/Class/wellTypedClass.ml" 18 586 599 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 600
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 626 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 630
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref paux "CoreJavaProject/Class/wellTypedClass.ml" 14 439 482 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 486
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 608 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 631
+call(
+  stack
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 632 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 634
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 19 636 649 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 667
+type(
+  ProgramDeclaration.cJProgram -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  int_ref wellTypedClassList "CoreJavaProject/Class/wellTypedClass.ml" 14 439 447 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 465
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 19 636 678 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 681
+type(
+  ClassDeclaration.cJClass list
+)
+ident(
+  int_ref y "CoreJavaProject/Class/wellTypedClass.ml" 18 586 602 "CoreJavaProject/Class/wellTypedClass.ml" 18 586 603
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 19 636 668 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 682
+type(
+  ProgramDeclaration.cJProgram
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 19 636 683 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 687
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref paux "CoreJavaProject/Class/wellTypedClass.ml" 14 439 482 "CoreJavaProject/Class/wellTypedClass.ml" 14 439 486
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 19 636 648 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+call(
+  tail
+)
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 18 586 608 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+type(
+  bool
+)
+"CoreJavaProject/Class/wellTypedClass.ml" 15 502 503 "CoreJavaProject/Class/wellTypedClass.ml" 19 636 688
+type(
+  bool
+)

@@ -1,0 +1,6 @@
+open ProgramDeclaration;;
+open TypeDeclaration;;
+open WellTypedClass;;
+
+let wellTypedProgram (p: cJProgram) (p: cJProgram) = 
+	(wellTypedClassList p te p) && classListNoDuplicated(p) && lastClassIsMain(p);;

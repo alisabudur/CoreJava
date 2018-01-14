@@ -7,6 +7,9 @@ open ExpDeclaration;;
 open SubtypingUtils;;
 open ListUtils;;
 open ExpUtils;;
+open MethodUtils;;
+open WellTypedMethod;;
+open WellTypedProgram;;
 
 let nameParameter = CJMethodParameter(CJPrimType(CJString), "newName");;
 let ageParameter = CJMethodParameter(CJPrimType(CJInt), "newAge");;
@@ -14,10 +17,10 @@ let ageParameter = CJMethodParameter(CJPrimType(CJInt), "newAge");;
 let setNameParameterList = CJMethodParameterList([nameParameter; ageParameter]);;
 let emptyParameterList = CJMethodParameterList([]);;
 
-let assignStmt = AssignExp("name", Exp(ConstExp(ConstInt(1))));;
-let declareStmt = DeclareVarExp(CJClassType("NewVar"), "newVar");;
+let declareStmt = DeclareVarExp(CJClassType(CJClassType("Person")), "name");;
 let varList = VarList([ConstExp(ConstString("name"))]);;
-let newStmt = (Exp2(NewExp("NewVar", varList)));;
+let newStmt = (Exp2(NewExp(CJClassType("Person"), varList)));;
+let assignStmt = AssignExp("name", newStmt);;
 let assignStmt2 = AssignExp("newVar", newStmt);;
 let compoundStmt = CompoundExp(assignStmt, Exp3(newStmt));;
 let compoundStmt2 = CompoundExp(declareStmt, compoundStmt);;
@@ -25,10 +28,13 @@ let ifStmt = IfExp(ConstExp(ConstString("name")), compoundStmt2);;
 
 let constExp1 = ConstExp(ConstInt(1));;
 let varList = VarList([constExp1]);;
-let methodCallStmt = Exp2(MethodCall("a", "setName", varList));;
+let methodCallStmt = Exp3(Exp2(MethodCall("a", "setName", varList)));;
+let constExp2 = Exp3(Exp(ConstExp(ConstString("ceva"))));;
+let compountStmt3 = CompoundExp(methodCallStmt, constExp2);;
 
-let setNameMethod = CJMethod(CJPrimType(CJVoid), "setName", setNameParameterList, ifStmt);;
-let getNameMethod = CJMethod(CJPrimType(CJString), "getName", emptyParameterList, Exp3(methodCallStmt));;
+let setNameMethod = CJMethod(CJClassType(CJClassType("Object")), "setName", setNameParameterList, ifStmt);;
+let getNameMethod = CJMethod(CJPrimType(CJString), "getName", emptyParameterList, compountStmt3);;
+
 let methodList = CJMethodList([setNameMethod; getNameMethod]);;
 
 let nameField = CJField(CJPrimType(CJString), "name");;
@@ -42,22 +48,13 @@ let personClass3 = CJClass("Person3", "Person2", CJFieldList([]), methodList);;
 
 let program = CJProgram([personClass2]);;
 
-let v3 = toStringCJProgram(program);;
+let stringProgram = toStringCJProgram(program);;
 
-let rez = programWellTyped(program);;
 
-let pairs = toStringPairs(getInheritancePairs(program));;
-
-(*let allPairs = toStringInheritancePairs((getInheritanceTree (getInheritancePairs(program)) []));;*)
-
-let allPairs = toStringPairs (transitiveClosure (getInheritancePairs program));;
-
-Printf.printf "%s\n--------------------------\n" v3;;
-(*Printf.printf "%s \n" (string_of_bool(rez));;*)
-(*Printf.printf "%s \n" allPairs;;*)
-(*Printf.printf "%s \n\n" (string_of_bool(isSubtype program ("Person3", "Object")));;*)
-(*Printf.printf "%s \n" (toStringPairs(getMethodTE(setNameMethod)));;*)
-Printf.printf "%s \n" (getTypeOfSuperExp ifStmt (getMethodTE(setNameMethod)) program);;
-
+Printf.printf "%s\n--------------------------\n" stringProgram;;
+(*Printf.printf "Program well typed: %s\n" (string_of_bool (wellTypedProgram program));;*)
+Printf.printf "Method well typed: %s\n" (string_of_bool (wellTypedMethod setNameMethod program));;
+Printf.printf "Method returned type: %s\n" (toStringCJType (getMethodReturnType setNameMethod));;
+Printf.printf "Method body type: %s\n" (toStringCJType (getMethodBodyType setNameMethod program));;
 
 

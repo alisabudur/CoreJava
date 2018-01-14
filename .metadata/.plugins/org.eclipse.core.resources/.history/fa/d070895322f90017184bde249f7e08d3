@@ -1,0 +1,15 @@
+open MethodDeclaration;;
+open ProgramDeclaration;;
+open TypeDeclaration;;
+open ExpUtils;;
+open MethodUtils;;
+open WellTypedExp;;
+
+let rec wellTypedMethod (m: cJMethod) (te: (string*cJType) list) (p: cJProgram) =
+	 (isSubtype p ((toStringCJType (getMethodBodyType m p)), (toStringCJType (getMethodReturnType m)))) && (wellTypedSuperExp (getMethodSuperExp m) te p);;
+
+let rec wellTypedMethodList (l: cJMethodList) (te: (string*cJType) list) (p: cJProgram) = 
+	match l with 
+	| CJMethodList([]) -> true
+	| CJMethodList([x]) -> wellTypedMethod x te p
+	| CJMethodList(h::t) -> (wellTypedMethod h te p) && (wellTypedMethodList (CJMethodList(t)) te p);
