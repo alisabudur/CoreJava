@@ -1,5 +1,6 @@
 open FieldDeclaration;;
 open MethodDeclaration;;
+open TypeDeclaration;;
 
 type cJClass = CJClass of string*string*cJFieldList*cJMethodList;;
 
@@ -43,6 +44,10 @@ let rec getMethodWithName(name: string) (l: cJMethodList) =
 															 h 
 														else 
 															 getMethodWithName name (CJMethodList(t));;
+
+let getClassTE(c: cJClass) = 
+	match c with 
+	| CJClass(tip, _, _, _) -> ("this", CJClassType(CJClassType(tip)));;
 		 
 
 

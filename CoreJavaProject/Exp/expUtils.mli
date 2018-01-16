@@ -1,3 +1,4 @@
+val printTE : (string * TypeDeclaration.cJType) list -> string
 val getVarType :
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 val existsVar : string -> (string * TypeDeclaration.cJType) list -> bool

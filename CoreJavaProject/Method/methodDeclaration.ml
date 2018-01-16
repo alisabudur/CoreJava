@@ -30,6 +30,7 @@ let rec toStringCJMethodList (list: cJMethodList) =
 	| CJMethodList([x]) -> String.concat "" [toStringCJMethod(x); "\n\n"]
 	| CJMethodList(x::y) -> String.concat "" [toStringCJMethod(x); "\n\n"; toStringCJMethodList(CJMethodList(y))];;
 
+
 let getMethodName(c: cJMethod) = 
 	match c with
 	| CJMethod(_,name, _, _) -> name;;
@@ -41,6 +42,16 @@ let getParameterType(p: cJMethodParameter) =
 let getParameterName(p: cJMethodParameter) = 
 	match p with
 	| CJMethodParameter(_, name) -> name;;
+
+let rec formalParameterList(c: cJMethod) = 
+	match c with 
+	| CJMethod(_,_, paramList, _) -> paramList;;
+
+let rec formalParameterTypes(l: cJMethodParameterList) = 
+	match l with
+	| CJMethodParameterList([]) -> []
+	| CJMethodParameterList([x]) -> [(getParameterType x)]
+	| CJMethodParameterList(h::t) -> (getParameterType h) :: formalParameterTypes(CJMethodParameterList(t));;
 
 let getMethodReturnType(m : cJMethod) = 
 	match m with 

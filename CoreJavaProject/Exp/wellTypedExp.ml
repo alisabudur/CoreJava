@@ -29,11 +29,30 @@ let rec wellTypedVarList (l: varList) (te: (string*cJType) list) (p: cJProgram) 
 	| VarList([x]) -> (wellTypedExp x te p)
 	| VarList(h::t) -> (wellTypedExp h te p) &&  (wellTypedVarList (VarList(t)) te p);;
 
+let rec actualVarListTypes (l: varList) (te: (string*cJType) list) (p: cJProgram) =
+	match l with 
+	| VarList([]) -> []
+	| VarList([x]) -> [(getTypeOfExp x te p)]
+	| VarList(h::t) -> (getTypeOfExp h te p) :: (actualVarListTypes (VarList(t)) te p);;
+
+let rec compareParameters (formal: cJType list) (actual: cJType list) (p: cJProgram)=
+	match formal, actual with
+	| [], [] -> true
+	| [x], [y] -> isSubtype p (toStringCJType y, toStringCJType x)
+	| h::t, h1::t1 -> (isSubtype p ((toStringCJType h1), (toStringCJType h))) && (compareParameters t t1 p)
+	| _,_ -> raise (Failure "Parameter type mismatch.");;
+
 let rec wellTypedExp2 (e: exp2) (te: (string*cJType) list) (p: cJProgram) = 
 	match e with 
-	| NewExp(name, varList) -> (wellTypedVarList varList te p)
-	| MethodCall(varName, name, varList) -> let m = (getMethodWithName name (getMethodList (getClassWithName (toStringCJType (getVarType varName te)) p))) in
-																					if (isClassType (getVarType varName te)) && (isSubtype p (toStringCJType (getMethodBodyType m p), toStringCJType (getMethodReturnType m))) && (wellTypedVarList varList te p) then true else false;;
+	| NewExp(name, varList) ->  (wellTypedVarList varList te p)
+	| MethodCall(varName, name, varList) ->  let m = (getMethodWithName name (getMethodList (getClassWithName (toStringCJType (getVarType varName te)) p))) in
+																					if (isClassType (getVarType varName te)) && 
+																							(isSubtype p (toStringCJType (getMethodBodyType m (getClassTE (getClassWithName (toStringCJType (getVarType varName te)) p)) p), toStringCJType (getMethodReturnType m))) && 
+																							(wellTypedVarList varList te p) &&
+																							(compareParameters (formalParameterTypes (formalParameterList m)) (actualVarListTypes varList te p) p) then 
+																							true 
+																					else 
+																							false;;
 
 let rec wellTypedExp3 (e: exp3) (te: (string*cJType) list) (p: cJProgram) =
 	match e with 
@@ -42,7 +61,7 @@ let rec wellTypedExp3 (e: exp3) (te: (string*cJType) list) (p: cJProgram) =
 
 let rec wellTypedSuperExp (e: superExp) (te: (string*cJType) list) (p: cJProgram) =
 	match e with
-	| Exp3(e) -> wellTypedExp3 e te p
+	| Exp3(e) -> wellTypedExp3 e te p;
 	| IfExp(e, st) -> (wellTypedExp e te p) && wellTypedSuperExp st te p
 	| IfElseExp(e, ifSt, elseSt) -> (wellTypedExp e te p) && (wellTypedSuperExp ifSt te p) && (wellTypedSuperExp elseSt te p)
 	| WhileExp(e, st) -> (wellTypedExp e te p) && (wellTypedSuperExp st te p)

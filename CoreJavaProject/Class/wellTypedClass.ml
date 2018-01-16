@@ -9,7 +9,7 @@ let wellTypedClass (c: cJClass) (p: cJProgram) =
 	match c with 
 	| CJClass(name, parentName, fieldList, methodList) -> (fieldListNotDuplicated fieldList) && 
 																												(methodListNotDuplicated methodList) &&
-																												(wellTypedMethodList methodList p);;
+																												(wellTypedMethodList methodList (getClassTE c) p);;
 
 let rec wellTypedClassList (p: cJProgram) (paux: cJProgram) = 
 	match p with 

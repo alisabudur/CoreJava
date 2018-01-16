@@ -6,6 +6,13 @@ val wellTypedVarList :
   ExpDeclaration.varList ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
+val actualVarListTypes :
+  ExpDeclaration.varList ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType list
+val compareParameters :
+  TypeDeclaration.cJType list ->
+  TypeDeclaration.cJType list -> ProgramDeclaration.cJProgram -> bool
 val wellTypedExp2 :
   ExpDeclaration.exp2 ->
   (string * TypeDeclaration.cJType) list ->

@@ -8,6 +8,8 @@ val toStringCJMethodParameter : cJMethodParameter -> string
 val toStringCJMethodParameterList : cJMethodParameterList -> string
 val toStringCJMethod : cJMethod -> string
 val toStringCJMethodList : cJMethodList -> string
+val formalParameterList : cJMethod -> cJMethodParameterList
+val formalParameterTypes : cJMethodParameterList -> TypeDeclaration.cJType list 
 val getMethodName : cJMethod -> string
 val getParameterType : cJMethodParameter -> TypeDeclaration.cJType
 val getParameterName : cJMethodParameter -> string

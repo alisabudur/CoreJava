@@ -1,853 +1,924 @@
-"CoreJavaProject/Class/classDeclaration.ml" 6 118 122 "CoreJavaProject/Class/classDeclaration.ml" 6 118 137
+"CoreJavaProject/Class/classDeclaration.ml" 7 141 145 "CoreJavaProject/Class/classDeclaration.ml" 7 141 160
 type(
   cJClass -> string
 )
 ident(
-  def toStringCJClass "CoreJavaProject/Class/classDeclaration.ml" 11 379 379 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def toStringCJClass "CoreJavaProject/Class/classDeclaration.ml" 12 402 402 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 6 118 139 "CoreJavaProject/Class/classDeclaration.ml" 6 118 140
+"CoreJavaProject/Class/classDeclaration.ml" 7 141 162 "CoreJavaProject/Class/classDeclaration.ml" 7 141 163
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 7 154 155 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+  def c "CoreJavaProject/Class/classDeclaration.ml" 8 177 178 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 )
-"CoreJavaProject/Class/classDeclaration.ml" 7 154 161 "CoreJavaProject/Class/classDeclaration.ml" 7 154 162
+"CoreJavaProject/Class/classDeclaration.ml" 8 177 184 "CoreJavaProject/Class/classDeclaration.ml" 8 177 185
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 6 118 139 "CoreJavaProject/Class/classDeclaration.ml" 6 118 140
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 7 141 162 "CoreJavaProject/Class/classDeclaration.ml" 7 141 163
 )
-"CoreJavaProject/Class/classDeclaration.ml" 8 169 180 "CoreJavaProject/Class/classDeclaration.ml" 8 169 184
+"CoreJavaProject/Class/classDeclaration.ml" 9 192 203 "CoreJavaProject/Class/classDeclaration.ml" 9 192 207
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+  def name "CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 )
-"CoreJavaProject/Class/classDeclaration.ml" 8 169 186 "CoreJavaProject/Class/classDeclaration.ml" 8 169 196
+"CoreJavaProject/Class/classDeclaration.ml" 9 192 209 "CoreJavaProject/Class/classDeclaration.ml" 9 192 219
 type(
   string
 )
 ident(
-  def parentName "CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+  def parentName "CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 )
-"CoreJavaProject/Class/classDeclaration.ml" 8 169 198 "CoreJavaProject/Class/classDeclaration.ml" 8 169 207
+"CoreJavaProject/Class/classDeclaration.ml" 9 192 221 "CoreJavaProject/Class/classDeclaration.ml" 9 192 230
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  def fieldList "CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+  def fieldList "CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 )
-"CoreJavaProject/Class/classDeclaration.ml" 8 169 209 "CoreJavaProject/Class/classDeclaration.ml" 8 169 219
+"CoreJavaProject/Class/classDeclaration.ml" 9 192 232 "CoreJavaProject/Class/classDeclaration.ml" 9 192 242
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def methodList "CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+  def methodList "CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 )
-"CoreJavaProject/Class/classDeclaration.ml" 8 169 172 "CoreJavaProject/Class/classDeclaration.ml" 8 169 220
+"CoreJavaProject/Class/classDeclaration.ml" 9 192 195 "CoreJavaProject/Class/classDeclaration.ml" 9 192 243
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 240
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 263
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 241 "CoreJavaProject/Class/classDeclaration.ml" 9 225 243
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 264 "CoreJavaProject/Class/classDeclaration.ml" 10 248 266
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 245 "CoreJavaProject/Class/classDeclaration.ml" 9 225 253
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 268 "CoreJavaProject/Class/classDeclaration.ml" 10 248 276
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 255 "CoreJavaProject/Class/classDeclaration.ml" 9 225 259
-type(
-  string
-)
-ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 8 169 180 "CoreJavaProject/Class/classDeclaration.ml" 8 169 184
-)
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 261 "CoreJavaProject/Class/classDeclaration.ml" 9 225 272
-type(
-  string
-)
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 274 "CoreJavaProject/Class/classDeclaration.ml" 9 225 284
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 278 "CoreJavaProject/Class/classDeclaration.ml" 10 248 282
 type(
   string
 )
 ident(
-  int_ref parentName "CoreJavaProject/Class/classDeclaration.ml" 8 169 186 "CoreJavaProject/Class/classDeclaration.ml" 8 169 196
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 9 192 203 "CoreJavaProject/Class/classDeclaration.ml" 9 192 207
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 286 "CoreJavaProject/Class/classDeclaration.ml" 9 225 293
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 284 "CoreJavaProject/Class/classDeclaration.ml" 10 248 295
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 295 "CoreJavaProject/Class/classDeclaration.ml" 9 225 314
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 297 "CoreJavaProject/Class/classDeclaration.ml" 10 248 307
+type(
+  string
+)
+ident(
+  int_ref parentName "CoreJavaProject/Class/classDeclaration.ml" 9 192 209 "CoreJavaProject/Class/classDeclaration.ml" 9 192 219
+)
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 309 "CoreJavaProject/Class/classDeclaration.ml" 10 248 316
+type(
+  string
+)
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 318 "CoreJavaProject/Class/classDeclaration.ml" 10 248 337
 type(
   FieldDeclaration.cJFieldList -> string
 )
 ident(
   ext_ref FieldDeclaration.toStringCJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 314 "CoreJavaProject/Class/classDeclaration.ml" 9 225 325
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 337 "CoreJavaProject/Class/classDeclaration.ml" 10 248 348
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  int_ref fieldList "CoreJavaProject/Class/classDeclaration.ml" 8 169 198 "CoreJavaProject/Class/classDeclaration.ml" 8 169 207
+  int_ref fieldList "CoreJavaProject/Class/classDeclaration.ml" 9 192 221 "CoreJavaProject/Class/classDeclaration.ml" 9 192 230
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 295 "CoreJavaProject/Class/classDeclaration.ml" 9 225 325
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 318 "CoreJavaProject/Class/classDeclaration.ml" 10 248 348
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 327 "CoreJavaProject/Class/classDeclaration.ml" 9 225 334
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 350 "CoreJavaProject/Class/classDeclaration.ml" 10 248 357
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 336 "CoreJavaProject/Class/classDeclaration.ml" 9 225 356
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 359 "CoreJavaProject/Class/classDeclaration.ml" 10 248 379
 type(
   MethodDeclaration.cJMethodList -> string
 )
 ident(
   ext_ref MethodDeclaration.toStringCJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 356 "CoreJavaProject/Class/classDeclaration.ml" 9 225 368
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 379 "CoreJavaProject/Class/classDeclaration.ml" 10 248 391
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 8 169 209 "CoreJavaProject/Class/classDeclaration.ml" 8 169 219
+  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 9 192 232 "CoreJavaProject/Class/classDeclaration.ml" 9 192 242
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 336 "CoreJavaProject/Class/classDeclaration.ml" 9 225 368
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 359 "CoreJavaProject/Class/classDeclaration.ml" 10 248 391
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 370 "CoreJavaProject/Class/classDeclaration.ml" 9 225 373
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 393 "CoreJavaProject/Class/classDeclaration.ml" 10 248 396
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 244 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 267 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 type(
   string list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 9 225 227 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+"CoreJavaProject/Class/classDeclaration.ml" 10 248 250 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 call(
   tail
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 7 154 155 "CoreJavaProject/Class/classDeclaration.ml" 9 225 375
+"CoreJavaProject/Class/classDeclaration.ml" 8 177 178 "CoreJavaProject/Class/classDeclaration.ml" 10 248 398
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 11 379 383 "CoreJavaProject/Class/classDeclaration.ml" 11 379 395
+"CoreJavaProject/Class/classDeclaration.ml" 12 402 406 "CoreJavaProject/Class/classDeclaration.ml" 12 402 418
 type(
   cJClass -> string
 )
 ident(
-  def getClassName "CoreJavaProject/Class/classDeclaration.ml" 15 462 462 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getClassName "CoreJavaProject/Class/classDeclaration.ml" 16 485 485 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 11 379 396 "CoreJavaProject/Class/classDeclaration.ml" 11 379 397
+"CoreJavaProject/Class/classDeclaration.ml" 12 402 419 "CoreJavaProject/Class/classDeclaration.ml" 12 402 420
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 12 411 412 "CoreJavaProject/Class/classDeclaration.ml" 13 425 458
+  def c "CoreJavaProject/Class/classDeclaration.ml" 13 434 435 "CoreJavaProject/Class/classDeclaration.ml" 14 448 481
 )
-"CoreJavaProject/Class/classDeclaration.ml" 12 411 418 "CoreJavaProject/Class/classDeclaration.ml" 12 411 419
+"CoreJavaProject/Class/classDeclaration.ml" 13 434 441 "CoreJavaProject/Class/classDeclaration.ml" 13 434 442
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 11 379 396 "CoreJavaProject/Class/classDeclaration.ml" 11 379 397
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 12 402 419 "CoreJavaProject/Class/classDeclaration.ml" 12 402 420
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 436 "CoreJavaProject/Class/classDeclaration.ml" 13 425 440
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 459 "CoreJavaProject/Class/classDeclaration.ml" 14 448 463
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Class/classDeclaration.ml" 13 425 454 "CoreJavaProject/Class/classDeclaration.ml" 13 425 458
+  def name "CoreJavaProject/Class/classDeclaration.ml" 14 448 477 "CoreJavaProject/Class/classDeclaration.ml" 14 448 481
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 442 "CoreJavaProject/Class/classDeclaration.ml" 13 425 443
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 465 "CoreJavaProject/Class/classDeclaration.ml" 14 448 466
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 445 "CoreJavaProject/Class/classDeclaration.ml" 13 425 446
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 468 "CoreJavaProject/Class/classDeclaration.ml" 14 448 469
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 448 "CoreJavaProject/Class/classDeclaration.ml" 13 425 449
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 471 "CoreJavaProject/Class/classDeclaration.ml" 14 448 472
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 428 "CoreJavaProject/Class/classDeclaration.ml" 13 425 450
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 451 "CoreJavaProject/Class/classDeclaration.ml" 14 448 473
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 13 425 454 "CoreJavaProject/Class/classDeclaration.ml" 13 425 458
+"CoreJavaProject/Class/classDeclaration.ml" 14 448 477 "CoreJavaProject/Class/classDeclaration.ml" 14 448 481
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 13 425 436 "CoreJavaProject/Class/classDeclaration.ml" 13 425 440
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 14 448 459 "CoreJavaProject/Class/classDeclaration.ml" 14 448 463
 )
-"CoreJavaProject/Class/classDeclaration.ml" 12 411 412 "CoreJavaProject/Class/classDeclaration.ml" 13 425 458
+"CoreJavaProject/Class/classDeclaration.ml" 13 434 435 "CoreJavaProject/Class/classDeclaration.ml" 14 448 481
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 15 462 466 "CoreJavaProject/Class/classDeclaration.ml" 15 462 478
+"CoreJavaProject/Class/classDeclaration.ml" 16 485 489 "CoreJavaProject/Class/classDeclaration.ml" 16 485 501
 type(
   cJClass -> FieldDeclaration.cJFieldList
 )
 ident(
-  def getFieldList "CoreJavaProject/Class/classDeclaration.ml" 19 556 556 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getFieldList "CoreJavaProject/Class/classDeclaration.ml" 20 579 579 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 15 462 479 "CoreJavaProject/Class/classDeclaration.ml" 15 462 480
+"CoreJavaProject/Class/classDeclaration.ml" 16 485 502 "CoreJavaProject/Class/classDeclaration.ml" 16 485 503
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 16 494 495 "CoreJavaProject/Class/classDeclaration.ml" 17 509 552
+  def c "CoreJavaProject/Class/classDeclaration.ml" 17 517 518 "CoreJavaProject/Class/classDeclaration.ml" 18 532 575
 )
-"CoreJavaProject/Class/classDeclaration.ml" 16 494 501 "CoreJavaProject/Class/classDeclaration.ml" 16 494 502
+"CoreJavaProject/Class/classDeclaration.ml" 17 517 524 "CoreJavaProject/Class/classDeclaration.ml" 17 517 525
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 15 462 479 "CoreJavaProject/Class/classDeclaration.ml" 15 462 480
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 16 485 502 "CoreJavaProject/Class/classDeclaration.ml" 16 485 503
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 520 "CoreJavaProject/Class/classDeclaration.ml" 17 509 521
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 543 "CoreJavaProject/Class/classDeclaration.ml" 18 532 544
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 523 "CoreJavaProject/Class/classDeclaration.ml" 17 509 524
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 546 "CoreJavaProject/Class/classDeclaration.ml" 18 532 547
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 526 "CoreJavaProject/Class/classDeclaration.ml" 17 509 535
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 549 "CoreJavaProject/Class/classDeclaration.ml" 18 532 558
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  def fieldList "CoreJavaProject/Class/classDeclaration.ml" 17 509 543 "CoreJavaProject/Class/classDeclaration.ml" 17 509 552
+  def fieldList "CoreJavaProject/Class/classDeclaration.ml" 18 532 566 "CoreJavaProject/Class/classDeclaration.ml" 18 532 575
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 537 "CoreJavaProject/Class/classDeclaration.ml" 17 509 538
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 560 "CoreJavaProject/Class/classDeclaration.ml" 18 532 561
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 512 "CoreJavaProject/Class/classDeclaration.ml" 17 509 539
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 535 "CoreJavaProject/Class/classDeclaration.ml" 18 532 562
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 17 509 543 "CoreJavaProject/Class/classDeclaration.ml" 17 509 552
+"CoreJavaProject/Class/classDeclaration.ml" 18 532 566 "CoreJavaProject/Class/classDeclaration.ml" 18 532 575
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  int_ref fieldList "CoreJavaProject/Class/classDeclaration.ml" 17 509 526 "CoreJavaProject/Class/classDeclaration.ml" 17 509 535
+  int_ref fieldList "CoreJavaProject/Class/classDeclaration.ml" 18 532 549 "CoreJavaProject/Class/classDeclaration.ml" 18 532 558
 )
-"CoreJavaProject/Class/classDeclaration.ml" 16 494 495 "CoreJavaProject/Class/classDeclaration.ml" 17 509 552
+"CoreJavaProject/Class/classDeclaration.ml" 17 517 518 "CoreJavaProject/Class/classDeclaration.ml" 18 532 575
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 19 556 560 "CoreJavaProject/Class/classDeclaration.ml" 19 556 573
+"CoreJavaProject/Class/classDeclaration.ml" 20 579 583 "CoreJavaProject/Class/classDeclaration.ml" 20 579 596
 type(
   cJClass -> MethodDeclaration.cJMethodList
 )
 ident(
-  def getMethodList "CoreJavaProject/Class/classDeclaration.ml" 23 655 655 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getMethodList "CoreJavaProject/Class/classDeclaration.ml" 24 678 678 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 19 556 574 "CoreJavaProject/Class/classDeclaration.ml" 19 556 575
+"CoreJavaProject/Class/classDeclaration.ml" 20 579 597 "CoreJavaProject/Class/classDeclaration.ml" 20 579 598
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 20 589 590 "CoreJavaProject/Class/classDeclaration.ml" 21 604 649
+  def c "CoreJavaProject/Class/classDeclaration.ml" 21 612 613 "CoreJavaProject/Class/classDeclaration.ml" 22 627 672
 )
-"CoreJavaProject/Class/classDeclaration.ml" 20 589 596 "CoreJavaProject/Class/classDeclaration.ml" 20 589 597
+"CoreJavaProject/Class/classDeclaration.ml" 21 612 619 "CoreJavaProject/Class/classDeclaration.ml" 21 612 620
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 19 556 574 "CoreJavaProject/Class/classDeclaration.ml" 19 556 575
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 20 579 597 "CoreJavaProject/Class/classDeclaration.ml" 20 579 598
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 615 "CoreJavaProject/Class/classDeclaration.ml" 21 604 616
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 638 "CoreJavaProject/Class/classDeclaration.ml" 22 627 639
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 618 "CoreJavaProject/Class/classDeclaration.ml" 21 604 619
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 641 "CoreJavaProject/Class/classDeclaration.ml" 22 627 642
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 621 "CoreJavaProject/Class/classDeclaration.ml" 21 604 622
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 644 "CoreJavaProject/Class/classDeclaration.ml" 22 627 645
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 624 "CoreJavaProject/Class/classDeclaration.ml" 21 604 634
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 647 "CoreJavaProject/Class/classDeclaration.ml" 22 627 657
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def methodList "CoreJavaProject/Class/classDeclaration.ml" 21 604 639 "CoreJavaProject/Class/classDeclaration.ml" 21 604 649
+  def methodList "CoreJavaProject/Class/classDeclaration.ml" 22 627 662 "CoreJavaProject/Class/classDeclaration.ml" 22 627 672
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 607 "CoreJavaProject/Class/classDeclaration.ml" 21 604 635
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 630 "CoreJavaProject/Class/classDeclaration.ml" 22 627 658
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 21 604 639 "CoreJavaProject/Class/classDeclaration.ml" 21 604 649
+"CoreJavaProject/Class/classDeclaration.ml" 22 627 662 "CoreJavaProject/Class/classDeclaration.ml" 22 627 672
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 21 604 624 "CoreJavaProject/Class/classDeclaration.ml" 21 604 634
+  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 22 627 647 "CoreJavaProject/Class/classDeclaration.ml" 22 627 657
 )
-"CoreJavaProject/Class/classDeclaration.ml" 20 589 590 "CoreJavaProject/Class/classDeclaration.ml" 21 604 649
+"CoreJavaProject/Class/classDeclaration.ml" 21 612 613 "CoreJavaProject/Class/classDeclaration.ml" 22 627 672
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 23 655 659 "CoreJavaProject/Class/classDeclaration.ml" 23 655 672
+"CoreJavaProject/Class/classDeclaration.ml" 24 678 682 "CoreJavaProject/Class/classDeclaration.ml" 24 678 695
 type(
   cJClass -> bool
 )
 ident(
-  def hasMainMethod "CoreJavaProject/Class/classDeclaration.ml" 27 768 768 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def hasMainMethod "CoreJavaProject/Class/classDeclaration.ml" 28 791 791 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 23 655 673 "CoreJavaProject/Class/classDeclaration.ml" 23 655 674
+"CoreJavaProject/Class/classDeclaration.ml" 24 678 696 "CoreJavaProject/Class/classDeclaration.ml" 24 678 697
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 24 687 688 "CoreJavaProject/Class/classDeclaration.ml" 25 701 764
+  def c "CoreJavaProject/Class/classDeclaration.ml" 25 710 711 "CoreJavaProject/Class/classDeclaration.ml" 26 724 787
 )
-"CoreJavaProject/Class/classDeclaration.ml" 24 687 694 "CoreJavaProject/Class/classDeclaration.ml" 24 687 695
+"CoreJavaProject/Class/classDeclaration.ml" 25 710 717 "CoreJavaProject/Class/classDeclaration.ml" 25 710 718
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 23 655 673 "CoreJavaProject/Class/classDeclaration.ml" 23 655 674
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 24 678 696 "CoreJavaProject/Class/classDeclaration.ml" 24 678 697
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 712 "CoreJavaProject/Class/classDeclaration.ml" 25 701 713
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 735 "CoreJavaProject/Class/classDeclaration.ml" 26 724 736
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 715 "CoreJavaProject/Class/classDeclaration.ml" 25 701 716
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 738 "CoreJavaProject/Class/classDeclaration.ml" 26 724 739
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 718 "CoreJavaProject/Class/classDeclaration.ml" 25 701 719
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 741 "CoreJavaProject/Class/classDeclaration.ml" 26 724 742
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 721 "CoreJavaProject/Class/classDeclaration.ml" 25 701 731
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 744 "CoreJavaProject/Class/classDeclaration.ml" 26 724 754
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def methodList "CoreJavaProject/Class/classDeclaration.ml" 25 701 737 "CoreJavaProject/Class/classDeclaration.ml" 25 701 764
+  def methodList "CoreJavaProject/Class/classDeclaration.ml" 26 724 760 "CoreJavaProject/Class/classDeclaration.ml" 26 724 787
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 704 "CoreJavaProject/Class/classDeclaration.ml" 25 701 732
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 727 "CoreJavaProject/Class/classDeclaration.ml" 26 724 755
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 737 "CoreJavaProject/Class/classDeclaration.ml" 25 701 752
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 760 "CoreJavaProject/Class/classDeclaration.ml" 26 724 775
 type(
   MethodDeclaration.cJMethodList -> bool
 )
 ident(
   ext_ref MethodDeclaration.existMainMethod
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 752 "CoreJavaProject/Class/classDeclaration.ml" 25 701 764
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 775 "CoreJavaProject/Class/classDeclaration.ml" 26 724 787
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 25 701 721 "CoreJavaProject/Class/classDeclaration.ml" 25 701 731
+  int_ref methodList "CoreJavaProject/Class/classDeclaration.ml" 26 724 744 "CoreJavaProject/Class/classDeclaration.ml" 26 724 754
 )
-"CoreJavaProject/Class/classDeclaration.ml" 25 701 737 "CoreJavaProject/Class/classDeclaration.ml" 25 701 764
+"CoreJavaProject/Class/classDeclaration.ml" 26 724 760 "CoreJavaProject/Class/classDeclaration.ml" 26 724 787
 call(
   tail
 )
 type(
   bool
 )
-"CoreJavaProject/Class/classDeclaration.ml" 24 687 688 "CoreJavaProject/Class/classDeclaration.ml" 25 701 764
+"CoreJavaProject/Class/classDeclaration.ml" 25 710 711 "CoreJavaProject/Class/classDeclaration.ml" 26 724 787
 type(
   bool
 )
-"CoreJavaProject/Class/classDeclaration.ml" 27 768 772 "CoreJavaProject/Class/classDeclaration.ml" 27 768 790
+"CoreJavaProject/Class/classDeclaration.ml" 28 791 795 "CoreJavaProject/Class/classDeclaration.ml" 28 791 813
 type(
   cJClass -> string * string
 )
 ident(
-  def getInheritancePair "CoreJavaProject/Class/classDeclaration.ml" 31 892 892 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getInheritancePair "CoreJavaProject/Class/classDeclaration.ml" 32 915 915 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 27 768 791 "CoreJavaProject/Class/classDeclaration.ml" 27 768 792
+"CoreJavaProject/Class/classDeclaration.ml" 28 791 814 "CoreJavaProject/Class/classDeclaration.ml" 28 791 815
 type(
   cJClass
 )
 ident(
-  def c "CoreJavaProject/Class/classDeclaration.ml" 27 768 802 "CoreJavaProject/Class/classDeclaration.ml" 29 838 888
+  def c "CoreJavaProject/Class/classDeclaration.ml" 28 791 825 "CoreJavaProject/Class/classDeclaration.ml" 30 861 911
 )
-"CoreJavaProject/Class/classDeclaration.ml" 28 823 830 "CoreJavaProject/Class/classDeclaration.ml" 28 823 831
+"CoreJavaProject/Class/classDeclaration.ml" 29 846 853 "CoreJavaProject/Class/classDeclaration.ml" 29 846 854
 type(
   cJClass
 )
 ident(
-  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 27 768 791 "CoreJavaProject/Class/classDeclaration.ml" 27 768 792
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 28 791 814 "CoreJavaProject/Class/classDeclaration.ml" 28 791 815
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 849 "CoreJavaProject/Class/classDeclaration.ml" 29 838 854
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 872 "CoreJavaProject/Class/classDeclaration.ml" 30 861 877
 type(
   string
 )
 ident(
-  def child "CoreJavaProject/Class/classDeclaration.ml" 29 838 873 "CoreJavaProject/Class/classDeclaration.ml" 29 838 888
+  def child "CoreJavaProject/Class/classDeclaration.ml" 30 861 896 "CoreJavaProject/Class/classDeclaration.ml" 30 861 911
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 856 "CoreJavaProject/Class/classDeclaration.ml" 29 838 862
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 879 "CoreJavaProject/Class/classDeclaration.ml" 30 861 885
 type(
   string
 )
 ident(
-  def parent "CoreJavaProject/Class/classDeclaration.ml" 29 838 873 "CoreJavaProject/Class/classDeclaration.ml" 29 838 888
+  def parent "CoreJavaProject/Class/classDeclaration.ml" 30 861 896 "CoreJavaProject/Class/classDeclaration.ml" 30 861 911
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 864 "CoreJavaProject/Class/classDeclaration.ml" 29 838 865
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 887 "CoreJavaProject/Class/classDeclaration.ml" 30 861 888
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 867 "CoreJavaProject/Class/classDeclaration.ml" 29 838 868
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 890 "CoreJavaProject/Class/classDeclaration.ml" 30 861 891
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 841 "CoreJavaProject/Class/classDeclaration.ml" 29 838 869
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 864 "CoreJavaProject/Class/classDeclaration.ml" 30 861 892
 type(
   cJClass
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 874 "CoreJavaProject/Class/classDeclaration.ml" 29 838 879
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 897 "CoreJavaProject/Class/classDeclaration.ml" 30 861 902
 type(
   string
 )
 ident(
-  int_ref child "CoreJavaProject/Class/classDeclaration.ml" 29 838 849 "CoreJavaProject/Class/classDeclaration.ml" 29 838 854
+  int_ref child "CoreJavaProject/Class/classDeclaration.ml" 30 861 872 "CoreJavaProject/Class/classDeclaration.ml" 30 861 877
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 881 "CoreJavaProject/Class/classDeclaration.ml" 29 838 887
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 904 "CoreJavaProject/Class/classDeclaration.ml" 30 861 910
 type(
   string
 )
 ident(
-  int_ref parent "CoreJavaProject/Class/classDeclaration.ml" 29 838 856 "CoreJavaProject/Class/classDeclaration.ml" 29 838 862
+  int_ref parent "CoreJavaProject/Class/classDeclaration.ml" 30 861 879 "CoreJavaProject/Class/classDeclaration.ml" 30 861 885
 )
-"CoreJavaProject/Class/classDeclaration.ml" 29 838 873 "CoreJavaProject/Class/classDeclaration.ml" 29 838 888
+"CoreJavaProject/Class/classDeclaration.ml" 30 861 896 "CoreJavaProject/Class/classDeclaration.ml" 30 861 911
 type(
   string * string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 28 823 824 "CoreJavaProject/Class/classDeclaration.ml" 29 838 888
+"CoreJavaProject/Class/classDeclaration.ml" 29 846 847 "CoreJavaProject/Class/classDeclaration.ml" 30 861 911
 type(
   string * string
 )
 type(
   string * string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 31 892 900 "CoreJavaProject/Class/classDeclaration.ml" 31 892 916
+"CoreJavaProject/Class/classDeclaration.ml" 32 915 923 "CoreJavaProject/Class/classDeclaration.ml" 32 915 939
 type(
   string -> FieldDeclaration.cJFieldList -> FieldDeclaration.cJField
 )
 ident(
-  def getFieldWithName "CoreJavaProject/Class/classDeclaration.ml" 31 892 892 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getFieldWithName "CoreJavaProject/Class/classDeclaration.ml" 32 915 915 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 31 892 917 "CoreJavaProject/Class/classDeclaration.ml" 31 892 921
+"CoreJavaProject/Class/classDeclaration.ml" 32 915 940 "CoreJavaProject/Class/classDeclaration.ml" 32 915 944
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Class/classDeclaration.ml" 31 892 930 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+  def name "CoreJavaProject/Class/classDeclaration.ml" 32 915 953 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 )
-"CoreJavaProject/Class/classDeclaration.ml" 31 892 931 "CoreJavaProject/Class/classDeclaration.ml" 31 892 932
+"CoreJavaProject/Class/classDeclaration.ml" 32 915 954 "CoreJavaProject/Class/classDeclaration.ml" 32 915 955
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  def l "CoreJavaProject/Class/classDeclaration.ml" 32 950 951 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+  def l "CoreJavaProject/Class/classDeclaration.ml" 33 973 974 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 )
-"CoreJavaProject/Class/classDeclaration.ml" 32 950 957 "CoreJavaProject/Class/classDeclaration.ml" 32 950 958
+"CoreJavaProject/Class/classDeclaration.ml" 33 973 980 "CoreJavaProject/Class/classDeclaration.ml" 33 973 981
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  int_ref l "CoreJavaProject/Class/classDeclaration.ml" 31 892 931 "CoreJavaProject/Class/classDeclaration.ml" 31 892 932
+  int_ref l "CoreJavaProject/Class/classDeclaration.ml" 32 915 954 "CoreJavaProject/Class/classDeclaration.ml" 32 915 955
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 978 "CoreJavaProject/Class/classDeclaration.ml" 33 964 982
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1001 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1005
 type(
   FieldDeclaration.cJField list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 967 "CoreJavaProject/Class/classDeclaration.ml" 33 964 982
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 990 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1005
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 986 "CoreJavaProject/Class/classDeclaration.ml" 33 964 991
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1009 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1014
 type(
   exn -> FieldDeclaration.cJField
 )
 ident(
   ext_ref Pervasives.raise
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1002 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1015
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1025 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1038
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1016 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1019
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1039 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1042
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1021 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1040
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1044 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1063
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1042 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1064
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1065 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1087
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1066 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1070
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1089 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1093
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 31 892 917 "CoreJavaProject/Class/classDeclaration.ml" 31 892 921
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 32 915 940 "CoreJavaProject/Class/classDeclaration.ml" 32 915 944
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1020 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1071
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1043 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1094
 type(
   string list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 1001 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1072
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1024 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1095
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 992 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1073
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1015 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1096
 type(
   exn
 )
-"CoreJavaProject/Class/classDeclaration.ml" 33 964 986 "CoreJavaProject/Class/classDeclaration.ml" 33 964 1073
+"CoreJavaProject/Class/classDeclaration.ml" 34 987 1009 "CoreJavaProject/Class/classDeclaration.ml" 34 987 1096
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1089 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1090
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1112 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1113
 type(
   FieldDeclaration.cJField
 )
 ident(
-  def h "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1098 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+  def h "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1121 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1092 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1093
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1115 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1116
 type(
   FieldDeclaration.cJField list
 )
 ident(
-  def t "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1098 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+  def t "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1121 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1088 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1094
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1111 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1117
 type(
   FieldDeclaration.cJField list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1077 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1094
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1100 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1117
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1101 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1113
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1124 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1136
 type(
   FieldDeclaration.cJField -> string
 )
 ident(
   ext_ref FieldDeclaration.getFieldName
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1113 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1116
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1136 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1139
 type(
   FieldDeclaration.cJField
 )
 ident(
-  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1089 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1090
+  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1112 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1113
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1101 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1116
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1124 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1139
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1117 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1118
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1140 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1141
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1119 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1123
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1142 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1146
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 31 892 917 "CoreJavaProject/Class/classDeclaration.ml" 31 892 921
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 32 915 940 "CoreJavaProject/Class/classDeclaration.ml" 32 915 944
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1101 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1123
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1124 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1146
 type(
   bool
 )
-"CoreJavaProject/Class/classDeclaration.ml" 35 1130 1144 "CoreJavaProject/Class/classDeclaration.ml" 35 1130 1145
+"CoreJavaProject/Class/classDeclaration.ml" 36 1153 1167 "CoreJavaProject/Class/classDeclaration.ml" 36 1153 1168
 type(
   FieldDeclaration.cJField
 )
 ident(
-  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1089 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1090
+  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1112 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1113
 )
-"CoreJavaProject/Class/classDeclaration.ml" 37 1166 1181 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1197
+"CoreJavaProject/Class/classDeclaration.ml" 38 1189 1204 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1220
 type(
   string -> FieldDeclaration.cJFieldList -> FieldDeclaration.cJField
 )
 ident(
-  int_ref getFieldWithName "CoreJavaProject/Class/classDeclaration.ml" 31 892 900 "CoreJavaProject/Class/classDeclaration.ml" 31 892 916
+  int_ref getFieldWithName "CoreJavaProject/Class/classDeclaration.ml" 32 915 923 "CoreJavaProject/Class/classDeclaration.ml" 32 915 939
 )
-"CoreJavaProject/Class/classDeclaration.ml" 37 1166 1198 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1202
+"CoreJavaProject/Class/classDeclaration.ml" 38 1189 1221 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1225
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 31 892 917 "CoreJavaProject/Class/classDeclaration.ml" 31 892 921
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 32 915 940 "CoreJavaProject/Class/classDeclaration.ml" 32 915 944
 )
-"CoreJavaProject/Class/classDeclaration.ml" 37 1166 1215 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1218
+"CoreJavaProject/Class/classDeclaration.ml" 38 1189 1238 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1241
 type(
   FieldDeclaration.cJField list
 )
 ident(
-  int_ref t "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1092 "CoreJavaProject/Class/classDeclaration.ml" 34 1074 1093
+  int_ref t "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1115 "CoreJavaProject/Class/classDeclaration.ml" 35 1097 1116
 )
-"CoreJavaProject/Class/classDeclaration.ml" 37 1166 1203 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+"CoreJavaProject/Class/classDeclaration.ml" 38 1189 1226 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 37 1166 1181 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+"CoreJavaProject/Class/classDeclaration.ml" 38 1189 1204 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 call(
   tail
 )
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/Class/classDeclaration.ml" 34 1074 1098 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+"CoreJavaProject/Class/classDeclaration.ml" 35 1097 1121 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/Class/classDeclaration.ml" 32 950 951 "CoreJavaProject/Class/classDeclaration.ml" 37 1166 1219
+"CoreJavaProject/Class/classDeclaration.ml" 33 973 974 "CoreJavaProject/Class/classDeclaration.ml" 38 1189 1242
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/Class/classDeclaration.ml" 39 1223 1231 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1248
+"CoreJavaProject/Class/classDeclaration.ml" 40 1246 1254 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1271
 type(
   string -> MethodDeclaration.cJMethodList -> MethodDeclaration.cJMethod
 )
 ident(
-  def getMethodWithName "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1223 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+  def getMethodWithName "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1246 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
 )
-"CoreJavaProject/Class/classDeclaration.ml" 39 1223 1249 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1253
+"CoreJavaProject/Class/classDeclaration.ml" 40 1246 1272 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1276
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1263 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+  def name "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1286 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 )
-"CoreJavaProject/Class/classDeclaration.ml" 39 1223 1264 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1265
+"CoreJavaProject/Class/classDeclaration.ml" 40 1246 1287 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1288
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def l "CoreJavaProject/Class/classDeclaration.ml" 40 1284 1285 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+  def l "CoreJavaProject/Class/classDeclaration.ml" 41 1307 1308 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 )
-"CoreJavaProject/Class/classDeclaration.ml" 40 1284 1291 "CoreJavaProject/Class/classDeclaration.ml" 40 1284 1292
+"CoreJavaProject/Class/classDeclaration.ml" 41 1307 1314 "CoreJavaProject/Class/classDeclaration.ml" 41 1307 1315
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref l "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1264 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1265
+  int_ref l "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1287 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1288
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1313 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1317
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1336 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1340
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1301 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1317
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1324 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1340
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1321 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1326
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1344 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1349
 type(
   exn -> MethodDeclaration.cJMethod
 )
 ident(
   ext_ref Pervasives.raise
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1337 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1350
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1360 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1373
 type(
   string -> string list -> string
 )
 ident(
   ext_ref String.concat
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1351 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1354
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1374 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1377
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1356 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1375
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1379 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1398
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1377 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1400
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1400 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1423
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1402 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1406
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1425 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1429
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1249 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1253
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1272 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1276
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1355 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1407
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1378 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1430
 type(
   string list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1336 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1408
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1359 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1431
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1327 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1409
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1350 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1432
 type(
   exn
 )
-"CoreJavaProject/Class/classDeclaration.ml" 41 1298 1321 "CoreJavaProject/Class/classDeclaration.ml" 41 1298 1409
+"CoreJavaProject/Class/classDeclaration.ml" 42 1321 1344 "CoreJavaProject/Class/classDeclaration.ml" 42 1321 1432
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1427 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1428
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1450 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1451
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def h "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1438 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+  def h "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1461 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1432 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1433
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1455 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1456
 type(
   MethodDeclaration.cJMethod list
 )
 ident(
-  def t "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1438 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+  def t "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1461 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1426 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1434
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1449 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1457
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1414 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1434
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1437 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1457
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1441 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1454
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1464 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1477
 type(
   MethodDeclaration.cJMethod -> string
 )
 ident(
   ext_ref MethodDeclaration.getMethodName
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1454 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1457
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1477 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1480
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1427 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1428
+  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1450 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1451
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1441 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1457
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1464 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1480
 call(
   stack
 )
 type(
   string
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1458 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1459
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1481 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1482
 type(
   string -> string -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1460 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1464
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1483 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1487
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1249 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1253
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1272 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1276
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1441 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1464
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1464 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1487
 type(
   bool
 )
-"CoreJavaProject/Class/classDeclaration.ml" 43 1471 1487 "CoreJavaProject/Class/classDeclaration.ml" 43 1471 1488
+"CoreJavaProject/Class/classDeclaration.ml" 44 1494 1510 "CoreJavaProject/Class/classDeclaration.ml" 44 1494 1511
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1427 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1428
+  int_ref h "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1450 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1451
 )
-"CoreJavaProject/Class/classDeclaration.ml" 45 1510 1526 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1543
+"CoreJavaProject/Class/classDeclaration.ml" 46 1533 1549 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1566
 type(
   string -> MethodDeclaration.cJMethodList -> MethodDeclaration.cJMethod
 )
 ident(
-  int_ref getMethodWithName "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1231 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1248
+  int_ref getMethodWithName "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1254 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1271
 )
-"CoreJavaProject/Class/classDeclaration.ml" 45 1510 1544 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1548
+"CoreJavaProject/Class/classDeclaration.ml" 46 1533 1567 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1571
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1249 "CoreJavaProject/Class/classDeclaration.ml" 39 1223 1253
+  int_ref name "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1272 "CoreJavaProject/Class/classDeclaration.ml" 40 1246 1276
 )
-"CoreJavaProject/Class/classDeclaration.ml" 45 1510 1562 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1565
+"CoreJavaProject/Class/classDeclaration.ml" 46 1533 1585 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1588
 type(
   MethodDeclaration.cJMethod list
 )
 ident(
-  int_ref t "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1432 "CoreJavaProject/Class/classDeclaration.ml" 42 1410 1433
+  int_ref t "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1455 "CoreJavaProject/Class/classDeclaration.ml" 43 1433 1456
 )
-"CoreJavaProject/Class/classDeclaration.ml" 45 1510 1549 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+"CoreJavaProject/Class/classDeclaration.ml" 46 1533 1572 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Class/classDeclaration.ml" 45 1510 1526 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+"CoreJavaProject/Class/classDeclaration.ml" 46 1533 1549 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 call(
   tail
 )
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/Class/classDeclaration.ml" 42 1410 1438 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+"CoreJavaProject/Class/classDeclaration.ml" 43 1433 1461 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/Class/classDeclaration.ml" 40 1284 1285 "CoreJavaProject/Class/classDeclaration.ml" 45 1510 1566
+"CoreJavaProject/Class/classDeclaration.ml" 41 1307 1308 "CoreJavaProject/Class/classDeclaration.ml" 46 1533 1589
 type(
   MethodDeclaration.cJMethod
+)
+"CoreJavaProject/Class/classDeclaration.ml" 48 1593 1597 "CoreJavaProject/Class/classDeclaration.ml" 48 1593 1607
+type(
+  cJClass -> string * TypeDeclaration.cJType
+)
+ident(
+  def getClassTE "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1705 "CoreJavaProject/Class/classDeclaration.ml" 1 0 -1
+)
+"CoreJavaProject/Class/classDeclaration.ml" 48 1593 1608 "CoreJavaProject/Class/classDeclaration.ml" 48 1593 1609
+type(
+  cJClass
+)
+ident(
+  def c "CoreJavaProject/Class/classDeclaration.ml" 49 1623 1624 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1705
+)
+"CoreJavaProject/Class/classDeclaration.ml" 49 1623 1630 "CoreJavaProject/Class/classDeclaration.ml" 49 1623 1631
+type(
+  cJClass
+)
+ident(
+  int_ref c "CoreJavaProject/Class/classDeclaration.ml" 48 1593 1608 "CoreJavaProject/Class/classDeclaration.ml" 48 1593 1609
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1649 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1652
+type(
+  string
+)
+ident(
+  def tip "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1666 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1705
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1654 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1655
+type(
+  string
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1657 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1658
+type(
+  FieldDeclaration.cJFieldList
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1660 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1661
+type(
+  MethodDeclaration.cJMethodList
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1641 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1662
+type(
+  cJClass
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1667 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1673
+type(
+  string
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1698 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1703
+type(
+  string
+)
+ident(
+  int_ref tip "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1649 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1652
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1686 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1704
+type(
+  TypeDeclaration.cJClassType
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1675 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1704
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Class/classDeclaration.ml" 50 1638 1666 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1705
+type(
+  string * TypeDeclaration.cJType
+)
+"CoreJavaProject/Class/classDeclaration.ml" 49 1623 1624 "CoreJavaProject/Class/classDeclaration.ml" 50 1638 1705
+type(
+  string * TypeDeclaration.cJType
 )

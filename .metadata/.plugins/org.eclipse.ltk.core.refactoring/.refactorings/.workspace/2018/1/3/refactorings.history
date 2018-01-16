@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CoreJavaProject/Program/programWellTyped.mli&apos;" deleteContents="false" description="Delete resource &apos;CoreJavaProject/Program/programWellTyped.mli&apos;" element1="/CoreJavaProject/Program/programWellTyped.mli" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1516129453242"/>
+</session>

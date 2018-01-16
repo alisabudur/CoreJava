@@ -15280,3 +15280,3477 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 !ENTRY ocaml 4 0 2018-01-14 17:43:57.927
 !MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
 [ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+!SESSION 2018-01-14 17:57:50.094 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-01-14 17:58:04.146
+!MESSAGE Launch shortcut 'Ocaml.launching.launchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.isApplicable(LaunchShortcutsAction.java:262)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.fillMenu(LaunchShortcutsAction.java:166)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.access$0(LaunchShortcutsAction.java:157)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction$2.menuShown(LaunchShortcutsAction.java:278)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1268)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1248)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1237)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1210)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1281)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:676)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1738)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4371)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2055)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1459)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:818)
+	at org.eclipse.ui.internal.Workbench$70.runWithException(Workbench.java:3724)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-01-14 17:58:04.147
+!MESSAGE No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-01-14 17:58:04.153
+!MESSAGE Launch shortcut 'Ocaml.launching.toplevelLaunchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.isApplicable(LaunchShortcutsAction.java:262)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.fillMenu(LaunchShortcutsAction.java:166)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.access$0(LaunchShortcutsAction.java:157)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction$2.menuShown(LaunchShortcutsAction.java:278)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1268)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1248)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1237)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1210)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1281)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:676)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1738)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4371)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2055)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1459)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:818)
+	at org.eclipse.ui.internal.Workbench$70.runWithException(Workbench.java:3724)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-01-14 17:58:04.157
+!MESSAGE No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-01-14 17:58:04.169
+!MESSAGE Launch shortcut 'Ocaml.launching.launchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.isApplicable(LaunchShortcutsAction.java:262)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.fillMenu(LaunchShortcutsAction.java:166)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.access$0(LaunchShortcutsAction.java:157)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction$2.menuShown(LaunchShortcutsAction.java:278)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1268)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1248)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1237)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1210)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1281)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:676)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1738)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4371)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2055)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1459)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:818)
+	at org.eclipse.ui.internal.Workbench$70.runWithException(Workbench.java:3724)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-01-14 17:58:04.170
+!MESSAGE No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-01-14 17:58:04.171
+!MESSAGE Launch shortcut 'Ocaml.launching.toplevelLaunchShortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:150)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:72)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:53)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:287)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.isApplicable(LaunchShortcutsAction.java:262)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.fillMenu(LaunchShortcutsAction.java:166)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction.access$0(LaunchShortcutsAction.java:157)
+	at org.eclipse.debug.ui.actions.LaunchShortcutsAction$2.menuShown(LaunchShortcutsAction.java:278)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1285)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1079)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1268)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1248)
+	at org.eclipse.jface.action.ActionContributionItem.access$4(ActionContributionItem.java:1237)
+	at org.eclipse.jface.action.ActionContributionItem$8.handleEvent(ActionContributionItem.java:1210)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1276)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1300)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1281)
+	at org.eclipse.swt.widgets.Menu.gtk_show(Menu.java:676)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1738)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4371)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:2342)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2055)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1459)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.eclipse.ui.internal.WorkbenchWindow.open(WorkbenchWindow.java:818)
+	at org.eclipse.ui.internal.Workbench$70.runWithException(Workbench.java:3724)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1600)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3537)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3189)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2609)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-01-14 17:58:04.182
+!MESSAGE No property tester contributes a property Ocaml.isExecutable to type class org.eclipse.ui.part.FileEditorInput
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.225
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.225
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.225
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.226
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:19.227
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.069
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.069
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.069
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.069
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.069
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.070
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.070
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.070
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.070
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:35:36.070
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.385
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.385
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.386
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.387
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.387
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.387
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.388
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.388
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.389
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:36:50.390
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.109
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.109
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.110
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.110
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.110
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.110
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.110
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.112
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.112
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:37:29.113
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.316
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.317
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.317
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.317
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.319
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.320
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.321
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.322
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.322
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:40:32.322
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.681
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.681
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.683
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.683
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.686
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.686
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.686
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.688
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.691
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:21.691
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.503
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.503
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.503
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.503
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.503
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.504
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.504
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.504
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.504
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:41:33.504
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.326
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.334
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.334
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.334
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.334
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.335
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.335
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.335
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.335
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:44:45.336
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.887
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.888
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.888
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.888
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.888
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.888
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.889
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.889
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.889
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:24.889
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.534
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.534
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.534
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.535
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.535
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.535
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.536
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.536
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.536
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:50:28.536
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.612
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.612
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.612
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.613
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.613
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.613
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.614
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.614
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.614
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:51:23.615
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.157
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.158
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.158
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.158
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.158
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.159
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.159
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.161
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.161
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:06.161
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.292
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.293
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.293
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.295
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.298
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.299
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.299
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.302
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.302
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:53:11.303
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.715
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.715
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.715
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.715
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.715
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.716
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.718
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.718
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.718
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:28.718
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.615
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.615
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.616
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.617
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:54:33.623
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.982
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.982
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.982
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.982
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.982
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.986
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.987
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.987
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.987
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 20:58:34.987
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.617
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.617
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.617
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.617
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.618
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.618
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.619
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.620
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.622
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:05:18.622
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.443
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.444
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.444
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.445
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.445
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.446
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.447
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.447
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.447
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:08:30.448
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.007
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.009
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.010
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.010
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:09:02.011
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.076
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.077
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.077
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.078
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.078
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.079
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.079
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.079
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.079
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:25.079
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.086
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.087
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.090
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.090
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.090
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.095
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.095
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.095
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.096
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:29.096
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.918
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.918
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.918
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.919
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.919
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.919
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.920
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.920
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.921
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:17:39.921
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.607
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.607
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.607
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.607
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:18:20.611
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.354
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.355
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.355
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.356
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.356
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.356
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.356
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.356
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.357
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:05.357
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.229
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.229
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.230
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.230
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.230
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.230
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.231
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.236
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.236
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:23:13.236
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.914
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.918
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.919
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.920
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:26:24.920
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.018
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.018
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.018
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.019
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.019
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.021
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.021
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.021
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.021
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:06.021
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.042
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.043
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.043
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.043
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.043
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.045
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.045
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.046
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.046
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:30:11.047
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.491
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.493
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:38.493
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.162
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.163
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.163
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.163
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:32:42.163
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.752
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.753
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:33:29.753
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.058
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.059
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.059
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.059
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.059
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.059
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.060
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.060
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.060
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:34:43.060
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.448
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.454
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.454
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.455
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:32.457
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.849
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.849
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.849
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.849
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:36:56.850
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.093
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.093
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.093
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.094
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:25.099
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.796
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.797
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.797
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.797
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.797
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.798
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.798
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.798
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.798
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:37:28.798
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.760
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.760
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.761
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.761
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.761
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.761
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.761
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.764
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.765
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:49:20.765
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.877
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.881
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.881
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.881
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:16.882
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.021
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.022
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.023
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.026
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.028
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.029
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.029
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.029
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.030
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:51:23.030
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.581
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.582
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.582
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.582
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:49.582
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.940
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:52:51.941
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.302
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.302
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.306
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.307
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.307
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.307
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.307
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.307
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.308
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:01.308
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.810
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.810
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.810
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.810
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:54:05.811
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.804
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 21:57:02.805
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.350
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.351
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.351
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:04:55.351
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.537
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.537
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.537
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.537
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.537
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.538
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.538
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.538
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.538
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:07:06.538
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.008
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.008
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.009
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.009
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.009
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.009
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.009
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.010
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.010
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:02.010
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.510
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.510
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.510
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:10:55.511
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.877
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.879
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.879
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.879
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:13:08.879
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.584
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.584
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:16:19.585
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.909
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.913
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.914
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:17:43.915
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.419
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.419
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.420
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.421
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:15.421
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.634
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.635
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.635
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.635
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:22:57.635
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.814
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.815
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.816
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.816
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:16.816
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.964
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.964
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.964
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.964
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:23.965
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.898
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.898
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.898
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.898
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.898
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.899
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.899
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.899
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.899
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:28.899
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.115
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.115
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.115
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:23:35.116
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.969
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.969
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:25:03.970
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.973
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.974
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.974
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.974
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:26:52.974
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.244
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:15.245
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.117
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.117
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.117
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.117
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.117
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.118
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.118
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.118
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.118
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:49.118
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.101
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.101
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.101
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.101
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.101
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.102
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.102
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.102
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.102
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:27:55.102
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.694
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.695
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.701
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:30:26.701
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.754
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.755
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.755
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.755
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.755
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.755
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.759
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.759
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.759
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:31.759
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.475
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:31:35.476
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.688
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.689
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.689
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.689
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:10.689
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.297
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.298
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.298
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.298
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:35:56.299
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.466
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.466
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.466
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.466
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.466
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.467
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.467
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.467
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.467
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:40:05.467
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.089
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.089
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.089
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.089
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.089
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.090
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.090
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.090
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.090
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:41:54.090
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.827
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.828
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.828
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.828
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:42:24.828
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.978
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.978
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.979
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:44:21.980
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.663
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:03.664
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.868
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.868
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:45:39.869
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.628
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.628
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.628
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:46:59.629
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.040
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.041
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.041
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:15.041
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.469
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.470
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.470
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.470
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:54:20.475
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.850
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.850
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 22:56:48.851
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.892
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.893
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.893
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:47.893
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.674
+!MESSAGE Wrong path:TypeDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:ProgramDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:MethodDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:FieldDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:ExpDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:ClassDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:utils (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:TypeChecker (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:StmtDeclaration (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]
+
+!ENTRY ocaml 4 0 2018-01-16 23:20:50.675
+!MESSAGE Wrong path:FieldDeclaratios (in project:CoreJavaProject) 
+[ocaml.editor.completion.CompletionJob#buildDefinitionsTree : 143]

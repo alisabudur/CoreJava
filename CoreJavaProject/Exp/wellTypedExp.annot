@@ -1373,62 +1373,590 @@ type(
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1501 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1514
+"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1501 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1519
+type(
+  ExpDeclaration.varList ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType list
+)
+ident(
+  def actualVarListTypes "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1493 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1521 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1522
+type(
+  ExpDeclaration.varList
+)
+ident(
+  def l "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1533 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1534 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1536
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  def te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1560 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1561 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1562
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Exp/wellTypedExp.ml" 33 1577 1578 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 33 1577 1584 "CoreJavaProject/Exp/wellTypedExp.ml" 33 1577 1585
+type(
+  ExpDeclaration.varList
+)
+ident(
+  int_ref l "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1521 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1522
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1602 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1606
+type(
+  ExpDeclaration.exp list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1595 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1606
+type(
+  ExpDeclaration.varList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1610 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1592 1612
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1625 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1626
+type(
+  ExpDeclaration.exp
+)
+ident(
+  def x "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1632 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1655
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1623 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1628
+type(
+  ExpDeclaration.exp list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1616 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1628
+type(
+  ExpDeclaration.varList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1634 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1646
+type(
+  ExpDeclaration.exp ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
+)
+ident(
+  ext_ref ExpUtils.getTypeOfExp
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1647 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1648
+type(
+  ExpDeclaration.exp
+)
+ident(
+  int_ref x "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1625 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1626
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1649 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1651
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1534 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1536
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1652 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1653
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1561 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1562
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1633 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1654
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1632 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1613 1655
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1667 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1668
+type(
+  ExpDeclaration.exp
+)
+ident(
+  def h "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1676 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1670 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1671
+type(
+  ExpDeclaration.exp list
+)
+ident(
+  def t "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1676 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1666 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1672
+type(
+  ExpDeclaration.exp list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1659 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1672
+type(
+  ExpDeclaration.varList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1677 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1689
+type(
+  ExpDeclaration.exp ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
+)
+ident(
+  ext_ref ExpUtils.getTypeOfExp
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1690 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1691
+type(
+  ExpDeclaration.exp
+)
+ident(
+  int_ref h "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1667 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1668
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1692 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1694
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1534 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1536
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1695 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1696
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1561 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1562
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1676 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1697
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1702 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1720
+type(
+  ExpDeclaration.varList ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType list
+)
+ident(
+  int_ref actualVarListTypes "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1501 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1519
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1729 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1732
+type(
+  ExpDeclaration.exp list
+)
+ident(
+  int_ref t "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1670 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1671
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1721 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1733
+type(
+  ExpDeclaration.varList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1734 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1736
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1534 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1536
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1737 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1738
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1561 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1562
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1701 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1676 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 33 1577 1578 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1656 1739
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1751 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1768
+type(
+  TypeDeclaration.cJType list ->
+  TypeDeclaration.cJType list -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  def compareParameters "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1743 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1770 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1776
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  def formal "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1791 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1792 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1798
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  def actual "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1813 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1814 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1815
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  def p "CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1830 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1836 "CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1842
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  int_ref formal "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1770 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1776
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1844 "CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1850
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  int_ref actual "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1792 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1798
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1836 "CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1850
+type(
+  TypeDeclaration.cJType list * TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1859 "CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1861
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1863 "CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1865
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1859 "CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1865
+type(
+  TypeDeclaration.cJType list * TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1869 "CoreJavaProject/Exp/wellTypedExp.ml" 40 1856 1873
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1878 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1879
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def x "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1889 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1937
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1877 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1880
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1883 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1884
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def y "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1889 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1937
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1882 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1885
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1877 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1885
+type(
+  TypeDeclaration.cJType list * TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1889 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1898
+type(
+  ProgramDeclaration.cJProgram -> string * string -> bool
+)
+ident(
+  ext_ref ProgramDeclaration.isSubtype
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1899 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1900
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1814 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1815
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1902 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1916
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1917 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1918
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref y "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1883 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1884
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1902 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1918
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1920 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1934
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1935 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1936
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref x "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1878 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1879
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1920 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1936
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1901 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1937
+type(
+  string * string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1889 "CoreJavaProject/Exp/wellTypedExp.ml" 41 1874 1937
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1941 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1942
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def h "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1944 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1945
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  def t "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1941 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1945
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1947 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1949
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  def h1 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1951 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1953
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  def t1 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1947 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1953
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1941 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1953
+type(
+  TypeDeclaration.cJType list * TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1958 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1967
+type(
+  ProgramDeclaration.cJProgram -> string * string -> bool
+)
+ident(
+  ext_ref ProgramDeclaration.isSubtype
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1968 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1969
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1814 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1815
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1972 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1986
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1987 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1989
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref h1 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1947 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1949
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1971 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1990
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1993 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2007
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2008 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2009
+type(
+  TypeDeclaration.cJType
+)
+ident(
+  int_ref h "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1941 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1942
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1992 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2010
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1970 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2011
+type(
+  string * string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2012
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2013 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2015
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2017 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2034
+type(
+  TypeDeclaration.cJType list ->
+  TypeDeclaration.cJType list -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  int_ref compareParameters "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1751 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1768
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2035 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2036
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  int_ref t "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1944 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1945
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2037 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2039
+type(
+  TypeDeclaration.cJType list
+)
+ident(
+  int_ref t1 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1951 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1953
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2040 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2041
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1814 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1815
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2016 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 1957 "CoreJavaProject/Exp/wellTypedExp.ml" 42 1938 2042
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2046 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2047
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2048 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2049
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2046 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2049
+type(
+  TypeDeclaration.cJType list * TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2053 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2058
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2068 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2094
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2059 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+type(
+  exn
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2053 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 39 1829 1830 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2043 2095
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2107 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2120
 type(
   ExpDeclaration.exp2 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  def wellTypedExp2 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1493 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
+  def wellTypedExp2 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2099 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1516 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1517
+"CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2122 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2123
 type(
   ExpDeclaration.exp2
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1525 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2131 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1526 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1528
+"CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1552 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2158 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+"CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/wellTypedExp.ml" 33 1570 1571 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def p "CoreJavaProject/Exp/wellTypedExp.ml" 46 2176 2177 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 33 1570 1577 "CoreJavaProject/Exp/wellTypedExp.ml" 33 1570 1578
+"CoreJavaProject/Exp/wellTypedExp.ml" 46 2176 2183 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2176 2184
 type(
   ExpDeclaration.exp2
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1516 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1517
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2122 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2123
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1595 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1599
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2201 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2205
 type(
   TypeDeclaration.cJClassType
 )
 ident(
-  def name "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1613 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1644
+  def name "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2220 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2251
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1601 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1608
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2207 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2214
 type(
   ExpDeclaration.varList
 )
 ident(
-  def varList "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1613 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1644
+  def varList "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2220 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2251
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1588 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1609
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2194 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2215
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1614 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1630
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2221 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2237
 type(
   ExpDeclaration.varList ->
   (string * TypeDeclaration.cJType) list ->
@@ -1437,285 +1965,351 @@ type(
 ident(
   int_ref wellTypedVarList "CoreJavaProject/Exp/wellTypedExp.ml" 26 1246 1254 "CoreJavaProject/Exp/wellTypedExp.ml" 26 1246 1270
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1631 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1638
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2238 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2245
 type(
   ExpDeclaration.varList
 )
 ident(
-  int_ref varList "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1601 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1608
+  int_ref varList "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2207 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2214
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1639 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1641
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2246 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2248
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1526 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1528
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1642 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1643
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2250
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1613 "CoreJavaProject/Exp/wellTypedExp.ml" 34 1585 1644
+"CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2220 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2191 2251
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1659 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1666
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2273
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1686 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2294 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1668 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1672
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2275 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2279
 type(
   string
 )
 ident(
-  def name "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1686 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def name "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2294 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1674 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1681
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2281 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2288
 type(
   ExpDeclaration.varList
 )
 ident(
-  def varList "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1686 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def varList "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2294 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1648 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1682
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2255 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2289
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1690 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1691
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2298 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2299
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def m "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1821 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+  def m "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2429 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1695 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1712
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2303 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2320
 type(
   string -> MethodDeclaration.cJMethodList -> MethodDeclaration.cJMethod
 )
 ident(
   ext_ref ClassDeclaration.getMethodWithName
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1713 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1717
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2321 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2325
 type(
   string
 )
 ident(
-  int_ref name "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1668 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1672
+  int_ref name "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2275 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2279
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1719 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1732
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2327 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2340
 type(
   ClassDeclaration.cJClass -> MethodDeclaration.cJMethodList
 )
 ident(
   ext_ref ClassDeclaration.getMethodList
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1734 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1750
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2342 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2358
 type(
   string -> ProgramDeclaration.cJProgram -> ClassDeclaration.cJClass
 )
 ident(
   ext_ref ProgramDeclaration.getClassWithName
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1752 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1766
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2360 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2374
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1768 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1778
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2376 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2386
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   ext_ref ExpUtils.getVarType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1779 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1786
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2387 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2394
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1659 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1666
+  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2273
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1787 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1789
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2395 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2397
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1526 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1528
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1767 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1790
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2375 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2398
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1751 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1791
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2359 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2399
 type(
   string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1792 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1793
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2400 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2401
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1733 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1794
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2341 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2402
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1718 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1795
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2326 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2403
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1694 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1796
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2302 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2404
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1825 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1836
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2433 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2444
 type(
   TypeDeclaration.cJType -> bool
 )
 ident(
   ext_ref TypeDeclaration.isClassType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1838 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1848
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2446 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2456
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   ext_ref ExpUtils.getVarType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1849 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1856
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2457 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2464
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1659 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1666
+  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2273
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1857 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1859
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2465 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2467
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1526 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1528
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1837 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1860
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2445 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2468
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1824 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1861
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2432 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2469
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1862 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1864
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2470 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2472
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1866 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1875
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2498 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2507
 type(
   ProgramDeclaration.cJProgram -> string * string -> bool
 )
 ident(
   ext_ref ProgramDeclaration.isSubtype
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1876 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1877
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2508 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2509
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1879 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1893
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2511 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2525
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1895 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1912
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2527 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2544
 type(
   MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
   ext_ref MethodUtils.getMethodBodyType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1913 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1914
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2545 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2546
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1690 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1691
+  int_ref m "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2298 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2299
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1915 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1916
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2548 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2558
 type(
-  ProgramDeclaration.cJProgram
+  ClassDeclaration.cJClass -> string * TypeDeclaration.cJType
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+  ext_ref ClassDeclaration.getClassTE
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1894 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1917
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2560 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2576
 type(
-  TypeDeclaration.cJType
+  string -> ProgramDeclaration.cJProgram -> ClassDeclaration.cJClass
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1879 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1917
-type(
-  string
+ident(
+  ext_ref ProgramDeclaration.getClassWithName
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1919 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1933
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2578 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2592
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1935 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1954
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2594 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2604
+type(
+  string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
+)
+ident(
+  ext_ref ExpUtils.getVarType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2605 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2612
+type(
+  string
+)
+ident(
+  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2273
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2613 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2615
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2593 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2616
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2577 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2617
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2618 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2619
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2559 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2620
+type(
+  ClassDeclaration.cJClass
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2547 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2621
+type(
+  string * TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2622 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2623
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2526 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2624
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2511 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2624
+type(
+  string
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2626 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2640
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2642 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2661
 type(
   MethodDeclaration.cJMethod -> TypeDeclaration.cJType
 )
 ident(
   ext_ref MethodDeclaration.getMethodReturnType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1955 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1956
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2662 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2663
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1690 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1691
+  int_ref m "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2298 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2299
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1934 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1957
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2641 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2664
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1919 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1957
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2626 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2664
 type(
   string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1878 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1958
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2510 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2665
 type(
   string * string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1865 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1959
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2497 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2666
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1960 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1962
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2667 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2669
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1964 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1980
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2695 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2711
 type(
   ExpDeclaration.varList ->
   (string * TypeDeclaration.cJType) list ->
@@ -1724,109 +2318,202 @@ type(
 ident(
   int_ref wellTypedVarList "CoreJavaProject/Exp/wellTypedExp.ml" 26 1246 1254 "CoreJavaProject/Exp/wellTypedExp.ml" 26 1246 1270
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1981 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1988
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2712 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2719
 type(
   ExpDeclaration.varList
 )
 ident(
-  int_ref varList "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1674 "CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1681
+  int_ref varList "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2281 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2288
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1989 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1991
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2720 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2722
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1526 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1528
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1992 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1993
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2723 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2724
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1553 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1554
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1963 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1994
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2694 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2725
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1865 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1994
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2726 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2728
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2753 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2770
+type(
+  TypeDeclaration.cJType list ->
+  TypeDeclaration.cJType list -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  int_ref compareParameters "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1751 "CoreJavaProject/Exp/wellTypedExp.ml" 38 1743 1768
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2772 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2792
+type(
+  MethodDeclaration.cJMethodParameterList -> TypeDeclaration.cJType list
+)
+ident(
+  ext_ref MethodDeclaration.formalParameterTypes
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2794 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2813
+type(
+  MethodDeclaration.cJMethod -> MethodDeclaration.cJMethodParameterList
+)
+ident(
+  ext_ref MethodDeclaration.formalParameterList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2814 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2815
+type(
+  MethodDeclaration.cJMethod
+)
+ident(
+  int_ref m "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2298 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2299
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2793 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2816
+type(
+  MethodDeclaration.cJMethodParameterList
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2771 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2817
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2819 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2837
+type(
+  ExpDeclaration.varList ->
+  (string * TypeDeclaration.cJType) list ->
+  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType list
+)
+ident(
+  int_ref actualVarListTypes "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1501 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1519
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2838 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2845
+type(
+  ExpDeclaration.varList
+)
+ident(
+  int_ref varList "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2281 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2288
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2846 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2848
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2132 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2134
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2849 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2850
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2818 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2851
+type(
+  TypeDeclaration.cJType list
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2852 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2853
+type(
+  ProgramDeclaration.cJProgram
+)
+ident(
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2159 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2160
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2752 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2854
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1824 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1994
+"CoreJavaProject/Exp/wellTypedExp.ml" 51 2671 2694 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2854
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2000 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2004
+"CoreJavaProject/Exp/wellTypedExp.ml" 50 2474 2497 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2854
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2010 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2432 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2729 2854
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 1821 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+"CoreJavaProject/Exp/wellTypedExp.ml" 53 2861 2884 "CoreJavaProject/Exp/wellTypedExp.ml" 53 2861 2888
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 35 1645 1686 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+"CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2940 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 33 1570 1571 "CoreJavaProject/Exp/wellTypedExp.ml" 36 1800 2015
+"CoreJavaProject/Exp/wellTypedExp.ml" 49 2408 2429 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2027 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2040
+"CoreJavaProject/Exp/wellTypedExp.ml" 48 2252 2294 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 46 2176 2177 "CoreJavaProject/Exp/wellTypedExp.ml" 55 2917 2945
+type(
+  bool
+)
+"CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2957 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2970
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  def wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2019 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
+  def wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2949 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2042 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2043
+"CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2972 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2973
 type(
   ExpDeclaration.exp3
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2051 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2981 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2052 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2054
+"CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2982 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2984
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2078 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+  def te "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3008 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2079 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2080
+"CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3009 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3010
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/wellTypedExp.ml" 39 2095 2096 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+  def p "CoreJavaProject/Exp/wellTypedExp.ml" 58 3025 3026 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 39 2095 2102 "CoreJavaProject/Exp/wellTypedExp.ml" 39 2095 2103
+"CoreJavaProject/Exp/wellTypedExp.ml" 58 3025 3032 "CoreJavaProject/Exp/wellTypedExp.ml" 58 3025 3033
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2042 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2043
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2972 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2973
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2117 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2118
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3047 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3048
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2123 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2142
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3053 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3072
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2116 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2119
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3046 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3049
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2113 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2119
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3043 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3049
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2123 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2135
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3053 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3065
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
@@ -1835,183 +2522,183 @@ type(
 ident(
   int_ref wellTypedExp "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 210 "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 222
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2136 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2137
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3066 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3067
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2116 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2119
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3046 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3049
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2138 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2140
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3068 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3070
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2052 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2054
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2982 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2984
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2141 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2142
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3071 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3072
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2079 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2080
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3009 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3010
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2123 "CoreJavaProject/Exp/wellTypedExp.ml" 40 2110 2142
+"CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3053 "CoreJavaProject/Exp/wellTypedExp.ml" 59 3040 3072
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2151 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2152
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3081 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3082
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2157 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3087 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2150 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2153
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3080 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3083
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2146 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2153
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3076 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3083
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2157 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2170
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3087 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3100
 type(
   ExpDeclaration.exp2 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedExp2 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1501 "CoreJavaProject/Exp/wellTypedExp.ml" 32 1493 1514
+  int_ref wellTypedExp2 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2107 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2099 2120
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2171 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2172
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3101 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3102
 type(
   ExpDeclaration.exp2
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2150 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2153
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3080 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3083
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2173 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2175
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3103 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3105
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2052 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2054
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2982 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2984
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2176 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3106 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2079 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2080
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3009 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 3010
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2157 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+"CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3087 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 39 2095 2096 "CoreJavaProject/Exp/wellTypedExp.ml" 41 2143 2177
+"CoreJavaProject/Exp/wellTypedExp.ml" 58 3025 3026 "CoreJavaProject/Exp/wellTypedExp.ml" 60 3073 3107
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+"CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  def wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2181 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
+  def wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3111 "CoreJavaProject/Exp/wellTypedExp.ml" 1 0 -1
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2208 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2209
+"CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3138 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3139
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2221 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3151 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+"CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  def te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2248 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+  def te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3178 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+"CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Exp/wellTypedExp.ml" 44 2265 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+  def p "CoreJavaProject/Exp/wellTypedExp.ml" 63 3195 3196 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 44 2265 2272 "CoreJavaProject/Exp/wellTypedExp.ml" 44 2265 2273
+"CoreJavaProject/Exp/wellTypedExp.ml" 63 3195 3202 "CoreJavaProject/Exp/wellTypedExp.ml" 63 3195 3203
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2208 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2209
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3138 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3139
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2287 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2288
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3217 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3218
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2293 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2313
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3223 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3244
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2286 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2289
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3216 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3219
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2282 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2289
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3212 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3219
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2293 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2306
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3223 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3236
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2027 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2040
+  int_ref wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2957 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2970
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2307 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2308
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3237 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3238
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2286 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2289
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3216 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3219
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2309 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2311
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3239 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3241
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2312 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2313
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3242 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3243
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2293 "CoreJavaProject/Exp/wellTypedExp.ml" 45 2279 2313
+"CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3223 "CoreJavaProject/Exp/wellTypedExp.ml" 64 3209 3244
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2323 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2324
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3254 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3255
 type(
   ExpDeclaration.exp
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2333 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2383
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3264 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3314
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2326 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2328
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3257 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3259
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def st "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2333 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2383
+  def st "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3264 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3314
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2317 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2329
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3248 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3260
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2334 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2346
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3265 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3277
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
@@ -2020,102 +2707,102 @@ type(
 ident(
   int_ref wellTypedExp "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 210 "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 222
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2347 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2348
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3278 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3279
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2323 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2324
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3254 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3255
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2349 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2351
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3280 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3282
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2352 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2353
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3283 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3284
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2333 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2354
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3264 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3285
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2355 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2357
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3286 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3288
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2358 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2375
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3289 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3306
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2376 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2378
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3307 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3309
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref st "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2326 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2328
+  int_ref st "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3257 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3259
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2379 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2381
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3310 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3312
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2382 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2383
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3313 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3314
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2358 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2383
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3289 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3314
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2333 "CoreJavaProject/Exp/wellTypedExp.ml" 46 2314 2383
+"CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3264 "CoreJavaProject/Exp/wellTypedExp.ml" 65 3245 3314
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2397 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2398
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3328 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3329
 type(
   ExpDeclaration.exp
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2417 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3348 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2400 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2404
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3331 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3335
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def ifSt "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2417 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+  def ifSt "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3348 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2406 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2412
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3337 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3343
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def elseSt "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2417 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+  def elseSt "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3348 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2387 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2413
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3318 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3344
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2418 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2430
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3349 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3361
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
@@ -2124,140 +2811,140 @@ type(
 ident(
   int_ref wellTypedExp "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 210 "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 222
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2431 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2432
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3362 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3363
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2397 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2398
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3328 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3329
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2433 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2435
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3364 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3366
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2436 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2437
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3367 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3368
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2417 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2438
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3348 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3369
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2439 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2441
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3370 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3372
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2443 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2460
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3374 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3391
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2461 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2465
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3392 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3396
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref ifSt "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2400 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2404
+  int_ref ifSt "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3331 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3335
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2466 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2468
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3397 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3399
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2469 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2470
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3400 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3401
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2442 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2471
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3373 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3402
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2472 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2474
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3403 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3405
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2476 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2493
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3407 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3424
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2494 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2500
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3425 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3431
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref elseSt "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2406 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2412
+  int_ref elseSt "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3337 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3343
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2501 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2503
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3432 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3434
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2504 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2505
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3435 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3436
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2475 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3406 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2442 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3373 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2417 "CoreJavaProject/Exp/wellTypedExp.ml" 47 2384 2506
+"CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3348 "CoreJavaProject/Exp/wellTypedExp.ml" 66 3315 3437
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2519 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2520
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3450 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3451
 type(
   ExpDeclaration.exp
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2529 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2581
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3460 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3512
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2522 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2524
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3453 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3455
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def st "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2529 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2581
+  def st "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3460 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3512
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2510 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2525
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3441 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3456
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2530 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2542
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3461 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3473
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
@@ -2266,286 +2953,286 @@ type(
 ident(
   int_ref wellTypedExp "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 210 "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 222
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2543 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2544
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3474 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3475
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2519 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2520
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3450 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3451
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2545 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2547
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3476 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3478
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2548 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2549
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3479 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3480
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2529 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2550
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3460 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3481
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2551 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2553
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3482 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3484
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2555 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2572
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3486 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3503
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2573 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2575
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3504 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3506
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref st "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2522 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2524
+  int_ref st "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3453 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3455
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2576 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2578
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3507 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3509
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2579 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2580
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3510 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3511
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2554 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2581
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3485 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3512
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2529 "CoreJavaProject/Exp/wellTypedExp.ml" 48 2507 2581
+"CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3460 "CoreJavaProject/Exp/wellTypedExp.ml" 67 3438 3512
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2597 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2599
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3528 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3530
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def e1 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2608 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2666
+  def e1 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3539 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3597
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2601 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2603
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3532 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3534
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def e2 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2608 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2666
+  def e2 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3539 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3597
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2585 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2604
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3516 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3535
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2609 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2626
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3540 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3557
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2627 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2629
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3558 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3560
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref e1 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2597 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2599
+  int_ref e1 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3528 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3530
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2630 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2632
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3561 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3563
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2633 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2634
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3564 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3565
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2608 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2635
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3539 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3566
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2636 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2638
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3567 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3569
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2640 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2657
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3571 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3588
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2189 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2206
+  int_ref wellTypedSuperExp "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3119 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3136
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2658 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2660
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3589 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3591
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref e2 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2601 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2603
+  int_ref e2 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3532 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3534
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2661 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2663
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3592 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3594
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2664 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2665
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3595 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3596
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2639 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2666
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3570 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3597
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2608 "CoreJavaProject/Exp/wellTypedExp.ml" 49 2582 2666
+"CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3539 "CoreJavaProject/Exp/wellTypedExp.ml" 68 3513 3597
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2680 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2687
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3611 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3618
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2695 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2844
+  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3626 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3775
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2689 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2690
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3620 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3621
 type(
   ExpDeclaration.exp3
 )
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2695 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2844
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3626 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3775
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2670 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2691
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3601 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3622
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2696 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2705
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3627 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3636
 type(
   string -> (string * TypeDeclaration.cJType) list -> bool
 )
 ident(
   ext_ref ExpUtils.existsVar
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2706 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2713
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3637 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3644
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2680 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2687
+  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3611 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3618
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2714 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2716
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3645 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3647
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2695 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2717
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3626 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3648
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2718 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2720
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3649 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3651
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2722 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2735
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3653 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3666
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2027 "CoreJavaProject/Exp/wellTypedExp.ml" 38 2019 2040
+  int_ref wellTypedExp3 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2957 "CoreJavaProject/Exp/wellTypedExp.ml" 57 2949 2970
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2736 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2737
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3667 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3668
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2689 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2690
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3620 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3621
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2738 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2740
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3669 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3671
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2741 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2742
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3672 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3673
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2721 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2743
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3652 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3674
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2744 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2746
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3675 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3677
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2748 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2757
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3679 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3688
 type(
   ProgramDeclaration.cJProgram -> string * string -> bool
 )
 ident(
   ext_ref ProgramDeclaration.isSubtype
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2758 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2759
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3689 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3690
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2762 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2776
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3693 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3707
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2778 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2791
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3709 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3722
 type(
   ExpDeclaration.exp3 ->
   (string * TypeDeclaration.cJType) list ->
@@ -2554,100 +3241,100 @@ type(
 ident(
   ext_ref ExpUtils.getTypeOfExp3
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2792 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2793
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3723 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3724
 type(
   ExpDeclaration.exp3
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2689 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2690
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3620 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3621
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2794 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2796
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3725 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3727
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2797 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2798
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3728 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3729
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2777 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2799
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3708 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3730
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2761 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2800
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3692 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3731
 type(
   string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2803 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2817
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3734 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3748
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2819 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2829
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3750 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3760
 type(
   string -> (string * TypeDeclaration.cJType) list -> TypeDeclaration.cJType
 )
 ident(
   ext_ref ExpUtils.getVarType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2830 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2837
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3761 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3768
 type(
   string
 )
 ident(
-  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2680 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2687
+  int_ref varName "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3611 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3618
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2838 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2840
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3769 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3771
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2818 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2841
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3749 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3772
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2802 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2842
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3733 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3773
 type(
   string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2760 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2843
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3691 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3774
 type(
   string * string
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2747 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2844
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3678 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3775
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2721 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2844
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3652 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3775
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2695 "CoreJavaProject/Exp/wellTypedExp.ml" 50 2667 2844
+"CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3626 "CoreJavaProject/Exp/wellTypedExp.ml" 69 3598 3775
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2858 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2859
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3789 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3790
 ident(
-  def e "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2864 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2885
+  def e "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3795 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3816
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2857 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2860
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3788 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3791
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2848 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2860
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3779 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3791
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2865 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2877
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3796 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3808
 type(
   ExpDeclaration.exp ->
   (string * TypeDeclaration.cJType) list ->
@@ -2656,51 +3343,51 @@ type(
 ident(
   int_ref wellTypedExp "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 210 "CoreJavaProject/Exp/wellTypedExp.ml" 11 202 222
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2878 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2879
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3809 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3810
 type(
   ExpDeclaration.exp
 )
 ident(
-  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2857 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2860
+  int_ref e "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3788 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3791
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2880 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2882
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3811 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3813
 type(
   (string * TypeDeclaration.cJType) list
 )
 ident(
-  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2222 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2224
+  int_ref te "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3152 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3154
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2883 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2884
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3814 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3815
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2249 "CoreJavaProject/Exp/wellTypedExp.ml" 43 2181 2250
+  int_ref p "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3179 "CoreJavaProject/Exp/wellTypedExp.ml" 62 3111 3180
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2864 "CoreJavaProject/Exp/wellTypedExp.ml" 51 2845 2885
+"CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3795 "CoreJavaProject/Exp/wellTypedExp.ml" 70 3776 3816
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2903 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2904
+"CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3834 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3835
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2906 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2913
+"CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3837 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3844
 type(
   string
 )
 ident(
-  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2918 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+  def varName "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3849 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2889 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2914
+"CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3820 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3845
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2918 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+"CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3849 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 type(
   bool
 )
-"CoreJavaProject/Exp/wellTypedExp.ml" 44 2265 2266 "CoreJavaProject/Exp/wellTypedExp.ml" 52 2886 2922
+"CoreJavaProject/Exp/wellTypedExp.ml" 63 3195 3196 "CoreJavaProject/Exp/wellTypedExp.ml" 71 3817 3853
 type(
   bool
 )

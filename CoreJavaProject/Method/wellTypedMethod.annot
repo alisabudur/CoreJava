@@ -1,120 +1,364 @@
-"CoreJavaProject/Method/wellTypedMethod.ml" 8 130 138 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 153
+"CoreJavaProject/Method/wellTypedMethod.ml" 10 169 177 "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 184
 type(
-  MethodDeclaration.cJMethod -> ProgramDeclaration.cJProgram -> bool
+  (string * TypeDeclaration.cJType) list -> string
 )
 ident(
-  def wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 130 "CoreJavaProject/Method/wellTypedMethod.ml" 1 0 -1
+  def printTE "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 169 "CoreJavaProject/Method/wellTypedMethod.ml" 1 0 -1
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 8 130 155 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 156
+"CoreJavaProject/Method/wellTypedMethod.ml" 10 169 185 "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 186
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  def t "CoreJavaProject/Method/wellTypedMethod.ml" 11 213 214 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 11 213 220 "CoreJavaProject/Method/wellTypedMethod.ml" 11 213 221
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref t "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 185 "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 186
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 12 227 230 "CoreJavaProject/Method/wellTypedMethod.ml" 12 227 232
+type(
+  (string * TypeDeclaration.cJType) list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 12 227 236 "CoreJavaProject/Method/wellTypedMethod.ml" 12 227 238
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 243 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 244
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  def x "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 249 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 314
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 242 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 245
+type(
+  (string * TypeDeclaration.cJType) list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 249 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 262
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 263 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 265
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 267 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 272
+type(
+  string * TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref SubtypingUtils.first
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 272 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 275
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref x "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 243 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 244
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 267 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 275
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 277 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 280
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 283 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 297
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 299 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 303
+type(
+  string * TypeDeclaration.cJType -> TypeDeclaration.cJType
+)
+ident(
+  ext_ref SubtypingUtils.last
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 303 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 306
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref x "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 243 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 244
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 298 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 307
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 282 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 308
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 309 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 313
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 266 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 314
+type(
+  string list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 13 239 249 "CoreJavaProject/Method/wellTypedMethod.ml" 13 239 314
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 318 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 319
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  def h "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 326 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 321 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 322
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  def t "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 326 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 318 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 322
+type(
+  (string * TypeDeclaration.cJType) list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 326 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 339
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 340 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 342
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 344 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 349
+type(
+  string * TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref SubtypingUtils.first
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 349 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 352
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref h "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 318 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 319
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 344 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 352
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 354 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 357
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 360 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 374
+type(
+  TypeDeclaration.cJType -> string
+)
+ident(
+  ext_ref TypeDeclaration.toStringCJType
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 376 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 380
+type(
+  string * TypeDeclaration.cJType -> TypeDeclaration.cJType
+)
+ident(
+  ext_ref SubtypingUtils.last
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 380 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 383
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref h "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 318 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 319
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 375 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 384
+type(
+  TypeDeclaration.cJType
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 359 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 385
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 386 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 390
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 392 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 399
+type(
+  (string * TypeDeclaration.cJType) list -> string
+)
+ident(
+  int_ref printTE "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 177 "CoreJavaProject/Method/wellTypedMethod.ml" 10 169 184
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 399 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 402
+type(
+  (string * TypeDeclaration.cJType) list
+)
+ident(
+  int_ref t "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 321 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 322
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 392 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 402
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 343 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+type(
+  string list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 14 315 326 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 11 213 214 "CoreJavaProject/Method/wellTypedMethod.ml" 14 315 403
+type(
+  string
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 16 408 416 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 431
+type(
+  MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
+)
+ident(
+  def wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 408 "CoreJavaProject/Method/wellTypedMethod.ml" 1 0 -1
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 16 408 433 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 434
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def m "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 168 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 348
+  def m "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 446 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 674
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 8 130 169 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 170
+"CoreJavaProject/Method/wellTypedMethod.ml" 16 408 447 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 454
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  def teClass "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 473 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 674
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 16 408 474 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 475
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 187 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 348
+  def p "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 492 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 674
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 188 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 197
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 493 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 502
 type(
   ProgramDeclaration.cJProgram -> string * string -> bool
 )
 ident(
   ext_ref ProgramDeclaration.isSubtype
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 198 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 199
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 503 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 504
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 169 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 170
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 474 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 475
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 202 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 216
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 507 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 521
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 218 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 235
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 523 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 540
 type(
   MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType ->
   ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
 )
 ident(
   ext_ref MethodUtils.getMethodBodyType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 236 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 237
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 541 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 542
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 155 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 156
+  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 433 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 434
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 238 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 239
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 543 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 550
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref teClass "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 447 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 454
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 551 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 552
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 169 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 170
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 474 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 475
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 217 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 240
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 522 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 553
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 201 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 241
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 506 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 554
 type(
   string
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 244 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 258
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 557 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 571
 type(
   TypeDeclaration.cJType -> string
 )
 ident(
   ext_ref TypeDeclaration.toStringCJType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 260 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 279
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 573 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 592
 type(
   MethodDeclaration.cJMethod -> TypeDeclaration.cJType
 )
 ident(
   ext_ref MethodDeclaration.getMethodReturnType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 280 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 281
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 593 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 594
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 155 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 156
+  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 433 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 434
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 259 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 282
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 572 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 595
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 243 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 283
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 556 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 596
 type(
   string
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 200 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 284
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 505 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 597
 type(
   string * string
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 187 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 285
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 492 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 598
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 286 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 288
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 599 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 601
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 290 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 307
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 603 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 620
 type(
   ExpDeclaration.superExp ->
   (string * TypeDeclaration.cJType) list ->
@@ -123,225 +367,268 @@ type(
 ident(
   ext_ref WellTypedExp.wellTypedSuperExp
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 309 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 326
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 622 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 639
 type(
   MethodDeclaration.cJMethod -> ExpDeclaration.superExp
 )
 ident(
   ext_ref MethodDeclaration.getMethodSuperExp
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 327 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 328
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 640 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 641
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 155 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 156
+  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 433 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 434
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 308 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 329
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 621 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 642
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 331 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 342
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 644 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 651
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref teClass "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 447 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 454
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 656 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 667
 type(
   MethodDeclaration.cJMethod -> (string * TypeDeclaration.cJType) list
 )
 ident(
   ext_ref MethodDeclaration.getMethodTE
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 343 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 344
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 668 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 669
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 155 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 156
+  int_ref m "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 433 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 434
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 330 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 345
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 655 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 670
 type(
   (string * TypeDeclaration.cJType) list
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 346 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 347
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 643 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 671
+type(
+  (string * TypeDeclaration.cJType) list
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 672 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 673
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 169 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 170
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 474 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 475
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 289 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 348
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 602 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 674
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 9 185 187 "CoreJavaProject/Method/wellTypedMethod.ml" 9 185 348
+"CoreJavaProject/Method/wellTypedMethod.ml" 17 491 492 "CoreJavaProject/Method/wellTypedMethod.ml" 17 491 674
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 11 352 360 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 379
+"CoreJavaProject/Method/wellTypedMethod.ml" 19 678 686 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 705
 type(
-  MethodDeclaration.cJMethodList -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethodList ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  def wellTypedMethodList "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 352 "CoreJavaProject/Method/wellTypedMethod.ml" 1 0 -1
+  def wellTypedMethodList "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 678 "CoreJavaProject/Method/wellTypedMethod.ml" 1 0 -1
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 11 352 381 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 382
+"CoreJavaProject/Method/wellTypedMethod.ml" 19 678 707 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 708
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def l "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 398 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+  def l "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 724 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 11 352 399 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 400
+"CoreJavaProject/Method/wellTypedMethod.ml" 19 678 725 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 732
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  def teClass "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 751 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 19 678 752 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 753
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def p "CoreJavaProject/Method/wellTypedMethod.ml" 12 416 417 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+  def p "CoreJavaProject/Method/wellTypedMethod.ml" 20 769 770 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 12 416 423 "CoreJavaProject/Method/wellTypedMethod.ml" 12 416 424
+"CoreJavaProject/Method/wellTypedMethod.ml" 20 769 776 "CoreJavaProject/Method/wellTypedMethod.ml" 20 769 777
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref l "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 381 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 382
+  int_ref l "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 707 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 708
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 13 431 446 "CoreJavaProject/Method/wellTypedMethod.ml" 13 431 450
+"CoreJavaProject/Method/wellTypedMethod.ml" 21 784 799 "CoreJavaProject/Method/wellTypedMethod.ml" 21 784 803
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 13 431 434 "CoreJavaProject/Method/wellTypedMethod.ml" 13 431 450
+"CoreJavaProject/Method/wellTypedMethod.ml" 21 784 787 "CoreJavaProject/Method/wellTypedMethod.ml" 21 784 803
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 13 431 454 "CoreJavaProject/Method/wellTypedMethod.ml" 13 431 458
+"CoreJavaProject/Method/wellTypedMethod.ml" 21 784 807 "CoreJavaProject/Method/wellTypedMethod.ml" 21 784 811
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 476 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 477
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 829 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 830
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def x "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 483 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 502
+  def x "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 836 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 863
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 474 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 479
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 827 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 832
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 462 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 479
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 815 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 832
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 483 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 498
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 836 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 851
 type(
-  MethodDeclaration.cJMethod -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 138 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 153
+  int_ref wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 416 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 431
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 499 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 500
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 852 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 853
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref x "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 476 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 477
+  int_ref x "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 829 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 830
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 501 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 502
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 854 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 861
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref teClass "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 725 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 732
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 862 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 863
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 399 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 400
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 752 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 753
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 14 459 483 "CoreJavaProject/Method/wellTypedMethod.ml" 14 459 502
+"CoreJavaProject/Method/wellTypedMethod.ml" 22 812 836 "CoreJavaProject/Method/wellTypedMethod.ml" 22 812 863
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 519 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 520
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 880 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 881
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def h "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 528 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+  def h "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 889 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 522 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 523
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 883 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 884
 type(
   MethodDeclaration.cJMethod list
 )
 ident(
-  def t "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 528 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+  def t "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 889 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 518 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 524
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 879 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 885
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 506 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 524
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 867 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 885
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 529 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 544
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 890 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 905
 type(
-  MethodDeclaration.cJMethod -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 138 "CoreJavaProject/Method/wellTypedMethod.ml" 8 130 153
+  int_ref wellTypedMethod "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 416 "CoreJavaProject/Method/wellTypedMethod.ml" 16 408 431
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 545 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 546
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 906 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 907
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref h "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 519 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 520
+  int_ref h "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 880 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 881
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 547 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 548
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 908 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 915
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref teClass "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 725 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 732
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 916 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 917
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 399 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 400
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 752 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 753
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 528 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 549
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 889 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 918
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 550 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 552
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 919 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 921
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 16 554 568 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 587
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 937 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 956
 type(
-  MethodDeclaration.cJMethodList -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethodList ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
 )
 ident(
-  int_ref wellTypedMethodList "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 360 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 379
+  int_ref wellTypedMethodList "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 686 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 705
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 16 554 601 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 604
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 970 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 973
 type(
   MethodDeclaration.cJMethod list
 )
 ident(
-  int_ref t "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 522 "CoreJavaProject/Method/wellTypedMethod.ml" 15 503 523
+  int_ref t "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 883 "CoreJavaProject/Method/wellTypedMethod.ml" 23 864 884
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 16 554 588 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 605
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 957 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 974
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 16 554 606 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 607
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 975 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 982
+type(
+  string * TypeDeclaration.cJType
+)
+ident(
+  int_ref teClass "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 725 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 732
+)
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 983 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 984
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 399 "CoreJavaProject/Method/wellTypedMethod.ml" 11 352 400
+  int_ref p "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 752 "CoreJavaProject/Method/wellTypedMethod.ml" 19 678 753
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 16 554 567 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 608
+"CoreJavaProject/Method/wellTypedMethod.ml" 24 923 936 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 15 503 528 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+"CoreJavaProject/Method/wellTypedMethod.ml" 23 864 889 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 type(
   bool
 )
-"CoreJavaProject/Method/wellTypedMethod.ml" 12 416 417 "CoreJavaProject/Method/wellTypedMethod.ml" 16 554 609
+"CoreJavaProject/Method/wellTypedMethod.ml" 20 769 770 "CoreJavaProject/Method/wellTypedMethod.ml" 24 923 985
 type(
   bool
 )

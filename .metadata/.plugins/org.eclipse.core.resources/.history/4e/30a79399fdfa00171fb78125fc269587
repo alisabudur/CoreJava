@@ -1,0 +1,74 @@
+open ExpDeclaration;;
+open ClassDeclaration;;
+open MethodDeclaration;;
+open TypeDeclaration;;
+open ProgramDeclaration;;
+open SubtypingUtils;;
+open FieldDeclaration;;
+open ExpUtils;;
+open MethodUtils;;
+
+let rec wellTypedExp (e: exp) (te: (string*cJType) list) (p: cJProgram) =
+	match e with 
+	| ArithIntExp(_, e1, e2) -> if (wellTypedExp e1 te p) && (wellTypedExp e2 te p) && (getTypeOfExp e1) = (getTypeOfExp e2) then true else raise (Failure "Unmatched types")
+	| ArithFloatExp(_, e1, e2) -> if (wellTypedExp e1 te p) && (wellTypedExp e2 te p) && (getTypeOfExp e1) = (getTypeOfExp e2) then true else raise (Failure "Unmatched types")
+	| ConstExp(e) -> true
+	| VariableExp(name) -> existsVar name te
+	| FieldValueExp(varName, fieldName) -> isClassType (getVarType varName te)
+	| NotExp(e) -> wellTypedExp e te p
+	| GreaterExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p)
+	| LessExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p)
+	| EqualExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p)
+	| NotEqualExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p)
+	| AndExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p)
+	| OrExp(e1, e2) -> (wellTypedExp e1 te p) && (wellTypedExp e2 te p);;
+
+let rec wellTypedVarList (l: varList) (te: (string*cJType) list) (p: cJProgram) = 
+	match l with
+	| VarList([]) -> true
+	| VarList([x]) -> (wellTypedExp x te p)
+	| VarList(h::t) -> (wellTypedExp h te p) &&  (wellTypedVarList (VarList(t)) te p);;
+
+let rec actualVarListTypes (l: varList) (te: (string*cJType) list) (p: cJProgram) =
+	match l with 
+	| VarList([]) -> []
+	| VarList([x]) -> [(getTypeOfExp x)]
+	| VarList(h::t) -> (getTypeOfExp h) :: (actualVarListTypes (VarList(t)) te p);;
+
+let rec compareParameters (formal: cJType list) (actual: cJType list) =
+	match formal, actual with
+	| [], [] -> true
+	| [x], [y] -> isSubtype y x
+	| h::t, h1::t1 -> (isSubtype h1 h) && (compareParameters t, t1);;
+
+let rec wellTypedExp2 (e: exp2) (te: (string*cJType) list) (p: cJProgram) = 
+	match e with 
+	| NewExp(name, varList) ->  (wellTypedVarList varList te p)
+	| MethodCall(varName, name, varList) ->  let m = (getMethodWithName name (getMethodList (getClassWithName (toStringCJType (getVarType varName te)) p))) in
+																					if (isClassType (getVarType varName te)) && 
+																							(isSubtype p (toStringCJType (getMethodBodyType m (getClassTE (getClassWithName (toStringCJType (getVarType varName te)) p)) p), toStringCJType (getMethodReturnType m))) && 
+																							(wellTypedVarList varList te p) &&
+																							() then 
+																							true 
+																					else 
+																							false;;
+
+let rec wellTypedExp3 (e: exp3) (te: (string*cJType) list) (p: cJProgram) =
+	match e with 
+	| Exp(e) -> wellTypedExp e te p
+	| Exp2(e) -> wellTypedExp2 e te p;;
+
+let rec wellTypedSuperExp (e: superExp) (te: (string*cJType) list) (p: cJProgram) =
+	match e with
+	| Exp3(e) -> wellTypedExp3 e te p;
+	| IfExp(e, st) -> (wellTypedExp e te p) && wellTypedSuperExp st te p
+	| IfElseExp(e, ifSt, elseSt) -> (wellTypedExp e te p) && (wellTypedSuperExp ifSt te p) && (wellTypedSuperExp elseSt te p)
+	| WhileExp(e, st) -> (wellTypedExp e te p) && (wellTypedSuperExp st te p)
+	| CompoundExp(e1, e2) -> (wellTypedSuperExp e1 te p) && (wellTypedSuperExp e2 te p)
+	| AssignExp(varName, e) -> (existsVar varName te) && (wellTypedExp3 e te p) && (isSubtype p ((toStringCJType (getTypeOfExp3 e te p)), (toStringCJType (getVarType varName te))))
+	| ReturnExp(e) -> (wellTypedExp e te p)
+	| DeclareVarExp(_, varName) -> true;;
+
+
+
+

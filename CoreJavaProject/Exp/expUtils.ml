@@ -6,14 +6,22 @@ open ProgramDeclaration;;
 open SubtypingUtils;;
 open FieldDeclaration;;
 
+let rec printTE(t: (string*cJType) list) = 
+	match t with
+	| [] -> ""
+	| [x] -> String.concat "" [first(x); "-"; (toStringCJType (last(x)));"\n"]
+	| h::t -> String.concat "" [first(h); "-"; (toStringCJType (last(h)));"\n"; printTE(t)];; 
+
 let rec getVarType (varName: string) (te: (string*cJType) list) = 
 	match te with
 	| [] -> raise (Failure (String.concat " " ["ExpUtils:"; "No type found for var with name: "; varName]))
-	| h::t -> if first(h) = varName then (last(h)) else (getVarType varName t);;
+	| [x] -> if first(x) = varName then  (last(x))else raise (Failure (String.concat " " ["ExpUtils:"; "No type found for var with name---->: "; varName]))
+	| h::t -> if first(h) = varName then  (last(h)) else (getVarType varName t);;
 
 let rec existsVar (varName: string) (te: (string*cJType) list) = 
 	match te with
 	| [] -> false
+	| [x] -> if first(x) = varName then true else false
 	| h::t -> if first(h) = varName then true else (existsVar varName t);;
 
 let rec getTypeOfConstExp (e: constExp) = 

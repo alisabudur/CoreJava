@@ -373,725 +373,492 @@ type(
   ExpDeclaration.superExp
 )
 ident(
-  def methodCallStmt "CoreJavaProject/main.ml" 34 1279 1279 "CoreJavaProject/main.ml" 1 0 -1
+  def methodCallStmt "CoreJavaProject/main.ml" 34 1282 1282 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 33 1208 1250 "CoreJavaProject/main.ml" 33 1208 1253
+"CoreJavaProject/main.ml" 33 1208 1250 "CoreJavaProject/main.ml" 33 1208 1256
 type(
   string
 )
-"CoreJavaProject/main.ml" 33 1208 1255 "CoreJavaProject/main.ml" 33 1208 1264
+"CoreJavaProject/main.ml" 33 1208 1258 "CoreJavaProject/main.ml" 33 1208 1267
 type(
   string
 )
-"CoreJavaProject/main.ml" 33 1208 1266 "CoreJavaProject/main.ml" 33 1208 1273
+"CoreJavaProject/main.ml" 33 1208 1269 "CoreJavaProject/main.ml" 33 1208 1276
 type(
   ExpDeclaration.varList
 )
 ident(
   int_ref varList "CoreJavaProject/main.ml" 32 1171 1175 "CoreJavaProject/main.ml" 32 1171 1182
 )
-"CoreJavaProject/main.ml" 33 1208 1238 "CoreJavaProject/main.ml" 33 1208 1275
+"CoreJavaProject/main.ml" 33 1208 1238 "CoreJavaProject/main.ml" 33 1208 1278
 type(
   ExpDeclaration.exp2
 )
-"CoreJavaProject/main.ml" 33 1208 1233 "CoreJavaProject/main.ml" 33 1208 1276
+"CoreJavaProject/main.ml" 33 1208 1233 "CoreJavaProject/main.ml" 33 1208 1279
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/main.ml" 33 1208 1229 "CoreJavaProject/main.ml" 33 1208 1276
+"CoreJavaProject/main.ml" 33 1208 1229 "CoreJavaProject/main.ml" 33 1208 1279
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/main.ml" 34 1279 1283 "CoreJavaProject/main.ml" 34 1279 1292
+"CoreJavaProject/main.ml" 34 1282 1286 "CoreJavaProject/main.ml" 34 1282 1295
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def constExp2 "CoreJavaProject/main.ml" 35 1338 1338 "CoreJavaProject/main.ml" 1 0 -1
+  def constExp2 "CoreJavaProject/main.ml" 35 1341 1341 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 34 1279 1324 "CoreJavaProject/main.ml" 34 1279 1332
+"CoreJavaProject/main.ml" 34 1282 1327 "CoreJavaProject/main.ml" 34 1282 1335
 type(
   string
 )
-"CoreJavaProject/main.ml" 34 1279 1312 "CoreJavaProject/main.ml" 34 1279 1333
+"CoreJavaProject/main.ml" 34 1282 1315 "CoreJavaProject/main.ml" 34 1282 1336
 type(
   ExpDeclaration.constExp
 )
-"CoreJavaProject/main.ml" 34 1279 1303 "CoreJavaProject/main.ml" 34 1279 1334
+"CoreJavaProject/main.ml" 34 1282 1306 "CoreJavaProject/main.ml" 34 1282 1337
 type(
   ExpDeclaration.exp
 )
-"CoreJavaProject/main.ml" 34 1279 1299 "CoreJavaProject/main.ml" 34 1279 1335
+"CoreJavaProject/main.ml" 34 1282 1302 "CoreJavaProject/main.ml" 34 1282 1338
 type(
   ExpDeclaration.exp3
 )
-"CoreJavaProject/main.ml" 34 1279 1295 "CoreJavaProject/main.ml" 34 1279 1335
+"CoreJavaProject/main.ml" 34 1282 1298 "CoreJavaProject/main.ml" 34 1282 1338
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/main.ml" 35 1338 1342 "CoreJavaProject/main.ml" 35 1338 1355
+"CoreJavaProject/main.ml" 35 1341 1345 "CoreJavaProject/main.ml" 35 1341 1358
 type(
   ExpDeclaration.superExp
 )
 ident(
-  def compountStmt3 "CoreJavaProject/main.ml" 37 1403 1403 "CoreJavaProject/main.ml" 1 0 -1
+  def compountStmt3 "CoreJavaProject/main.ml" 37 1406 1406 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 35 1338 1370 "CoreJavaProject/main.ml" 35 1338 1382
+"CoreJavaProject/main.ml" 35 1341 1373 "CoreJavaProject/main.ml" 35 1341 1385
 type(
   ExpDeclaration.superExp
 )
 ident(
   int_ref declareStmt2 "CoreJavaProject/main.ml" 31 1094 1098 "CoreJavaProject/main.ml" 31 1094 1110
 )
-"CoreJavaProject/main.ml" 35 1338 1384 "CoreJavaProject/main.ml" 35 1338 1398
+"CoreJavaProject/main.ml" 35 1341 1387 "CoreJavaProject/main.ml" 35 1341 1401
 type(
   ExpDeclaration.superExp
 )
 ident(
   int_ref methodCallStmt "CoreJavaProject/main.ml" 33 1208 1212 "CoreJavaProject/main.ml" 33 1208 1226
 )
-"CoreJavaProject/main.ml" 35 1338 1358 "CoreJavaProject/main.ml" 35 1338 1399
+"CoreJavaProject/main.ml" 35 1341 1361 "CoreJavaProject/main.ml" 35 1341 1402
 type(
   ExpDeclaration.superExp
 )
-"CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
+"CoreJavaProject/main.ml" 37 1406 1410 "CoreJavaProject/main.ml" 37 1406 1423
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def setNameMethod "CoreJavaProject/main.ml" 38 1511 1511 "CoreJavaProject/main.ml" 1 0 -1
+  def setNameMethod "CoreJavaProject/main.ml" 38 1514 1514 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 37 1403 1455 "CoreJavaProject/main.ml" 37 1403 1465
+"CoreJavaProject/main.ml" 37 1406 1458 "CoreJavaProject/main.ml" 37 1406 1468
 type(
   string
 )
-"CoreJavaProject/main.ml" 37 1403 1443 "CoreJavaProject/main.ml" 37 1403 1466
+"CoreJavaProject/main.ml" 37 1406 1446 "CoreJavaProject/main.ml" 37 1406 1469
 type(
   TypeDeclaration.cJClassType
 )
-"CoreJavaProject/main.ml" 37 1403 1432 "CoreJavaProject/main.ml" 37 1403 1466
+"CoreJavaProject/main.ml" 37 1406 1435 "CoreJavaProject/main.ml" 37 1406 1469
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/main.ml" 37 1403 1468 "CoreJavaProject/main.ml" 37 1403 1477
+"CoreJavaProject/main.ml" 37 1406 1471 "CoreJavaProject/main.ml" 37 1406 1480
 type(
   string
 )
-"CoreJavaProject/main.ml" 37 1403 1479 "CoreJavaProject/main.ml" 37 1403 1499
+"CoreJavaProject/main.ml" 37 1406 1482 "CoreJavaProject/main.ml" 37 1406 1502
 type(
   MethodDeclaration.cJMethodParameterList
 )
 ident(
   int_ref setNameParameterList "CoreJavaProject/main.ml" 18 428 432 "CoreJavaProject/main.ml" 18 428 452
 )
-"CoreJavaProject/main.ml" 37 1403 1501 "CoreJavaProject/main.ml" 37 1403 1507
+"CoreJavaProject/main.ml" 37 1406 1504 "CoreJavaProject/main.ml" 37 1406 1510
 type(
   ExpDeclaration.superExp
 )
 ident(
   int_ref ifStmt "CoreJavaProject/main.ml" 28 979 983 "CoreJavaProject/main.ml" 28 979 989
 )
-"CoreJavaProject/main.ml" 37 1403 1423 "CoreJavaProject/main.ml" 37 1403 1508
+"CoreJavaProject/main.ml" 37 1406 1426 "CoreJavaProject/main.ml" 37 1406 1511
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/main.ml" 38 1511 1515 "CoreJavaProject/main.ml" 38 1511 1525
+"CoreJavaProject/main.ml" 38 1514 1518 "CoreJavaProject/main.ml" 38 1514 1528
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  def mainMethod "CoreJavaProject/main.ml" 40 1619 1619 "CoreJavaProject/main.ml" 1 0 -1
+  def mainMethod "CoreJavaProject/main.ml" 40 1622 1622 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 38 1511 1560 "CoreJavaProject/main.ml" 38 1511 1570
+"CoreJavaProject/main.ml" 38 1514 1563 "CoreJavaProject/main.ml" 38 1514 1573
 type(
   string
 )
-"CoreJavaProject/main.ml" 38 1511 1548 "CoreJavaProject/main.ml" 38 1511 1571
+"CoreJavaProject/main.ml" 38 1514 1551 "CoreJavaProject/main.ml" 38 1514 1574
 type(
   TypeDeclaration.cJClassType
 )
-"CoreJavaProject/main.ml" 38 1511 1537 "CoreJavaProject/main.ml" 38 1511 1571
+"CoreJavaProject/main.ml" 38 1514 1540 "CoreJavaProject/main.ml" 38 1514 1574
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/main.ml" 38 1511 1573 "CoreJavaProject/main.ml" 38 1511 1579
+"CoreJavaProject/main.ml" 38 1514 1576 "CoreJavaProject/main.ml" 38 1514 1582
 type(
   string
 )
-"CoreJavaProject/main.ml" 38 1511 1581 "CoreJavaProject/main.ml" 38 1511 1599
+"CoreJavaProject/main.ml" 38 1514 1584 "CoreJavaProject/main.ml" 38 1514 1602
 type(
   MethodDeclaration.cJMethodParameterList
 )
 ident(
   int_ref emptyParameterList "CoreJavaProject/main.ml" 19 510 514 "CoreJavaProject/main.ml" 19 510 532
 )
-"CoreJavaProject/main.ml" 38 1511 1601 "CoreJavaProject/main.ml" 38 1511 1614
+"CoreJavaProject/main.ml" 38 1514 1604 "CoreJavaProject/main.ml" 38 1514 1617
 type(
   ExpDeclaration.superExp
 )
 ident(
-  int_ref compountStmt3 "CoreJavaProject/main.ml" 35 1338 1342 "CoreJavaProject/main.ml" 35 1338 1355
+  int_ref compountStmt3 "CoreJavaProject/main.ml" 35 1341 1345 "CoreJavaProject/main.ml" 35 1341 1358
 )
-"CoreJavaProject/main.ml" 38 1511 1528 "CoreJavaProject/main.ml" 38 1511 1615
+"CoreJavaProject/main.ml" 38 1514 1531 "CoreJavaProject/main.ml" 38 1514 1618
 type(
   MethodDeclaration.cJMethod
 )
-"CoreJavaProject/main.ml" 40 1619 1623 "CoreJavaProject/main.ml" 40 1619 1633
+"CoreJavaProject/main.ml" 40 1622 1626 "CoreJavaProject/main.ml" 40 1622 1636
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  def methodList "CoreJavaProject/main.ml" 42 1681 1681 "CoreJavaProject/main.ml" 1 0 -1
+  def methodList "CoreJavaProject/main.ml" 42 1684 1684 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 40 1619 1650 "CoreJavaProject/main.ml" 40 1619 1663
+"CoreJavaProject/main.ml" 40 1622 1653 "CoreJavaProject/main.ml" 40 1622 1666
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
+  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1406 1410 "CoreJavaProject/main.ml" 37 1406 1423
 )
-"CoreJavaProject/main.ml" 40 1619 1665 "CoreJavaProject/main.ml" 40 1619 1675
+"CoreJavaProject/main.ml" 40 1622 1668 "CoreJavaProject/main.ml" 40 1622 1678
 type(
   MethodDeclaration.cJMethod
 )
 ident(
-  int_ref mainMethod "CoreJavaProject/main.ml" 38 1511 1515 "CoreJavaProject/main.ml" 38 1511 1525
+  int_ref mainMethod "CoreJavaProject/main.ml" 38 1514 1518 "CoreJavaProject/main.ml" 38 1514 1528
 )
-"CoreJavaProject/main.ml" 40 1619 1648 "CoreJavaProject/main.ml" 40 1619 1677
+"CoreJavaProject/main.ml" 40 1622 1651 "CoreJavaProject/main.ml" 40 1622 1680
 type(
   MethodDeclaration.cJMethod list
 )
-"CoreJavaProject/main.ml" 40 1619 1636 "CoreJavaProject/main.ml" 40 1619 1677
+"CoreJavaProject/main.ml" 40 1622 1639 "CoreJavaProject/main.ml" 40 1622 1680
 type(
   MethodDeclaration.cJMethodList
 )
-"CoreJavaProject/main.ml" 42 1681 1685 "CoreJavaProject/main.ml" 42 1681 1694
+"CoreJavaProject/main.ml" 42 1684 1688 "CoreJavaProject/main.ml" 42 1684 1697
 type(
   FieldDeclaration.cJField
 )
 ident(
-  def nameField "CoreJavaProject/main.ml" 43 1737 1737 "CoreJavaProject/main.ml" 1 0 -1
+  def nameField "CoreJavaProject/main.ml" 43 1740 1740 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 42 1681 1715 "CoreJavaProject/main.ml" 42 1681 1725
+"CoreJavaProject/main.ml" 42 1684 1718 "CoreJavaProject/main.ml" 42 1684 1728
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/main.ml" 42 1681 1705 "CoreJavaProject/main.ml" 42 1681 1725
+"CoreJavaProject/main.ml" 42 1684 1708 "CoreJavaProject/main.ml" 42 1684 1728
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/main.ml" 42 1681 1727 "CoreJavaProject/main.ml" 42 1681 1733
+"CoreJavaProject/main.ml" 42 1684 1730 "CoreJavaProject/main.ml" 42 1684 1736
 type(
   string
 )
-"CoreJavaProject/main.ml" 42 1681 1704 "CoreJavaProject/main.ml" 42 1681 1734
+"CoreJavaProject/main.ml" 42 1684 1707 "CoreJavaProject/main.ml" 42 1684 1737
 type(
   TypeDeclaration.cJType * string
 )
-"CoreJavaProject/main.ml" 42 1681 1697 "CoreJavaProject/main.ml" 42 1681 1734
+"CoreJavaProject/main.ml" 42 1684 1700 "CoreJavaProject/main.ml" 42 1684 1737
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/main.ml" 43 1737 1741 "CoreJavaProject/main.ml" 43 1737 1749
+"CoreJavaProject/main.ml" 43 1740 1744 "CoreJavaProject/main.ml" 43 1740 1752
 type(
   FieldDeclaration.cJField
 )
 ident(
-  def ageField "CoreJavaProject/main.ml" 45 1789 1789 "CoreJavaProject/main.ml" 1 0 -1
+  def ageField "CoreJavaProject/main.ml" 45 1792 1792 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 43 1737 1770 "CoreJavaProject/main.ml" 43 1737 1777
+"CoreJavaProject/main.ml" 43 1740 1773 "CoreJavaProject/main.ml" 43 1740 1780
 type(
   TypeDeclaration.cJPrimType
 )
-"CoreJavaProject/main.ml" 43 1737 1760 "CoreJavaProject/main.ml" 43 1737 1777
+"CoreJavaProject/main.ml" 43 1740 1763 "CoreJavaProject/main.ml" 43 1740 1780
 type(
   TypeDeclaration.cJType
 )
-"CoreJavaProject/main.ml" 43 1737 1779 "CoreJavaProject/main.ml" 43 1737 1784
+"CoreJavaProject/main.ml" 43 1740 1782 "CoreJavaProject/main.ml" 43 1740 1787
 type(
   string
 )
-"CoreJavaProject/main.ml" 43 1737 1759 "CoreJavaProject/main.ml" 43 1737 1785
+"CoreJavaProject/main.ml" 43 1740 1762 "CoreJavaProject/main.ml" 43 1740 1788
 type(
   TypeDeclaration.cJType * string
 )
-"CoreJavaProject/main.ml" 43 1737 1752 "CoreJavaProject/main.ml" 43 1737 1785
+"CoreJavaProject/main.ml" 43 1740 1755 "CoreJavaProject/main.ml" 43 1740 1788
 type(
   FieldDeclaration.cJField
 )
-"CoreJavaProject/main.ml" 45 1789 1793 "CoreJavaProject/main.ml" 45 1789 1802
+"CoreJavaProject/main.ml" 45 1792 1796 "CoreJavaProject/main.ml" 45 1792 1805
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  def fieldList "CoreJavaProject/main.ml" 47 1843 1843 "CoreJavaProject/main.ml" 1 0 -1
+  def fieldList "CoreJavaProject/main.ml" 47 1846 1846 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 45 1789 1818 "CoreJavaProject/main.ml" 45 1789 1827
-type(
-  FieldDeclaration.cJField
-)
-ident(
-  int_ref nameField "CoreJavaProject/main.ml" 42 1681 1685 "CoreJavaProject/main.ml" 42 1681 1694
-)
-"CoreJavaProject/main.ml" 45 1789 1829 "CoreJavaProject/main.ml" 45 1789 1837
+"CoreJavaProject/main.ml" 45 1792 1821 "CoreJavaProject/main.ml" 45 1792 1830
 type(
   FieldDeclaration.cJField
 )
 ident(
-  int_ref ageField "CoreJavaProject/main.ml" 43 1737 1741 "CoreJavaProject/main.ml" 43 1737 1749
+  int_ref nameField "CoreJavaProject/main.ml" 42 1684 1688 "CoreJavaProject/main.ml" 42 1684 1697
 )
-"CoreJavaProject/main.ml" 45 1789 1816 "CoreJavaProject/main.ml" 45 1789 1839
+"CoreJavaProject/main.ml" 45 1792 1832 "CoreJavaProject/main.ml" 45 1792 1840
+type(
+  FieldDeclaration.cJField
+)
+ident(
+  int_ref ageField "CoreJavaProject/main.ml" 43 1740 1744 "CoreJavaProject/main.ml" 43 1740 1752
+)
+"CoreJavaProject/main.ml" 45 1792 1819 "CoreJavaProject/main.ml" 45 1792 1842
 type(
   FieldDeclaration.cJField list
 )
-"CoreJavaProject/main.ml" 45 1789 1805 "CoreJavaProject/main.ml" 45 1789 1839
+"CoreJavaProject/main.ml" 45 1792 1808 "CoreJavaProject/main.ml" 45 1792 1842
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/main.ml" 47 1843 1847 "CoreJavaProject/main.ml" 47 1843 1858
+"CoreJavaProject/main.ml" 47 1846 1850 "CoreJavaProject/main.ml" 47 1846 1861
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def personClass "CoreJavaProject/main.ml" 48 1914 1914 "CoreJavaProject/main.ml" 1 0 -1
+  def personClass "CoreJavaProject/main.ml" 48 1917 1917 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 47 1843 1869 "CoreJavaProject/main.ml" 47 1843 1877
+"CoreJavaProject/main.ml" 47 1846 1872 "CoreJavaProject/main.ml" 47 1846 1880
 type(
   string
 )
-"CoreJavaProject/main.ml" 47 1843 1879 "CoreJavaProject/main.ml" 47 1843 1887
+"CoreJavaProject/main.ml" 47 1846 1882 "CoreJavaProject/main.ml" 47 1846 1890
 type(
   string
 )
-"CoreJavaProject/main.ml" 47 1843 1889 "CoreJavaProject/main.ml" 47 1843 1898
+"CoreJavaProject/main.ml" 47 1846 1892 "CoreJavaProject/main.ml" 47 1846 1901
 type(
   FieldDeclaration.cJFieldList
 )
 ident(
-  int_ref fieldList "CoreJavaProject/main.ml" 45 1789 1793 "CoreJavaProject/main.ml" 45 1789 1802
+  int_ref fieldList "CoreJavaProject/main.ml" 45 1792 1796 "CoreJavaProject/main.ml" 45 1792 1805
 )
-"CoreJavaProject/main.ml" 47 1843 1900 "CoreJavaProject/main.ml" 47 1843 1910
+"CoreJavaProject/main.ml" 47 1846 1903 "CoreJavaProject/main.ml" 47 1846 1913
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/main.ml" 40 1619 1623 "CoreJavaProject/main.ml" 40 1619 1633
+  int_ref methodList "CoreJavaProject/main.ml" 40 1622 1626 "CoreJavaProject/main.ml" 40 1622 1636
 )
-"CoreJavaProject/main.ml" 47 1843 1861 "CoreJavaProject/main.ml" 47 1843 1911
+"CoreJavaProject/main.ml" 47 1846 1864 "CoreJavaProject/main.ml" 47 1846 1914
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/main.ml" 48 1914 1918 "CoreJavaProject/main.ml" 48 1914 1930
+"CoreJavaProject/main.ml" 48 1917 1921 "CoreJavaProject/main.ml" 48 1917 1933
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def personClass2 "CoreJavaProject/main.ml" 49 1993 1993 "CoreJavaProject/main.ml" 1 0 -1
+  def personClass2 "CoreJavaProject/main.ml" 49 1996 1996 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 48 1914 1941 "CoreJavaProject/main.ml" 48 1914 1950
+"CoreJavaProject/main.ml" 48 1917 1944 "CoreJavaProject/main.ml" 48 1917 1953
 type(
   string
 )
-"CoreJavaProject/main.ml" 48 1914 1952 "CoreJavaProject/main.ml" 48 1914 1960
+"CoreJavaProject/main.ml" 48 1917 1955 "CoreJavaProject/main.ml" 48 1917 1963
 type(
   string
 )
-"CoreJavaProject/main.ml" 48 1914 1973 "CoreJavaProject/main.ml" 48 1914 1977
+"CoreJavaProject/main.ml" 48 1917 1976 "CoreJavaProject/main.ml" 48 1917 1980
 type(
   FieldDeclaration.cJField list
 )
-"CoreJavaProject/main.ml" 48 1914 1962 "CoreJavaProject/main.ml" 48 1914 1977
+"CoreJavaProject/main.ml" 48 1917 1965 "CoreJavaProject/main.ml" 48 1917 1980
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/main.ml" 48 1914 1979 "CoreJavaProject/main.ml" 48 1914 1989
+"CoreJavaProject/main.ml" 48 1917 1982 "CoreJavaProject/main.ml" 48 1917 1992
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/main.ml" 40 1619 1623 "CoreJavaProject/main.ml" 40 1619 1633
+  int_ref methodList "CoreJavaProject/main.ml" 40 1622 1626 "CoreJavaProject/main.ml" 40 1622 1636
 )
-"CoreJavaProject/main.ml" 48 1914 1933 "CoreJavaProject/main.ml" 48 1914 1990
+"CoreJavaProject/main.ml" 48 1917 1936 "CoreJavaProject/main.ml" 48 1917 1993
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/main.ml" 49 1993 1997 "CoreJavaProject/main.ml" 49 1993 2009
+"CoreJavaProject/main.ml" 49 1996 2000 "CoreJavaProject/main.ml" 49 1996 2012
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  def personClass3 "CoreJavaProject/main.ml" 51 2074 2074 "CoreJavaProject/main.ml" 1 0 -1
+  def personClass3 "CoreJavaProject/main.ml" 51 2077 2077 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 49 1993 2020 "CoreJavaProject/main.ml" 49 1993 2029
+"CoreJavaProject/main.ml" 49 1996 2023 "CoreJavaProject/main.ml" 49 1996 2032
 type(
   string
 )
-"CoreJavaProject/main.ml" 49 1993 2031 "CoreJavaProject/main.ml" 49 1993 2040
+"CoreJavaProject/main.ml" 49 1996 2034 "CoreJavaProject/main.ml" 49 1996 2043
 type(
   string
 )
-"CoreJavaProject/main.ml" 49 1993 2053 "CoreJavaProject/main.ml" 49 1993 2057
+"CoreJavaProject/main.ml" 49 1996 2056 "CoreJavaProject/main.ml" 49 1996 2060
 type(
   FieldDeclaration.cJField list
 )
-"CoreJavaProject/main.ml" 49 1993 2042 "CoreJavaProject/main.ml" 49 1993 2057
+"CoreJavaProject/main.ml" 49 1996 2045 "CoreJavaProject/main.ml" 49 1996 2060
 type(
   FieldDeclaration.cJFieldList
 )
-"CoreJavaProject/main.ml" 49 1993 2059 "CoreJavaProject/main.ml" 49 1993 2069
+"CoreJavaProject/main.ml" 49 1996 2062 "CoreJavaProject/main.ml" 49 1996 2072
 type(
   MethodDeclaration.cJMethodList
 )
 ident(
-  int_ref methodList "CoreJavaProject/main.ml" 40 1619 1623 "CoreJavaProject/main.ml" 40 1619 1633
+  int_ref methodList "CoreJavaProject/main.ml" 40 1622 1626 "CoreJavaProject/main.ml" 40 1622 1636
 )
-"CoreJavaProject/main.ml" 49 1993 2012 "CoreJavaProject/main.ml" 49 1993 2070
+"CoreJavaProject/main.ml" 49 1996 2015 "CoreJavaProject/main.ml" 49 1996 2073
 type(
   ClassDeclaration.cJClass
 )
-"CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
+"CoreJavaProject/main.ml" 51 2077 2081 "CoreJavaProject/main.ml" 51 2077 2088
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  def program "CoreJavaProject/main.ml" 53 2118 2118 "CoreJavaProject/main.ml" 1 0 -1
+  def program "CoreJavaProject/main.ml" 53 2121 2121 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 51 2074 2099 "CoreJavaProject/main.ml" 51 2074 2111
+"CoreJavaProject/main.ml" 51 2077 2102 "CoreJavaProject/main.ml" 51 2077 2114
 type(
   ClassDeclaration.cJClass
 )
 ident(
-  int_ref personClass2 "CoreJavaProject/main.ml" 48 1914 1918 "CoreJavaProject/main.ml" 48 1914 1930
+  int_ref personClass2 "CoreJavaProject/main.ml" 48 1917 1921 "CoreJavaProject/main.ml" 48 1917 1933
 )
-"CoreJavaProject/main.ml" 51 2074 2097 "CoreJavaProject/main.ml" 51 2074 2114
+"CoreJavaProject/main.ml" 51 2077 2100 "CoreJavaProject/main.ml" 51 2077 2117
 type(
   ClassDeclaration.cJClass list
 )
-"CoreJavaProject/main.ml" 51 2074 2088 "CoreJavaProject/main.ml" 51 2074 2114
+"CoreJavaProject/main.ml" 51 2077 2091 "CoreJavaProject/main.ml" 51 2077 2117
 type(
   ProgramDeclaration.cJProgram
 )
-"CoreJavaProject/main.ml" 53 2118 2122 "CoreJavaProject/main.ml" 53 2118 2135
+"CoreJavaProject/main.ml" 53 2121 2125 "CoreJavaProject/main.ml" 53 2121 2138
 type(
   string
 )
 ident(
-  def stringProgram "CoreJavaProject/main.ml" 56 2169 2169 "CoreJavaProject/main.ml" 1 0 -1
+  def stringProgram "CoreJavaProject/main.ml" 56 2172 2172 "CoreJavaProject/main.ml" 1 0 -1
 )
-"CoreJavaProject/main.ml" 53 2118 2138 "CoreJavaProject/main.ml" 53 2118 2155
+"CoreJavaProject/main.ml" 53 2121 2141 "CoreJavaProject/main.ml" 53 2121 2158
 type(
   ProgramDeclaration.cJProgram -> string
 )
 ident(
   ext_ref ProgramDeclaration.toStringCJProgram
 )
-"CoreJavaProject/main.ml" 53 2118 2155 "CoreJavaProject/main.ml" 53 2118 2164
+"CoreJavaProject/main.ml" 53 2121 2158 "CoreJavaProject/main.ml" 53 2121 2167
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref program "CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
+  int_ref program "CoreJavaProject/main.ml" 51 2077 2081 "CoreJavaProject/main.ml" 51 2077 2088
 )
-"CoreJavaProject/main.ml" 53 2118 2138 "CoreJavaProject/main.ml" 53 2118 2164
+"CoreJavaProject/main.ml" 53 2121 2141 "CoreJavaProject/main.ml" 53 2121 2167
 type(
   string
 )
-"CoreJavaProject/main.ml" 56 2169 2169 "CoreJavaProject/main.ml" 56 2169 2182
+"CoreJavaProject/main.ml" 56 2172 2172 "CoreJavaProject/main.ml" 56 2172 2185
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"CoreJavaProject/main.ml" 56 2169 2183 "CoreJavaProject/main.ml" 56 2169 2217
+"CoreJavaProject/main.ml" 56 2172 2186 "CoreJavaProject/main.ml" 56 2172 2220
 type(
   (string -> unit, out_channel, unit) format
 )
-"CoreJavaProject/main.ml" 56 2169 2218 "CoreJavaProject/main.ml" 56 2169 2231
+"CoreJavaProject/main.ml" 56 2172 2221 "CoreJavaProject/main.ml" 56 2172 2234
 type(
   string
 )
 ident(
-  int_ref stringProgram "CoreJavaProject/main.ml" 53 2118 2122 "CoreJavaProject/main.ml" 53 2118 2135
+  int_ref stringProgram "CoreJavaProject/main.ml" 53 2121 2125 "CoreJavaProject/main.ml" 53 2121 2138
 )
-"CoreJavaProject/main.ml" 56 2169 2169 "CoreJavaProject/main.ml" 56 2169 2231
+"CoreJavaProject/main.ml" 56 2172 2172 "CoreJavaProject/main.ml" 56 2172 2234
 type(
   unit
 )
-"CoreJavaProject/main.ml" 57 2234 2234 "CoreJavaProject/main.ml" 57 2234 2247
+"CoreJavaProject/main.ml" 57 2237 2237 "CoreJavaProject/main.ml" 57 2237 2250
 type(
   (string -> unit, out_channel, unit) format -> string -> unit
 )
 ident(
   ext_ref Printf.printf
 )
-"CoreJavaProject/main.ml" 57 2234 2248 "CoreJavaProject/main.ml" 57 2234 2274
+"CoreJavaProject/main.ml" 57 2237 2251 "CoreJavaProject/main.ml" 57 2237 2277
 type(
   (string -> unit, out_channel, unit) format
 )
-"CoreJavaProject/main.ml" 57 2234 2276 "CoreJavaProject/main.ml" 57 2234 2290
+"CoreJavaProject/main.ml" 57 2237 2279 "CoreJavaProject/main.ml" 57 2237 2293
 type(
   bool -> string
 )
 ident(
   ext_ref Pervasives.string_of_bool
 )
-"CoreJavaProject/main.ml" 57 2234 2292 "CoreJavaProject/main.ml" 57 2234 2308
+"CoreJavaProject/main.ml" 57 2237 2295 "CoreJavaProject/main.ml" 57 2237 2311
 type(
   ProgramDeclaration.cJProgram -> bool
 )
 ident(
   ext_ref WellTypedProgram.wellTypedProgram
 )
-"CoreJavaProject/main.ml" 57 2234 2309 "CoreJavaProject/main.ml" 57 2234 2316
+"CoreJavaProject/main.ml" 57 2237 2312 "CoreJavaProject/main.ml" 57 2237 2319
 type(
   ProgramDeclaration.cJProgram
 )
 ident(
-  int_ref program "CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
+  int_ref program "CoreJavaProject/main.ml" 51 2077 2081 "CoreJavaProject/main.ml" 51 2077 2088
 )
-"CoreJavaProject/main.ml" 57 2234 2291 "CoreJavaProject/main.ml" 57 2234 2317
+"CoreJavaProject/main.ml" 57 2237 2294 "CoreJavaProject/main.ml" 57 2237 2320
 type(
   bool
 )
-"CoreJavaProject/main.ml" 57 2234 2275 "CoreJavaProject/main.ml" 57 2234 2318
+"CoreJavaProject/main.ml" 57 2237 2278 "CoreJavaProject/main.ml" 57 2237 2321
 type(
   string
 )
-"CoreJavaProject/main.ml" 57 2234 2234 "CoreJavaProject/main.ml" 57 2234 2318
-type(
-  unit
-)
-"CoreJavaProject/main.ml" 58 2321 2321 "CoreJavaProject/main.ml" 58 2321 2334
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/main.ml" 58 2321 2335 "CoreJavaProject/main.ml" 58 2321 2364
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/main.ml" 58 2321 2366 "CoreJavaProject/main.ml" 58 2321 2390
-type(
-  (string * string) list -> string
-)
-ident(
-  ext_ref ProgramDeclaration.toStringInheritancePairs
-)
-"CoreJavaProject/main.ml" 58 2321 2392 "CoreJavaProject/main.ml" 58 2321 2409
-type(
-  (string * string) list -> (string * string) list
-)
-ident(
-  ext_ref SubtypingUtils.transitiveClosure
-)
-"CoreJavaProject/main.ml" 58 2321 2410 "CoreJavaProject/main.ml" 58 2321 2429
-type(
-  ProgramDeclaration.cJProgram -> (string * string) list
-)
-ident(
-  ext_ref ProgramDeclaration.getInheritancePairs
-)
-"CoreJavaProject/main.ml" 58 2321 2430 "CoreJavaProject/main.ml" 58 2321 2437
-type(
-  ProgramDeclaration.cJProgram
-)
-ident(
-  int_ref program "CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
-)
-"CoreJavaProject/main.ml" 58 2321 2409 "CoreJavaProject/main.ml" 58 2321 2438
-type(
-  (string * string) list
-)
-"CoreJavaProject/main.ml" 58 2321 2391 "CoreJavaProject/main.ml" 58 2321 2439
-type(
-  (string * string) list
-)
-"CoreJavaProject/main.ml" 58 2321 2365 "CoreJavaProject/main.ml" 58 2321 2440
-type(
-  string
-)
-"CoreJavaProject/main.ml" 58 2321 2321 "CoreJavaProject/main.ml" 58 2321 2440
-type(
-  unit
-)
-"CoreJavaProject/main.ml" 59 2443 2443 "CoreJavaProject/main.ml" 59 2443 2456
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/main.ml" 59 2443 2457 "CoreJavaProject/main.ml" 59 2443 2489
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/main.ml" 59 2443 2491 "CoreJavaProject/main.ml" 59 2443 2505
-type(
-  bool -> string
-)
-ident(
-  ext_ref Pervasives.string_of_bool
-)
-"CoreJavaProject/main.ml" 59 2443 2507 "CoreJavaProject/main.ml" 59 2443 2524
-type(
-  ExpDeclaration.superExp ->
-  (string * TypeDeclaration.cJType) list ->
-  ProgramDeclaration.cJProgram -> bool
-)
-ident(
-  ext_ref WellTypedExp.wellTypedSuperExp
-)
-"CoreJavaProject/main.ml" 59 2443 2526 "CoreJavaProject/main.ml" 59 2443 2543
-type(
-  MethodDeclaration.cJMethod -> ExpDeclaration.superExp
-)
-ident(
-  ext_ref MethodDeclaration.getMethodSuperExp
-)
-"CoreJavaProject/main.ml" 59 2443 2544 "CoreJavaProject/main.ml" 59 2443 2557
-type(
-  MethodDeclaration.cJMethod
-)
-ident(
-  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
-)
-"CoreJavaProject/main.ml" 59 2443 2525 "CoreJavaProject/main.ml" 59 2443 2558
-type(
-  ExpDeclaration.superExp
-)
-"CoreJavaProject/main.ml" 59 2443 2560 "CoreJavaProject/main.ml" 59 2443 2571
-type(
-  MethodDeclaration.cJMethod -> (string * TypeDeclaration.cJType) list
-)
-ident(
-  ext_ref MethodDeclaration.getMethodTE
-)
-"CoreJavaProject/main.ml" 59 2443 2572 "CoreJavaProject/main.ml" 59 2443 2585
-type(
-  MethodDeclaration.cJMethod
-)
-ident(
-  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
-)
-"CoreJavaProject/main.ml" 59 2443 2559 "CoreJavaProject/main.ml" 59 2443 2586
-type(
-  (string * TypeDeclaration.cJType) list
-)
-"CoreJavaProject/main.ml" 59 2443 2587 "CoreJavaProject/main.ml" 59 2443 2594
-type(
-  ProgramDeclaration.cJProgram
-)
-ident(
-  int_ref program "CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
-)
-"CoreJavaProject/main.ml" 59 2443 2506 "CoreJavaProject/main.ml" 59 2443 2595
-type(
-  bool
-)
-"CoreJavaProject/main.ml" 59 2443 2490 "CoreJavaProject/main.ml" 59 2443 2596
-type(
-  string
-)
-"CoreJavaProject/main.ml" 59 2443 2443 "CoreJavaProject/main.ml" 59 2443 2596
-type(
-  unit
-)
-"CoreJavaProject/main.ml" 60 2599 2599 "CoreJavaProject/main.ml" 60 2599 2612
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/main.ml" 60 2599 2613 "CoreJavaProject/main.ml" 60 2599 2648
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/main.ml" 60 2599 2650 "CoreJavaProject/main.ml" 60 2599 2664
-type(
-  TypeDeclaration.cJType -> string
-)
-ident(
-  ext_ref TypeDeclaration.toStringCJType
-)
-"CoreJavaProject/main.ml" 60 2599 2666 "CoreJavaProject/main.ml" 60 2599 2685
-type(
-  MethodDeclaration.cJMethod -> TypeDeclaration.cJType
-)
-ident(
-  ext_ref MethodDeclaration.getMethodReturnType
-)
-"CoreJavaProject/main.ml" 60 2599 2686 "CoreJavaProject/main.ml" 60 2599 2699
-type(
-  MethodDeclaration.cJMethod
-)
-ident(
-  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
-)
-"CoreJavaProject/main.ml" 60 2599 2665 "CoreJavaProject/main.ml" 60 2599 2700
-type(
-  TypeDeclaration.cJType
-)
-"CoreJavaProject/main.ml" 60 2599 2649 "CoreJavaProject/main.ml" 60 2599 2701
-type(
-  string
-)
-"CoreJavaProject/main.ml" 60 2599 2599 "CoreJavaProject/main.ml" 60 2599 2701
-type(
-  unit
-)
-"CoreJavaProject/main.ml" 61 2704 2704 "CoreJavaProject/main.ml" 61 2704 2717
-type(
-  (string -> unit, out_channel, unit) format -> string -> unit
-)
-ident(
-  ext_ref Printf.printf
-)
-"CoreJavaProject/main.ml" 61 2704 2718 "CoreJavaProject/main.ml" 61 2704 2749
-type(
-  (string -> unit, out_channel, unit) format
-)
-"CoreJavaProject/main.ml" 61 2704 2751 "CoreJavaProject/main.ml" 61 2704 2765
-type(
-  TypeDeclaration.cJType -> string
-)
-ident(
-  ext_ref TypeDeclaration.toStringCJType
-)
-"CoreJavaProject/main.ml" 61 2704 2767 "CoreJavaProject/main.ml" 61 2704 2784
-type(
-  MethodDeclaration.cJMethod ->
-  ProgramDeclaration.cJProgram -> TypeDeclaration.cJType
-)
-ident(
-  ext_ref MethodUtils.getMethodBodyType
-)
-"CoreJavaProject/main.ml" 61 2704 2785 "CoreJavaProject/main.ml" 61 2704 2798
-type(
-  MethodDeclaration.cJMethod
-)
-ident(
-  int_ref setNameMethod "CoreJavaProject/main.ml" 37 1403 1407 "CoreJavaProject/main.ml" 37 1403 1420
-)
-"CoreJavaProject/main.ml" 61 2704 2799 "CoreJavaProject/main.ml" 61 2704 2806
-type(
-  ProgramDeclaration.cJProgram
-)
-ident(
-  int_ref program "CoreJavaProject/main.ml" 51 2074 2078 "CoreJavaProject/main.ml" 51 2074 2085
-)
-"CoreJavaProject/main.ml" 61 2704 2766 "CoreJavaProject/main.ml" 61 2704 2807
-type(
-  TypeDeclaration.cJType
-)
-"CoreJavaProject/main.ml" 61 2704 2750 "CoreJavaProject/main.ml" 61 2704 2808
-type(
-  string
-)
-"CoreJavaProject/main.ml" 61 2704 2704 "CoreJavaProject/main.ml" 61 2704 2808
+"CoreJavaProject/main.ml" 57 2237 2237 "CoreJavaProject/main.ml" 57 2237 2321
 type(
   unit
 )

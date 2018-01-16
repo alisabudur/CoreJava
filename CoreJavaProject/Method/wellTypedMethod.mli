@@ -1,4 +1,7 @@
+val printTE : (string * TypeDeclaration.cJType) list -> string
 val wellTypedMethod :
-  MethodDeclaration.cJMethod -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethod ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool
 val wellTypedMethodList :
-  MethodDeclaration.cJMethodList -> ProgramDeclaration.cJProgram -> bool
+  MethodDeclaration.cJMethodList ->
+  string * TypeDeclaration.cJType -> ProgramDeclaration.cJProgram -> bool

@@ -1,4 +1,0 @@
-
-
-let rec wellTypedMethod (m: cJmethod) (p: cJProgram) =
-	 (isSubtype (getmethodBodyType m p) (getMethodReturnType m))
